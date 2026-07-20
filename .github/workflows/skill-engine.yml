@@ -6,7 +6,7 @@ on:
   push:
     branches: [main, master]
     paths:
-      - "RepublicOS/.skill-engine/**"
+      - ".skill-engine/**"
   workflow_dispatch:
     inputs:
       stages:
@@ -34,13 +34,13 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r RepublicOS/.skill-engine/requirements.txt
+          pip install -r .skill-engine/requirements.txt
 
       - name: Run pipeline
         id: pipeline
         continue-on-error: true
         run: |
-          cd RepublicOS/.skill-engine
+          cd .skill-engine
           ARGS=""
           if [ -n "${{ github.event.inputs.stages }}" ]; then
             ARGS="$ARGS --stages ${{ github.event.inputs.stages }}"
@@ -53,7 +53,7 @@ jobs:
       - name: Run benchmark
         if: steps.pipeline.outcome == 'success'
         run: |
-          cd RepublicOS/.skill-engine
+          cd .skill-engine
           python benchmark.py
 
       - name: Upload artifacts
@@ -61,7 +61,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: skill-engine-registry
-          path: RepublicOS/.skill-engine/registry/
+          path: .skill-engine/registry/
           compression-level: 9
           retention-days: 30
 
