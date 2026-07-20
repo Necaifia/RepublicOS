@@ -1,0 +1,8 @@
+{
+  "queued": [
+    { "id": "expression-parser", "description": "Parse full expressions with operator precedence", "priority": "high" },
+    { "id": "readme-release", "description": "README, tag v1.0.0", "priority": "high" }
+  ],
+  "in_progress": "repl",
+  "blocked": []
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "basic-ops",
+    "description": "Implement add, subtract, multiply, divide with tests",
+    "status": "completed",
+    "files_changed": ["calculator/Cargo.toml", "calculator/src/lib.rs", "calculator/src/main.rs", "calculator/README.md"],
+    "test_delta": "+17 tests, 0 failures, 0 warnings",
+    "quality_gate": "pass"
+  }
+]
