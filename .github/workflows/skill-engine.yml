@@ -1,0 +1,72 @@
+name: Skill Engine
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  push:
+    branches: [main, master]
+    paths:
+      - "RepublicOS/.skill-engine/**"
+  workflow_dispatch:
+    inputs:
+      stages:
+        description: "Stages to run (space-separated)"
+        required: false
+        default: ""
+      full:
+        description: "Force full rediscovery"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install -r RepublicOS/.skill-engine/requirements.txt
+
+      - name: Run pipeline
+        id: pipeline
+        continue-on-error: true
+        run: |
+          cd RepublicOS/.skill-engine
+          ARGS=""
+          if [ -n "${{ github.event.inputs.stages }}" ]; then
+            ARGS="$ARGS --stages ${{ github.event.inputs.stages }}"
+          fi
+          if [ "${{ github.event.inputs.full }}" = "true" ]; then
+            ARGS="$ARGS --full"
+          fi
+          python pipeline.py $ARGS --timeout 600
+
+      - name: Run benchmark
+        if: steps.pipeline.outcome == 'success'
+        run: |
+          cd RepublicOS/.skill-engine
+          python benchmark.py
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: skill-engine-registry
+          path: RepublicOS/.skill-engine/registry/
+          compression-level: 9
+          retention-days: 30
+
+      - name: Check pipeline result
+        if: steps.pipeline.outcome != 'success'
+        run: |
+          echo "::error::Pipeline failed - check artifacts for logs"
+          exit 1
