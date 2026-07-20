@@ -1,0 +1,24 @@
+# Research: deploy
+
+*Generated: 2026-07-20T13:09:15.217162+00:00*
+
+**Deficit:** 12/15 skills (need 3 more)
+
+## References Checked
+
+- ✅ [GitHub Deploy Docs](https://docs.github.com/en/actions/deployment) — _Untitled_
+- ✅ [Docker Dev Best Practices](https://docs.docker.com/develop/dev-best-practices/) — _Building best practices | Docker Docs_
+
+## Key Practices
+
+
+## Common Tools
+
+
+## Common Patterns
+
+
+## Sources
+
+- https://docs.github.com/en/actions/deployment
+- https://docs.docker.com/develop/dev-best-practices/

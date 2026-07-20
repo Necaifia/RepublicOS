@@ -1,0 +1,21 @@
+{
+  "requests": [
+    {
+      "action": "add_dependency",
+      "target": "",
+      "rationale": "",
+      "requested_at": "2026-07-20T12:01:22.450266Z",
+      "status": "pending",
+      "response_date": null
+    },
+    {
+      "action": "some_made_up_action",
+      "target": "",
+      "rationale": "Unknown action \u2014 default policy applied",
+      "requested_at": "2026-07-20T12:01:22.810685Z",
+      "status": "pending",
+      "response_date": null
+    }
+  ],
+  "instructions": "To approve or deny a request, edit the matching entry below. Set 'status' to 'approved' or 'denied' and add a 'response_date'. Do not delete entries \u00e2\u20ac\u201d the AI needs to see the history."
+}

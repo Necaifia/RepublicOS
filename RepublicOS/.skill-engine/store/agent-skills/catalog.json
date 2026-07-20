@@ -1,0 +1,1599 @@
+{
+  "generated_at": "2026-07-20T13:09:21.732784+00:00",
+  "total_skills": 88,
+  "agents": [
+    "cline",
+    "claude",
+    "opencode",
+    "generic"
+  ],
+  "skills": [
+    {
+      "id": "anthropics/skills:skills/algorithmic-art/SKILL.md",
+      "name": "algorithmic-art",
+      "domain": "other",
+      "domains": [
+        "uncategorized"
+      ],
+      "complexity": "high",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/other/algorithmic-art/",
+        "claude": "agent-skills/claude/other/algorithmic-art/",
+        "opencode": "agent-skills/opencode/other/algorithmic-art/",
+        "generic": "agent-skills/generic/other/algorithmic-art/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/brand-guidelines/SKILL.md",
+      "name": "brand-guidelines",
+      "domain": "code_review",
+      "domains": [
+        "code_review"
+      ],
+      "complexity": "medium",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/code_review/brand-guidelines/",
+        "claude": "agent-skills/claude/code_review/brand-guidelines/",
+        "opencode": "agent-skills/opencode/code_review/brand-guidelines/",
+        "generic": "agent-skills/generic/code_review/brand-guidelines/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/canvas-design/SKILL.md",
+      "name": "canvas-design",
+      "domain": "documentation",
+      "domains": [
+        "documentation"
+      ],
+      "complexity": "medium",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create ori",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/documentation/canvas-design/",
+        "claude": "agent-skills/claude/documentation/canvas-design/",
+        "opencode": "agent-skills/opencode/documentation/canvas-design/",
+        "generic": "agent-skills/generic/documentation/canvas-design/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/claude-api/SKILL.md",
+      "name": "claude-api",
+      "domain": "database",
+      "domains": [
+        "database",
+        "api",
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.\nTRIGGER — read BEFORE opening the target file; do",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/claude-api/",
+        "claude": "agent-skills/claude/database/claude-api/",
+        "opencode": "agent-skills/opencode/database/claude-api/",
+        "generic": "agent-skills/generic/database/claude-api/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/doc-coauthoring/SKILL.md",
+      "name": "doc-coauthoring",
+      "domain": "security",
+      "domains": [
+        "security",
+        "documentation"
+      ],
+      "complexity": "high",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This wor",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/security/doc-coauthoring/",
+        "claude": "agent-skills/claude/security/doc-coauthoring/",
+        "opencode": "agent-skills/opencode/security/doc-coauthoring/",
+        "generic": "agent-skills/generic/security/doc-coauthoring/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/docx/SKILL.md",
+      "name": "docx",
+      "domain": "code_review",
+      "domains": [
+        "code_review",
+        "documentation"
+      ],
+      "complexity": "high",
+      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', ",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/code_review/docx/",
+        "claude": "agent-skills/claude/code_review/docx/",
+        "opencode": "agent-skills/opencode/code_review/docx/",
+        "generic": "agent-skills/generic/code_review/docx/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/frontend-design/SKILL.md",
+      "name": "frontend-design",
+      "domain": "api",
+      "domains": [
+        "api"
+      ],
+      "complexity": "low",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defau",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/api/frontend-design/",
+        "claude": "agent-skills/claude/api/frontend-design/",
+        "opencode": "agent-skills/opencode/api/frontend-design/",
+        "generic": "agent-skills/generic/api/frontend-design/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/internal-comms/SKILL.md",
+      "name": "internal-comms",
+      "domain": "code_review",
+      "domains": [
+        "code_review"
+      ],
+      "complexity": "low",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal com",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/code_review/internal-comms/",
+        "claude": "agent-skills/claude/code_review/internal-comms/",
+        "opencode": "agent-skills/opencode/code_review/internal-comms/",
+        "generic": "agent-skills/generic/code_review/internal-comms/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/mcp-builder/SKILL.md",
+      "name": "mcp-builder",
+      "domain": "test",
+      "domains": [
+        "test",
+        "api",
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate externa",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/test/mcp-builder/",
+        "claude": "agent-skills/claude/test/mcp-builder/",
+        "opencode": "agent-skills/opencode/test/mcp-builder/",
+        "generic": "agent-skills/generic/test/mcp-builder/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/pdf/SKILL.md",
+      "name": "pdf",
+      "domain": "security",
+      "domains": [
+        "security"
+      ],
+      "complexity": "high",
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rota",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/security/pdf/",
+        "claude": "agent-skills/claude/security/pdf/",
+        "opencode": "agent-skills/opencode/security/pdf/",
+        "generic": "agent-skills/generic/security/pdf/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/pptx/SKILL.md",
+      "name": "pptx",
+      "domain": "communication",
+      "domains": [
+        "communication"
+      ],
+      "complexity": "high",
+      "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting te",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/communication/pptx/",
+        "claude": "agent-skills/claude/communication/pptx/",
+        "opencode": "agent-skills/opencode/communication/pptx/",
+        "generic": "agent-skills/generic/communication/pptx/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/skill-creator/SKILL.md",
+      "name": "skill-creator",
+      "domain": "test",
+      "domains": [
+        "test",
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/test/skill-creator/",
+        "claude": "agent-skills/claude/test/skill-creator/",
+        "opencode": "agent-skills/opencode/test/skill-creator/",
+        "generic": "agent-skills/generic/test/skill-creator/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/slack-gif-creator/SKILL.md",
+      "name": "slack-gif-creator",
+      "domain": "communication",
+      "domains": [
+        "communication",
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a G",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/communication/slack-gif-creator/",
+        "claude": "agent-skills/claude/communication/slack-gif-creator/",
+        "opencode": "agent-skills/opencode/communication/slack-gif-creator/",
+        "generic": "agent-skills/generic/communication/slack-gif-creator/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/theme-factory/SKILL.md",
+      "name": "theme-factory",
+      "domain": "documentation",
+      "domains": [
+        "documentation",
+        "utility"
+      ],
+      "complexity": "medium",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact t",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/documentation/theme-factory/",
+        "claude": "agent-skills/claude/documentation/theme-factory/",
+        "opencode": "agent-skills/opencode/documentation/theme-factory/",
+        "generic": "agent-skills/generic/documentation/theme-factory/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/web-artifacts-builder/SKILL.md",
+      "name": "web-artifacts-builder",
+      "domain": "utility",
+      "domains": [
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state manag",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/utility/web-artifacts-builder/",
+        "claude": "agent-skills/claude/utility/web-artifacts-builder/",
+        "opencode": "agent-skills/opencode/utility/web-artifacts-builder/",
+        "generic": "agent-skills/generic/utility/web-artifacts-builder/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/webapp-testing/SKILL.md",
+      "name": "webapp-testing",
+      "domain": "test",
+      "domains": [
+        "test",
+        "utility"
+      ],
+      "complexity": "medium",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser l",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/test/webapp-testing/",
+        "claude": "agent-skills/claude/test/webapp-testing/",
+        "opencode": "agent-skills/opencode/test/webapp-testing/",
+        "generic": "agent-skills/generic/test/webapp-testing/"
+      }
+    },
+    {
+      "id": "anthropics/skills:skills/xlsx/SKILL.md",
+      "name": "xlsx",
+      "domain": "database",
+      "domains": [
+        "database",
+        "api",
+        "code_review",
+        "documentation",
+        "utility"
+      ],
+      "complexity": "medium",
+      "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/xlsx/",
+        "claude": "agent-skills/claude/database/xlsx/",
+        "opencode": "agent-skills/opencode/database/xlsx/",
+        "generic": "agent-skills/generic/database/xlsx/"
+      }
+    },
+    {
+      "id": "cline/cline:.agents/skills/cline-sdk/SKILL.md",
+      "name": "cline-sdk",
+      "domain": "deploy",
+      "domains": [
+        "deploy",
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Comprehensive Cline SDK skill for building AI agents. Covers the Agent runtime, ClineCore sessions, custom tools, plugins, events, LLM providers, scheduling, multi-agent teams, and production deployme",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/deploy/cline-sdk/",
+        "claude": "agent-skills/claude/deploy/cline-sdk/",
+        "opencode": "agent-skills/opencode/deploy/cline-sdk/",
+        "generic": "agent-skills/generic/deploy/cline-sdk/"
+      }
+    },
+    {
+      "id": "cline/cline:.agents/skills/create-pull-request/SKILL.md",
+      "name": "create-pull-request",
+      "domain": "code_review",
+      "domains": [
+        "code_review",
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Create a GitHub pull request following project conventions. Use when the user asks to create a PR, submit changes for review, or open a pull request. Handles commit analysis, branch management, PR tem",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/code_review/create-pull-request/",
+        "claude": "agent-skills/claude/code_review/create-pull-request/",
+        "opencode": "agent-skills/opencode/code_review/create-pull-request/",
+        "generic": "agent-skills/generic/code_review/create-pull-request/"
+      }
+    },
+    {
+      "id": "cline/cline:.agents/skills/opentui/SKILL.md",
+      "name": "opentui",
+      "domain": "test",
+      "domains": [
+        "test",
+        "api"
+      ],
+      "complexity": "medium",
+      "description": "Comprehensive OpenTUI skill for building terminal user interfaces. Covers the core imperative API, React reconciler, and Solid reconciler. Use for any TUI development task including components, layout",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/test/opentui/",
+        "claude": "agent-skills/claude/test/opentui/",
+        "opencode": "agent-skills/opencode/test/opentui/",
+        "generic": "agent-skills/generic/test/opentui/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/amazon-location-service/SKILL.md",
+      "name": "amazon-location-service",
+      "domain": "security",
+      "domains": [
+        "security",
+        "api",
+        "monitoring",
+        "code_review"
+      ],
+      "complexity": "high",
+      "description": "Integrates Amazon Location Service APIs for AWS applications. Use this skill when users want to add maps (interactive MapLibre or static images); geocode addresses to coordinates or reverse geocode co",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/security/amazon-location-service/",
+        "claude": "agent-skills/claude/security/amazon-location-service/",
+        "opencode": "agent-skills/opencode/security/amazon-location-service/",
+        "generic": "agent-skills/generic/security/amazon-location-service/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/amplify-workflow/SKILL.md",
+      "name": "amplify-workflow",
+      "domain": "deploy",
+      "domains": [
+        "deploy",
+        "security",
+        "database",
+        "api",
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Build and deploy full-stack web and mobile apps with AWS Amplify Gen2 (TypeScript code-first). Covers auth (Cognito), data (AppSync/DynamoDB including schema modeling, enum types, relationships, autho",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/deploy/amplify-workflow/",
+        "claude": "agent-skills/claude/deploy/amplify-workflow/",
+        "opencode": "agent-skills/opencode/deploy/amplify-workflow/",
+        "generic": "agent-skills/generic/deploy/amplify-workflow/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/attorney-assist/SKILL.md",
+      "name": "attorney-assist",
+      "domain": "code_review",
+      "domains": [
+        "code_review"
+      ],
+      "complexity": "high",
+      "description": "Connects the user with a LegalZoom attorney for legal consultation. Use when a user asks about attorneys, lawyers, or legal help, or when contract review reveals high risks or low-confidence findings.",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/code_review/attorney-assist/",
+        "claude": "agent-skills/claude/code_review/attorney-assist/",
+        "opencode": "agent-skills/opencode/code_review/attorney-assist/",
+        "generic": "agent-skills/generic/code_review/attorney-assist/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/building-pydantic-ai-agents/SKILL.md",
+      "name": "building-pydantic-ai-agents",
+      "domain": "test",
+      "domains": [
+        "test",
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Build AI agents with Pydantic AI — tools, capabilities (including on-demand loading), structured output, streaming, testing, and multi-agent patterns. Use when the user mentions Pydantic AI, imports p",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/test/building-pydantic-ai-agents/",
+        "claude": "agent-skills/claude/test/building-pydantic-ai-agents/",
+        "opencode": "agent-skills/opencode/test/building-pydantic-ai-agents/",
+        "generic": "agent-skills/generic/test/building-pydantic-ai-agents/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/cline-session-search/SKILL.md",
+      "name": "cline-session-search",
+      "domain": "utility",
+      "domains": [
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Search and browse Cline session history. Use when the user asks to find, list, inspect, or export Cline sessions by time period, prompt content, status, model, provider, source, mode, workspace, or ot",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/utility/cline-session-search/",
+        "claude": "agent-skills/claude/utility/cline-session-search/",
+        "opencode": "agent-skills/opencode/utility/cline-session-search/",
+        "generic": "agent-skills/generic/utility/cline-session-search/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/convex-design/SKILL.md",
+      "name": "convex-design",
+      "domain": "security",
+      "domains": [
+        "security",
+        "database"
+      ],
+      "complexity": "high",
+      "description": "Design and build reactive, type-safe, production-grade backends on Convex. Covers schema, queries/mutations/actions, indexes, auth, file storage, scheduling, real-time multiplayer, mobile backends, an",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/security/convex-design/",
+        "claude": "agent-skills/claude/security/convex-design/",
+        "opencode": "agent-skills/opencode/security/convex-design/",
+        "generic": "agent-skills/generic/security/convex-design/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/cosmosdb-best-practices/SKILL.md",
+      "name": "cosmosdb-best-practices",
+      "domain": "database",
+      "domains": [
+        "database",
+        "code_review"
+      ],
+      "complexity": "medium",
+      "description": "Azure Cosmos DB performance optimization and best practices guidelines for NoSQL,\npartitioning, queries, SDK usage, and vector search. Use when writing, reviewing,\nor refactoring code that interacts w",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/cosmosdb-best-practices/",
+        "claude": "agent-skills/claude/database/cosmosdb-best-practices/",
+        "opencode": "agent-skills/opencode/database/cosmosdb-best-practices/",
+        "generic": "agent-skills/generic/database/cosmosdb-best-practices/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/data-analyst/SKILL.md",
+      "name": "data-analyst",
+      "domain": "monitoring",
+      "domains": [
+        "database",
+        "infrastructure",
+        "monitoring",
+        "code_review"
+      ],
+      "complexity": "medium",
+      "description": "Act as an interactive data analyst for ClickHouse-backed analytics. Use when the user asks questions about internal data, metrics, dashboards, telemetry, active users, revenue, funnels, trends, distri",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/monitoring/data-analyst/",
+        "claude": "agent-skills/claude/monitoring/data-analyst/",
+        "opencode": "agent-skills/opencode/monitoring/data-analyst/",
+        "generic": "agent-skills/generic/monitoring/data-analyst/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/data-analyst/skills/analyzer/SKILL.md",
+      "name": "analyzer",
+      "domain": "other",
+      "domains": [
+        "uncategorized"
+      ],
+      "complexity": "low",
+      "description": "Analyze queried data for trends, week-over-week comparisons, distributions, funnels, cohorts, top-N lists, anomalies, sanity checks, and report-ready findings. Use after or alongside ClickHouse querie",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/other/analyzer/",
+        "claude": "agent-skills/claude/other/analyzer/",
+        "opencode": "agent-skills/opencode/other/analyzer/",
+        "generic": "agent-skills/generic/other/analyzer/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/data-analyst/skills/artifact-management/SKILL.md",
+      "name": "artifact-management",
+      "domain": "database",
+      "domains": [
+        "database"
+      ],
+      "complexity": "medium",
+      "description": "Save, organize, and describe reusable analysis artifacts such as SQL, result snapshots, CSV exports, summaries, caveats, plots, and report-ready files. Use when users ask to save, export, share, cite,",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/artifact-management/",
+        "claude": "agent-skills/claude/database/artifact-management/",
+        "opencode": "agent-skills/opencode/database/artifact-management/",
+        "generic": "agent-skills/generic/database/artifact-management/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/data-analyst/skills/clickhouse/SKILL.md",
+      "name": "clickhouse",
+      "domain": "deploy",
+      "domains": [
+        "deploy",
+        "security",
+        "database",
+        "infrastructure"
+      ],
+      "complexity": "medium",
+      "description": "Connect to and query ClickHouse (a local server or a ClickHouse Cloud service) from the terminal using the official clickhousectl CLI, including the browser OAuth login flow. Use when the user wants t",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/deploy/clickhouse/",
+        "claude": "agent-skills/claude/deploy/clickhouse/",
+        "opencode": "agent-skills/opencode/deploy/clickhouse/",
+        "generic": "agent-skills/generic/deploy/clickhouse/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/data-analyst/skills/plotting/SKILL.md",
+      "name": "plotting",
+      "domain": "database",
+      "domains": [
+        "database",
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Create standardized charts and visual assets from analytics query results. Prefer dependency-free plain HTML/CSS/JavaScript/SVG for interactive exploratory charts; use local plotting tools such as mat",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/plotting/",
+        "claude": "agent-skills/claude/database/plotting/",
+        "opencode": "agent-skills/opencode/database/plotting/",
+        "generic": "agent-skills/generic/database/plotting/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/data-analyst/skills/reading-data-dict/SKILL.md",
+      "name": "reading-data-dict",
+      "domain": "monitoring",
+      "domains": [
+        "database",
+        "monitoring",
+        "documentation",
+        "utility"
+      ],
+      "complexity": "medium",
+      "description": "Read project data documentation (data dictionaries, dbt manifests, model docs, column descriptions, lineage, metric definitions) before writing analytics SQL. Use for mapping business and product term",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/monitoring/reading-data-dict/",
+        "claude": "agent-skills/claude/monitoring/reading-data-dict/",
+        "opencode": "agent-skills/opencode/monitoring/reading-data-dict/",
+        "generic": "agent-skills/generic/monitoring/reading-data-dict/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/data-analyst/skills/steering-user-elicitation/SKILL.md",
+      "name": "steering-user-elicitation",
+      "domain": "monitoring",
+      "domains": [
+        "database",
+        "monitoring"
+      ],
+      "complexity": "medium",
+      "description": "Elicit and challenge data-analysis requirements before querying. Use when the user asks ambiguous data questions, requests business/report answers, needs metric definitions clarified, or may be drawin",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/monitoring/steering-user-elicitation/",
+        "claude": "agent-skills/claude/monitoring/steering-user-elicitation/",
+        "opencode": "agent-skills/opencode/monitoring/steering-user-elicitation/",
+        "generic": "agent-skills/generic/monitoring/steering-user-elicitation/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/dataproc-skills/SKILL.md",
+      "name": "dataproc-skills",
+      "domain": "other",
+      "domains": [
+        "uncategorized"
+      ],
+      "complexity": "medium",
+      "description": "Skills to interact with your Dataproc clusters and jobs. Follows current best practices for reliability, security, and maintainability.",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/other/dataproc-skills/",
+        "claude": "agent-skills/claude/other/dataproc-skills/",
+        "opencode": "agent-skills/opencode/other/dataproc-skills/",
+        "generic": "agent-skills/generic/other/dataproc-skills/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/desktop-commander-overview/SKILL.md",
+      "name": "desktop-commander-overview",
+      "domain": "documentation",
+      "domains": [
+        "documentation"
+      ],
+      "complexity": "medium",
+      "description": "Use for Desktop Commander MCP capabilities — persistent shells and REPLs, long-running processes, filesystem beyond the workspace, structured files (.xlsx, .docx, .pdf, images) and large local data fi",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/documentation/desktop-commander-overview/",
+        "claude": "agent-skills/claude/documentation/desktop-commander-overview/",
+        "opencode": "agent-skills/opencode/documentation/desktop-commander-overview/",
+        "generic": "agent-skills/generic/documentation/desktop-commander-overview/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/dr-bedrock/SKILL.md",
+      "name": "dr-bedrock",
+      "domain": "security",
+      "domains": [
+        "security"
+      ],
+      "complexity": "high",
+      "description": "Troubleshoot local AWS Bedrock authentication and region configuration for the Cline CLI as Dr. Bedrock. Use when users report Bedrock CLI errors, AWS profile/default-chain issues, credential_process/",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/security/dr-bedrock/",
+        "claude": "agent-skills/claude/security/dr-bedrock/",
+        "opencode": "agent-skills/opencode/security/dr-bedrock/",
+        "generic": "agent-skills/generic/security/dr-bedrock/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/dsql/SKILL.md",
+      "name": "dsql",
+      "domain": "security",
+      "domains": [
+        "security",
+        "database"
+      ],
+      "complexity": "high",
+      "description": "Build with Aurora DSQL — manage schemas, execute queries, handle migrations, diagnose query plans, load data, and develop applications with a serverless, distributed SQL database. Covers IAM auth, mul",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/security/dsql/",
+        "claude": "agent-skills/claude/security/dsql/",
+        "opencode": "agent-skills/opencode/security/dsql/",
+        "generic": "agent-skills/generic/security/dsql/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/endor-setup/SKILL.md",
+      "name": "endor-setup",
+      "domain": "security",
+      "domains": [
+        "security"
+      ],
+      "complexity": "high",
+      "description": "Use when user asks to setup endorctl, install endorctl, run endorctl scan, scan for vulnerabilities, run endor scan or run Endor Labs scan or when any endorctl command fails with 'command not found', ",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/security/endor-setup/",
+        "claude": "agent-skills/claude/security/endor-setup/",
+        "opencode": "agent-skills/opencode/security/endor-setup/",
+        "generic": "agent-skills/generic/security/endor-setup/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/exa-search/SKILL.md",
+      "name": "exa-search",
+      "domain": "database",
+      "domains": [
+        "database",
+        "code_review"
+      ],
+      "complexity": "high",
+      "description": "Deep research powered by Exa. Use for lead generation, literature reviews, deep dives, competitive analysis, or any query where one search falls short, including phrases like 'research this', 'find ev",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/exa-search/",
+        "claude": "agent-skills/claude/database/exa-search/",
+        "opencode": "agent-skills/opencode/database/exa-search/",
+        "generic": "agent-skills/generic/database/exa-search/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/firestore-data/SKILL.md",
+      "name": "firestore-data",
+      "domain": "database",
+      "domains": [
+        "database",
+        "api",
+        "documentation"
+      ],
+      "complexity": "medium",
+      "description": "Handles NoSQL document operations and collection hierarchy exploration. Use for CRUD tasks and data retrieval. Provides flexible document manipulation and structured querying. Uses transactional safet",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/firestore-data/",
+        "claude": "agent-skills/claude/database/firestore-data/",
+        "opencode": "agent-skills/opencode/database/firestore-data/",
+        "generic": "agent-skills/generic/database/firestore-data/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/frontend-design/SKILL.md",
+      "name": "frontend-design",
+      "domain": "test",
+      "domains": [
+        "test"
+      ],
+      "complexity": "low",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code ",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/test/frontend-design/",
+        "claude": "agent-skills/claude/test/frontend-design/",
+        "opencode": "agent-skills/opencode/test/frontend-design/",
+        "generic": "agent-skills/generic/test/frontend-design/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/gcp-to-aws/SKILL.md",
+      "name": "gcp-to-aws",
+      "domain": "deploy",
+      "domains": [
+        "deploy",
+        "test",
+        "database",
+        "api",
+        "infrastructure",
+        "monitoring",
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Migrate workloads from Google Cloud Platform to AWS — including AI and agentic workloads regardless of cloud provider. Triggers on: migrate from GCP, GCP to AWS, move off Google Cloud, migrate Terrafo",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/deploy/gcp-to-aws/",
+        "claude": "agent-skills/claude/deploy/gcp-to-aws/",
+        "opencode": "agent-skills/opencode/deploy/gcp-to-aws/",
+        "generic": "agent-skills/generic/deploy/gcp-to-aws/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/knowledge-catalog-discovery/SKILL.md",
+      "name": "knowledge-catalog-discovery",
+      "domain": "other",
+      "domains": [
+        "uncategorized"
+      ],
+      "complexity": "medium",
+      "description": "Use these skills when you need to discover and explore data assets in the Knowledge Catalog. It allows you to search for entries, lookup specific metadata, and explore aspect types to understand your ",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/other/knowledge-catalog-discovery/",
+        "claude": "agent-skills/claude/other/knowledge-catalog-discovery/",
+        "opencode": "agent-skills/opencode/other/knowledge-catalog-discovery/",
+        "generic": "agent-skills/generic/other/knowledge-catalog-discovery/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/linear-sdk-scripting/SKILL.md",
+      "name": "linear-sdk-scripting",
+      "domain": "database",
+      "domains": [
+        "database",
+        "api",
+        "utility"
+      ],
+      "complexity": "medium",
+      "description": "Perform actions in Linear (read, create, update, search issues, projects, comments, teams, cycles, labels, etc.) by writing and running small Node scripts against the official @linear/sdk TypeScript S",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/linear-sdk-scripting/",
+        "claude": "agent-skills/claude/database/linear-sdk-scripting/",
+        "opencode": "agent-skills/opencode/database/linear-sdk-scripting/",
+        "generic": "agent-skills/generic/database/linear-sdk-scripting/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/math-olympiad/SKILL.md",
+      "name": "math-olympiad",
+      "domain": "test",
+      "domains": [
+        "test",
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Solve competition math problems (IMO, Putnam, USAMO, AIME) with adversarial verification that catches the errors self-verification misses. Activates when asked to 'solve this IMO problem', 'prove this",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/test/math-olympiad/",
+        "claude": "agent-skills/claude/test/math-olympiad/",
+        "opencode": "agent-skills/opencode/test/math-olympiad/",
+        "generic": "agent-skills/generic/test/math-olympiad/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/mintlify/SKILL.md",
+      "name": "mintlify",
+      "domain": "api",
+      "domains": [
+        "api",
+        "documentation"
+      ],
+      "complexity": "high",
+      "description": "Comprehensive reference for building Mintlify documentation sites. Use when creating pages, configuring docs.json, adding components, setting up navigation, or working with API references. Routes to d",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/api/mintlify/",
+        "claude": "agent-skills/claude/api/mintlify/",
+        "opencode": "agent-skills/opencode/api/mintlify/",
+        "generic": "agent-skills/generic/api/mintlify/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/oracledb/SKILL.md",
+      "name": "oracledb",
+      "domain": "monitoring",
+      "domains": [
+        "database",
+        "monitoring"
+      ],
+      "complexity": "medium",
+      "description": "Use these skills to manage and monitor Oracle databases by executing SQL statements, exploring schema metadata, analyzing query performance, monitoring active sessions and resource consumption, and ma",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/monitoring/oracledb/",
+        "claude": "agent-skills/claude/monitoring/oracledb/",
+        "opencode": "agent-skills/opencode/monitoring/oracledb/",
+        "generic": "agent-skills/generic/monitoring/oracledb/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/playground/SKILL.md",
+      "name": "playground",
+      "domain": "code_review",
+      "domains": [
+        "code_review",
+        "utility"
+      ],
+      "complexity": "medium",
+      "description": "Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something visually through controls, see a live preview, and copy out a prompt. Use when the user a",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/code_review/playground/",
+        "claude": "agent-skills/claude/code_review/playground/",
+        "opencode": "agent-skills/opencode/code_review/playground/",
+        "generic": "agent-skills/generic/code_review/playground/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/review-team/SKILL.md",
+      "name": "review-team",
+      "domain": "test",
+      "domains": [
+        "test",
+        "security",
+        "code_review",
+        "documentation"
+      ],
+      "complexity": "medium",
+      "description": "Use when the user asks for a code review by a fleet of specialized reviewer agents, wants multiple independent reviewer perspectives, or asks to run reviewers in single-pass or iterative fix-until-cle",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/test/review-team/",
+        "claude": "agent-skills/claude/test/review-team/",
+        "opencode": "agent-skills/opencode/test/review-team/",
+        "generic": "agent-skills/generic/test/review-team/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/sap-fiori-add-visual-filter/SKILL.md",
+      "name": "sap-fiori-add-visual-filter",
+      "domain": "other",
+      "domains": [
+        "uncategorized"
+      ],
+      "complexity": "high",
+      "description": "Add visual filters (chart-based) to SAP Fiori Elements filter bar/value help using CAP or ABAP RAP. Follows current best practices for reliability, security, and maintainability.",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/other/sap-fiori-add-visual-filter/",
+        "claude": "agent-skills/claude/other/sap-fiori-add-visual-filter/",
+        "opencode": "agent-skills/opencode/other/sap-fiori-add-visual-filter/",
+        "generic": "agent-skills/generic/other/sap-fiori-add-visual-filter/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/save-to-spotify/SKILL.md",
+      "name": "save-to-spotify",
+      "domain": "other",
+      "domains": [
+        "uncategorized"
+      ],
+      "complexity": "medium",
+      "description": "Create polished audio content and save to Spotify. Produces episodes with TTS narration, a rich timeline (chapters plus in-player images, external links, and Spotify entity cards), and a cover image. ",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/other/save-to-spotify/",
+        "claude": "agent-skills/claude/other/save-to-spotify/",
+        "opencode": "agent-skills/opencode/other/save-to-spotify/",
+        "generic": "agent-skills/generic/other/save-to-spotify/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/searching-sourcegraph/SKILL.md",
+      "name": "searching-sourcegraph",
+      "domain": "code_review",
+      "domains": [
+        "code_review",
+        "utility"
+      ],
+      "complexity": "medium",
+      "description": "Use when the user needs to search or navigate code with Sourcegraph MCP tools. Provides disciplined search workflows for finding implementations, understanding systems, debugging issues, fixing bugs, ",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/code_review/searching-sourcegraph/",
+        "claude": "agent-skills/claude/code_review/searching-sourcegraph/",
+        "opencode": "agent-skills/opencode/code_review/searching-sourcegraph/",
+        "generic": "agent-skills/generic/code_review/searching-sourcegraph/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/sentry-cli/SKILL.md",
+      "name": "sentry-cli",
+      "domain": "security",
+      "domains": [
+        "security",
+        "api"
+      ],
+      "complexity": "high",
+      "description": "Guide for using the Sentry CLI to interact with Sentry from the command line. Use when the user asks about viewing issues, events, projects, organizations, making API calls, or authenticating with Sen",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/security/sentry-cli/",
+        "claude": "agent-skills/claude/security/sentry-cli/",
+        "opencode": "agent-skills/opencode/security/sentry-cli/",
+        "generic": "agent-skills/generic/security/sentry-cli/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/session-report/SKILL.md",
+      "name": "session-report",
+      "domain": "utility",
+      "domains": [
+        "utility"
+      ],
+      "complexity": "low",
+      "description": "Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills, expensive prompts) from ~/.claude/projects transcripts. Follows current best practices for reliabilit",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/utility/session-report/",
+        "claude": "agent-skills/claude/utility/session-report/",
+        "opencode": "agent-skills/opencode/utility/session-report/",
+        "generic": "agent-skills/generic/utility/session-report/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/site-specification/SKILL.md",
+      "name": "site-specification",
+      "domain": "utility",
+      "domains": [
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Extract comprehensive site specifications from simple descriptions. Use when analyzing a user's theme request to determine site type, audience, tone, layout requirements, and typography. Follows curre",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/utility/site-specification/",
+        "claude": "agent-skills/claude/utility/site-specification/",
+        "opencode": "agent-skills/opencode/utility/site-specification/",
+        "generic": "agent-skills/generic/utility/site-specification/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/skill-creator/SKILL.md",
+      "name": "skill-creator",
+      "domain": "test",
+      "domains": [
+        "test",
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/test/skill-creator/",
+        "claude": "agent-skills/claude/test/skill-creator/",
+        "opencode": "agent-skills/opencode/test/skill-creator/",
+        "generic": "agent-skills/generic/test/skill-creator/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/spanner-data/SKILL.md",
+      "name": "spanner-data",
+      "domain": "database",
+      "domains": [
+        "database"
+      ],
+      "complexity": "medium",
+      "description": "Use these skills when you need to explore the database structure, discover schema objects like tables and graphs, and execute custom SQL queries to interact with your data. Uses transactional safety w",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/spanner-data/",
+        "claude": "agent-skills/claude/database/spanner-data/",
+        "opencode": "agent-skills/opencode/database/spanner-data/",
+        "generic": "agent-skills/generic/database/spanner-data/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/teamcity-cli/SKILL.md",
+      "name": "teamcity-cli",
+      "domain": "deploy",
+      "domains": [
+        "deploy"
+      ],
+      "complexity": "medium",
+      "description": "Use when working with TeamCity CI/CD or when a user provides a TeamCity build URL — drives the `teamcity` CLI for builds, logs, jobs, queues, agents, pools, projects, and pipelines. Follows agent-nati",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/deploy/teamcity-cli/",
+        "claude": "agent-skills/claude/deploy/teamcity-cli/",
+        "opencode": "agent-skills/opencode/deploy/teamcity-cli/",
+        "generic": "agent-skills/generic/deploy/teamcity-cli/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/ui5-typescript-conversion/SKILL.md",
+      "name": "ui5-typescript-conversion",
+      "domain": "utility",
+      "domains": [
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "A skill for converting UI5 (SAPUI5/OpenUI5) projects to TypeScript. Follows current best practices for reliability, security, and maintainability.",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/utility/ui5-typescript-conversion/",
+        "claude": "agent-skills/claude/utility/ui5-typescript-conversion/",
+        "opencode": "agent-skills/opencode/utility/ui5-typescript-conversion/",
+        "generic": "agent-skills/generic/utility/ui5-typescript-conversion/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/use-railway/SKILL.md",
+      "name": "use-railway",
+      "domain": "deploy",
+      "domains": [
+        "deploy",
+        "security",
+        "database",
+        "infrastructure",
+        "monitoring",
+        "documentation",
+        "utility"
+      ],
+      "complexity": "high",
+      "description": "Operate Railway infrastructure: sign up for or sign in to a Railway account, create projects, provision services and databases, manage object storage buckets, deploy code, configure environments and v",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/deploy/use-railway/",
+        "claude": "agent-skills/claude/deploy/use-railway/",
+        "opencode": "agent-skills/opencode/deploy/use-railway/",
+        "generic": "agent-skills/generic/deploy/use-railway/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/vibe-prospecting/SKILL.md",
+      "name": "vibe-prospecting",
+      "domain": "code_review",
+      "domains": [
+        "code_review"
+      ],
+      "complexity": "medium",
+      "description": "Find company & contact data. Turn your agent into a prospecting platform. Get contact information, roles, tech stack, business events, website changes, intent data. Build lead lists, research prospect",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/code_review/vibe-prospecting/",
+        "claude": "agent-skills/claude/code_review/vibe-prospecting/",
+        "opencode": "agent-skills/opencode/code_review/vibe-prospecting/",
+        "generic": "agent-skills/generic/code_review/vibe-prospecting/"
+      }
+    },
+    {
+      "id": "cline/skills:skills/windsor-ai-business-data/SKILL.md",
+      "name": "windsor-ai-business-data",
+      "domain": "test",
+      "domains": [
+        "test",
+        "database"
+      ],
+      "complexity": "medium",
+      "description": "Query Windsor.ai business data across marketing, sales, CRM, ecommerce, finance, and analytics connectors. Use when users need dashboards, reports, data visualization, schema exploration, or connector",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/test/windsor-ai-business-data/",
+        "claude": "agent-skills/claude/test/windsor-ai-business-data/",
+        "opencode": "agent-skills/opencode/test/windsor-ai-business-data/",
+        "generic": "agent-skills/generic/test/windsor-ai-business-data/"
+      }
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/chdb-datastore/SKILL.md",
+      "name": "chdb-datastore",
+      "domain": "database",
+      "domains": [
+        "database",
+        "api",
+        "infrastructure"
+      ],
+      "complexity": "high",
+      "description": "Use when the user has tabular data (pandas DataFrame, parquet, csv, Arrow, json) and wants to filter, group, aggregate, join, or speed up slow pandas. Provides chDB DataStore — same pandas API, ClickH",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/chdb-datastore/",
+        "claude": "agent-skills/claude/database/chdb-datastore/",
+        "opencode": "agent-skills/opencode/database/chdb-datastore/",
+        "generic": "agent-skills/generic/database/chdb-datastore/"
+      }
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/chdb-sql/SKILL.md",
+      "name": "chdb-sql",
+      "domain": "database",
+      "domains": [
+        "database",
+        "infrastructure",
+        "code_review"
+      ],
+      "complexity": "medium",
+      "description": "Use when the user wants to run SQL — especially analytical SQL — on local files (parquet/csv/json), URLs, S3 paths, or remote databases (Postgres, MySQL, MongoDB, ClickHouse Cloud, Iceberg, Delta Lake",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/chdb-sql/",
+        "claude": "agent-skills/claude/database/chdb-sql/",
+        "opencode": "agent-skills/opencode/database/chdb-sql/",
+        "generic": "agent-skills/generic/database/chdb-sql/"
+      }
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhouse-architecture-advisor/SKILL.md",
+      "name": "clickhouse-architecture-advisor",
+      "domain": "other",
+      "domains": [
+        "uncategorized"
+      ],
+      "complexity": "medium",
+      "description": "MUST USE when designing ClickHouse architectures, selecting between ingestion or modeling patterns, or translating best practices into workload-specific system designs. Complements clickhouse-best-pra",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/other/clickhouse-architecture-advisor/",
+        "claude": "agent-skills/claude/other/clickhouse-architecture-advisor/",
+        "opencode": "agent-skills/opencode/other/clickhouse-architecture-advisor/",
+        "generic": "agent-skills/generic/other/clickhouse-architecture-advisor/"
+      }
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhouse-best-practices/SKILL.md",
+      "name": "clickhouse-best-practices",
+      "domain": "database",
+      "domains": [
+        "database",
+        "code_review"
+      ],
+      "complexity": "high",
+      "description": "MUST USE when reviewing ClickHouse schemas, queries, or configurations. Contains 31 rules that MUST be checked before providing recommendations. Always read relevant rule files and cite specific rules",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/clickhouse-best-practices/",
+        "claude": "agent-skills/claude/database/clickhouse-best-practices/",
+        "opencode": "agent-skills/opencode/database/clickhouse-best-practices/",
+        "generic": "agent-skills/generic/database/clickhouse-best-practices/"
+      }
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhouse-js-node-coding/SKILL.md",
+      "name": "clickhouse-js-node-coding",
+      "domain": "database",
+      "domains": [
+        "database",
+        "code_review"
+      ],
+      "complexity": "medium",
+      "description": "Write idiomatic application code with the ClickHouse Node.js client (`@clickhouse/client`). Use this skill whenever a user is *building* against the Node.js client — configuring the client, pinging, i",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/clickhouse-js-node-coding/",
+        "claude": "agent-skills/claude/database/clickhouse-js-node-coding/",
+        "opencode": "agent-skills/opencode/database/clickhouse-js-node-coding/",
+        "generic": "agent-skills/generic/database/clickhouse-js-node-coding/"
+      }
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhouse-js-node-rowbinary/SKILL.md",
+      "name": "clickhouse-js-node-rowbinary",
+      "domain": "utility",
+      "domains": [
+        "utility"
+      ],
+      "complexity": "medium",
+      "description": "Generate TypeScript/JavaScript code that reads/decodes AND writes/encodes ClickHouse RowBinary streams for the ClickHouse HTTP server. Use this skill whenever a user wants to parse or produce `RowBina",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/utility/clickhouse-js-node-rowbinary/",
+        "claude": "agent-skills/claude/utility/clickhouse-js-node-rowbinary/",
+        "opencode": "agent-skills/opencode/utility/clickhouse-js-node-rowbinary/",
+        "generic": "agent-skills/generic/utility/clickhouse-js-node-rowbinary/"
+      }
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhouse-js-node-troubleshooting/SKILL.md",
+      "name": "clickhouse-js-node-troubleshooting",
+      "domain": "database",
+      "domains": [
+        "database",
+        "api"
+      ],
+      "complexity": "medium",
+      "description": "Troubleshoot and resolve common issues with the ClickHouse Node.js client (@clickhouse/client). Use this skill whenever a user reports errors, unexpected behavior, or configuration questions involving",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/clickhouse-js-node-troubleshooting/",
+        "claude": "agent-skills/claude/database/clickhouse-js-node-troubleshooting/",
+        "opencode": "agent-skills/opencode/database/clickhouse-js-node-troubleshooting/",
+        "generic": "agent-skills/generic/database/clickhouse-js-node-troubleshooting/"
+      }
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhouse-managed-postgres-rca/SKILL.md",
+      "name": "clickhouse-managed-postgres-rca",
+      "domain": "database",
+      "domains": [
+        "database",
+        "api"
+      ],
+      "complexity": "medium",
+      "description": "MUST USE when investigating performance issues on a ClickHouse-managed Postgres instance. Provides an evidence-based RCA workflow that scrapes the Prometheus endpoint for system signal, pulls per-dige",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/clickhouse-managed-postgres-rca/",
+        "claude": "agent-skills/claude/database/clickhouse-managed-postgres-rca/",
+        "opencode": "agent-skills/opencode/database/clickhouse-managed-postgres-rca/",
+        "generic": "agent-skills/generic/database/clickhouse-managed-postgres-rca/"
+      }
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhousectl-cloud-deploy/SKILL.md",
+      "name": "clickhousectl-cloud-deploy",
+      "domain": "deploy",
+      "domains": [
+        "deploy",
+        "infrastructure"
+      ],
+      "complexity": "medium",
+      "description": "Use when a user wants to deploy ClickHouse to the cloud, go to production, use ClickHouse Cloud, host a managed ClickHouse service, or migrate from a local ClickHouse setup to ClickHouse Cloud. Follow",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/deploy/clickhousectl-cloud-deploy/",
+        "claude": "agent-skills/claude/deploy/clickhousectl-cloud-deploy/",
+        "opencode": "agent-skills/opencode/deploy/clickhousectl-cloud-deploy/",
+        "generic": "agent-skills/generic/deploy/clickhousectl-cloud-deploy/"
+      }
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhousectl-local-dev/SKILL.md",
+      "name": "clickhousectl-local-dev",
+      "domain": "other",
+      "domains": [
+        "uncategorized"
+      ],
+      "complexity": "medium",
+      "description": "Use when a user wants to build an application with ClickHouse, set up a local ClickHouse development environment, install ClickHouse, create a local server, create tables, or start developing with Cli",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/other/clickhousectl-local-dev/",
+        "claude": "agent-skills/claude/other/clickhousectl-local-dev/",
+        "opencode": "agent-skills/opencode/other/clickhousectl-local-dev/",
+        "generic": "agent-skills/generic/other/clickhousectl-local-dev/"
+      }
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickstack-otel-collector/SKILL.md",
+      "name": "clickstack-otel-collector",
+      "domain": "deploy",
+      "domains": [
+        "deploy",
+        "infrastructure",
+        "documentation"
+      ],
+      "complexity": "high",
+      "description": "Use when a user wants to wire an OpenTelemetry collector into a Managed ClickStack service on ClickHouse Cloud, either by deploying a new local collector (Docker run or Docker Compose) or by configuri",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/deploy/clickstack-otel-collector/",
+        "claude": "agent-skills/claude/deploy/clickstack-otel-collector/",
+        "opencode": "agent-skills/opencode/deploy/clickstack-otel-collector/",
+        "generic": "agent-skills/generic/deploy/clickstack-otel-collector/"
+      }
+    },
+    {
+      "id": "supabase/agent-skills:skills/supabase/SKILL.md",
+      "name": "supabase",
+      "domain": "security",
+      "domains": [
+        "security",
+        "database",
+        "api"
+      ],
+      "complexity": "medium",
+      "description": "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integrations (supabase-js, ",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/security/supabase/",
+        "claude": "agent-skills/claude/security/supabase/",
+        "opencode": "agent-skills/opencode/security/supabase/",
+        "generic": "agent-skills/generic/security/supabase/"
+      }
+    },
+    {
+      "id": "supabase/agent-skills:skills/supabase-postgres-best-practices/SKILL.md",
+      "name": "supabase-postgres-best-practices",
+      "domain": "database",
+      "domains": [
+        "database",
+        "code_review"
+      ],
+      "complexity": "medium",
+      "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations. Uses transaction",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/database/supabase-postgres-best-practices/",
+        "claude": "agent-skills/claude/database/supabase-postgres-best-practices/",
+        "opencode": "agent-skills/opencode/database/supabase-postgres-best-practices/",
+        "generic": "agent-skills/generic/database/supabase-postgres-best-practices/"
+      }
+    },
+    {
+      "id": "ichuan/skills:skills/crawl4ai-fetch/SKILL.md",
+      "name": "crawl4ai-fetch",
+      "domain": "code_review",
+      "domains": [
+        "code_review"
+      ],
+      "complexity": "medium",
+      "description": "Fetch any URL and convert it to clean Markdown via a self-hosted crawl4ai server. Use when the user wants to read a webpage, extract article content, summarize a URL, or get the text of a page in a fo",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/code_review/crawl4ai-fetch/",
+        "claude": "agent-skills/claude/code_review/crawl4ai-fetch/",
+        "opencode": "agent-skills/opencode/code_review/crawl4ai-fetch/",
+        "generic": "agent-skills/generic/code_review/crawl4ai-fetch/"
+      }
+    },
+    {
+      "id": "ichuan/skills:skills/deploy-caddy-reverse-proxy/SKILL.md",
+      "name": "deploy-caddy-reverse-proxy",
+      "domain": "deploy",
+      "domains": [
+        "deploy"
+      ],
+      "complexity": "high",
+      "description": "Deploy Caddy reverse proxy on remote servers with automatic SSL and systemd integration. Use when users want to: (1) Set up reverse proxy for local web services, (2) Configure automatic Let's Encrypt ",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/deploy/deploy-caddy-reverse-proxy/",
+        "claude": "agent-skills/claude/deploy/deploy-caddy-reverse-proxy/",
+        "opencode": "agent-skills/opencode/deploy/deploy-caddy-reverse-proxy/",
+        "generic": "agent-skills/generic/deploy/deploy-caddy-reverse-proxy/"
+      }
+    },
+    {
+      "id": "ichuan/skills:skills/iterative-code-review/SKILL.md",
+      "name": "iterative-code-review",
+      "domain": "code_review",
+      "domains": [
+        "code_review"
+      ],
+      "complexity": "high",
+      "description": "Use when 开发者要求在提交或合并前审查工作区、暂存区或分支 diff，尤其是明确要求 review-and-fix、修复后复验或迭代到收敛时。适用于 Codex 和 Claude 的隔离 sub-agent 工作流； 若用户要求可配置的外部 CLI 多模型与人工勾选流程，使用 multi-agent-review。. Applies structured code review with ",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/code_review/iterative-code-review/",
+        "claude": "agent-skills/claude/code_review/iterative-code-review/",
+        "opencode": "agent-skills/opencode/code_review/iterative-code-review/",
+        "generic": "agent-skills/generic/code_review/iterative-code-review/"
+      }
+    },
+    {
+      "id": "ichuan/skills:skills/multi-agent-review/SKILL.md",
+      "name": "multi-agent-review",
+      "domain": "code_review",
+      "domains": [
+        "code_review"
+      ],
+      "complexity": "medium",
+      "description": "Run a configurable multi-model code review workflow from local CLI agents. Use when a developer wants AI review for uncommitted diffs or a branch diff before commit/merge, with separate review, synthe",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/code_review/multi-agent-review/",
+        "claude": "agent-skills/claude/code_review/multi-agent-review/",
+        "opencode": "agent-skills/opencode/code_review/multi-agent-review/",
+        "generic": "agent-skills/generic/code_review/multi-agent-review/"
+      }
+    },
+    {
+      "id": "ichuan/skills:skills/prod-readiness-audit/SKILL.md",
+      "name": "prod-readiness-audit",
+      "domain": "deploy",
+      "domains": [
+        "deploy",
+        "test",
+        "security"
+      ],
+      "complexity": "medium",
+      "description": "Audit and harden a project before production release, then fix issues found where safe. Use when users ask whether a project is ready to deploy, request final pre-launch cleanup, or ask to handle resp",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/deploy/prod-readiness-audit/",
+        "claude": "agent-skills/claude/deploy/prod-readiness-audit/",
+        "opencode": "agent-skills/opencode/deploy/prod-readiness-audit/",
+        "generic": "agent-skills/generic/deploy/prod-readiness-audit/"
+      }
+    },
+    {
+      "id": "ichuan/skills:skills/repo-deploy-capture/SKILL.md",
+      "name": "repo-deploy-capture",
+      "domain": "deploy",
+      "domains": [
+        "deploy",
+        "security",
+        "infrastructure",
+        "documentation"
+      ],
+      "complexity": "medium",
+      "description": "Capture a verified deployment workflow into project documentation or memory after a successful deploy. Use when a user asks to record deployment steps, save deploy lessons, document server update proc",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/deploy/repo-deploy-capture/",
+        "claude": "agent-skills/claude/deploy/repo-deploy-capture/",
+        "opencode": "agent-skills/opencode/deploy/repo-deploy-capture/",
+        "generic": "agent-skills/generic/deploy/repo-deploy-capture/"
+      }
+    },
+    {
+      "id": "ichuan/skills:skills/roadmap-management/SKILL.md",
+      "name": "roadmap-management",
+      "domain": "code_review",
+      "domains": [
+        "code_review"
+      ],
+      "complexity": "medium",
+      "description": "Minimalist project roadmap management using a position-based priority system in ROADMAP.md. Use when users want to: (1) Create or initialize a project roadmap, (2) Add tasks/features to a roadmap, (3)",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/code_review/roadmap-management/",
+        "claude": "agent-skills/claude/code_review/roadmap-management/",
+        "opencode": "agent-skills/opencode/code_review/roadmap-management/",
+        "generic": "agent-skills/generic/code_review/roadmap-management/"
+      }
+    },
+    {
+      "id": "ichuan/skills:skills/searxng-search/SKILL.md",
+      "name": "searxng-search",
+      "domain": "code_review",
+      "domains": [
+        "code_review"
+      ],
+      "complexity": "medium",
+      "description": "Web search via a self-hosted SearXNG aggregation server. Use when the user asks to search the web, find URLs, look up information online, or research a topic using a search engine. Returns URL, title,",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/code_review/searxng-search/",
+        "claude": "agent-skills/claude/code_review/searxng-search/",
+        "opencode": "agent-skills/opencode/code_review/searxng-search/",
+        "generic": "agent-skills/generic/code_review/searxng-search/"
+      }
+    },
+    {
+      "id": "bakaschwarz/agent-skills:skills/handoff/SKILL.md",
+      "name": "handoff",
+      "domain": "code_review",
+      "domains": [
+        "code_review",
+        "documentation",
+        "utility"
+      ],
+      "complexity": "medium",
+      "description": "Create a structured handoff document at context/handoff.md at the end of a session so the next agent can onboard without prior context. Uses git to discover modified files, filters out ephemeral subag",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/code_review/handoff/",
+        "claude": "agent-skills/claude/code_review/handoff/",
+        "opencode": "agent-skills/opencode/code_review/handoff/",
+        "generic": "agent-skills/generic/code_review/handoff/"
+      }
+    },
+    {
+      "id": "bakaschwarz/agent-skills:skills/harness-audit/SKILL.md",
+      "name": "harness-audit",
+      "domain": "security",
+      "domains": [
+        "security",
+        "code_review",
+        "utility"
+      ],
+      "complexity": "medium",
+      "description": "Use this skill when the user asks to evaluate, review, audit, sanity-check, or optimize their current agentic setup — system prompt, active skills, available tools, and recent conversation. Surfaces c",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/security/harness-audit/",
+        "claude": "agent-skills/claude/security/harness-audit/",
+        "opencode": "agent-skills/opencode/security/harness-audit/",
+        "generic": "agent-skills/generic/security/harness-audit/"
+      }
+    },
+    {
+      "id": "bakaschwarz/agent-skills:skills/readme-update/SKILL.md",
+      "name": "readme-update",
+      "domain": "deploy",
+      "domains": [
+        "deploy",
+        "documentation"
+      ],
+      "complexity": "medium",
+      "description": "Maintains the project's README.md by cross-referencing git history with the current README content. Use this whenever you want to check if the README is up to date, after a sprint, before a release, o",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/deploy/readme-update/",
+        "claude": "agent-skills/claude/deploy/readme-update/",
+        "opencode": "agent-skills/opencode/deploy/readme-update/",
+        "generic": "agent-skills/generic/deploy/readme-update/"
+      }
+    },
+    {
+      "id": "bakaschwarz/agent-skills:skills/simple-issues/SKILL.md",
+      "name": "simple-issues",
+      "domain": "infrastructure",
+      "domains": [
+        "infrastructure"
+      ],
+      "complexity": "high",
+      "description": "Use this skill whenever the user mentions issues, tasks, tickets, work items, or asks \"what should I work on\", \"what's next\", or wants to create/claim/close work. Manages a lightweight file-based issu",
+      "source": "evolved",
+      "agent_paths": {
+        "cline": "agent-skills/cline/infrastructure/simple-issues/",
+        "claude": "agent-skills/claude/infrastructure/simple-issues/",
+        "opencode": "agent-skills/opencode/infrastructure/simple-issues/",
+        "generic": "agent-skills/generic/infrastructure/simple-issues/"
+      }
+    }
+  ]
+}

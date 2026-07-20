@@ -6,5 +6,13 @@
     "files_changed": ["calculator/Cargo.toml", "calculator/src/lib.rs", "calculator/src/main.rs", "calculator/README.md"],
     "test_delta": "+17 tests, 0 failures, 0 warnings",
     "quality_gate": "pass"
+  },
+  {
+    "id": "repl",
+    "description": "REPL mode with command history, better error messages, EOF handling",
+    "status": "completed",
+    "files_changed": ["calculator/Cargo.toml", "calculator/src/main.rs"],
+    "test_delta": "0 tests added, 17 pass",
+    "quality_gate": "pass"
   }
 ]

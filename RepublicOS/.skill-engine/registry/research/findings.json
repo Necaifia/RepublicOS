@@ -1,0 +1,230 @@
+{
+  "research_date": "2026-07-20T13:09:20.454627+00:00",
+  "domains_researched": 10,
+  "findings": {
+    "deploy": {
+      "domain": "deploy",
+      "references_checked": [
+        {
+          "url": "https://docs.github.com/en/actions/deployment",
+          "label": "GitHub Deploy Docs",
+          "title": "Untitled",
+          "status": "ok"
+        },
+        {
+          "url": "https://docs.docker.com/develop/dev-best-practices/",
+          "label": "Docker Dev Best Practices",
+          "title": "Building best practices | Docker Docs",
+          "status": "ok"
+        }
+      ],
+      "key_practices": [],
+      "common_tools": [],
+      "common_patterns": [],
+      "sources": [
+        "https://docs.github.com/en/actions/deployment",
+        "https://docs.docker.com/develop/dev-best-practices/"
+      ]
+    },
+    "test": {
+      "domain": "test",
+      "references_checked": [
+        {
+          "url": "https://docs.pytest.org/en/stable/",
+          "label": "pytest Docs",
+          "status": "unreachable"
+        },
+        {
+          "url": "https://testing.googleblog.com/",
+          "label": "Google Testing Blog",
+          "title": "Google Testing Blog",
+          "status": "ok"
+        }
+      ],
+      "key_practices": [],
+      "common_tools": [],
+      "common_patterns": [],
+      "sources": [
+        "https://testing.googleblog.com/"
+      ]
+    },
+    "security": {
+      "domain": "security",
+      "references_checked": [
+        {
+          "url": "https://owasp.org/www-project-top-ten/",
+          "label": "OWASP Top 10",
+          "title": "OWASP Top Ten Web Application Security Risks | OWASP Foundation",
+          "status": "ok"
+        },
+        {
+          "url": "https://cheatsheetseries.owasp.org/",
+          "label": "OWASP Cheat Sheets",
+          "title": "Introduction - OWASP Cheat Sheet Series",
+          "status": "ok"
+        }
+      ],
+      "key_practices": [],
+      "common_tools": [],
+      "common_patterns": [],
+      "sources": [
+        "https://owasp.org/www-project-top-ten/",
+        "https://cheatsheetseries.owasp.org/"
+      ]
+    },
+    "database": {
+      "domain": "database",
+      "references_checked": [
+        {
+          "url": "https://www.postgresql.org/docs/current/",
+          "label": "PostgreSQL Docs",
+          "title": "PostgreSQL: Documentation: 18: PostgreSQL 18.4 Documentation",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.mongodb.com/docs/",
+          "label": "MongoDB Docs",
+          "title": "Welcome to the MongoDB Docs - MongoDB Documentation - MongoDB Docs",
+          "status": "ok"
+        }
+      ],
+      "key_practices": [],
+      "common_tools": [],
+      "common_patterns": [],
+      "sources": [
+        "https://www.postgresql.org/docs/current/",
+        "https://www.mongodb.com/docs/"
+      ]
+    },
+    "api": {
+      "domain": "api",
+      "references_checked": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+          "label": "Azure API Design",
+          "title": "Web API Design Best Practices - Azure Architecture Center | Microsoft Learn",
+          "status": "ok"
+        },
+        {
+          "url": "https://swagger.io/resources/open-api/",
+          "label": "OpenAPI Spec",
+          "title": "API Resources | Swagger",
+          "status": "ok"
+        }
+      ],
+      "key_practices": [],
+      "common_tools": [],
+      "common_patterns": [],
+      "sources": [
+        "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+        "https://swagger.io/resources/open-api/"
+      ]
+    },
+    "infrastructure": {
+      "domain": "infrastructure",
+      "references_checked": [
+        {
+          "url": "https://docs.docker.com/develop/dev-best-practices/",
+          "label": "Docker Best Practices",
+          "title": "Building best practices | Docker Docs",
+          "status": "ok"
+        },
+        {
+          "url": "https://kubernetes.io/docs/concepts/configuration/overview/",
+          "label": "K8s Config",
+          "title": "Kubernetes Configuration Good Practices | Kubernetes",
+          "status": "ok"
+        }
+      ],
+      "key_practices": [],
+      "common_tools": [],
+      "common_patterns": [],
+      "sources": [
+        "https://docs.docker.com/develop/dev-best-practices/",
+        "https://kubernetes.io/docs/concepts/configuration/overview/"
+      ]
+    },
+    "monitoring": {
+      "domain": "monitoring",
+      "references_checked": [
+        {
+          "url": "https://prometheus.io/docs/practices/naming/",
+          "label": "Prometheus Best Practices",
+          "title": "Metric and label naming | Prometheus",
+          "status": "ok"
+        },
+        {
+          "url": "https://opentelemetry.io/docs/reference/specification/",
+          "label": "OpenTelemetry Spec",
+          "title": "OpenTelemetry Specification 1.59.0 | OpenTelemetry",
+          "status": "ok"
+        }
+      ],
+      "key_practices": [],
+      "common_tools": [],
+      "common_patterns": [],
+      "sources": [
+        "https://prometheus.io/docs/practices/naming/",
+        "https://opentelemetry.io/docs/reference/specification/"
+      ]
+    },
+    "code_review": {
+      "domain": "code_review",
+      "references_checked": [
+        {
+          "url": "https://google.github.io/eng-practices/review/",
+          "label": "Google Code Review",
+          "title": "Introduction {#intro} | eng-practices",
+          "status": "ok"
+        },
+        {
+          "url": "https://smartbear.com/learn/code-review/best-practices/",
+          "label": "SmartBear Code Review",
+          "status": "unreachable"
+        }
+      ],
+      "key_practices": [],
+      "common_tools": [],
+      "common_patterns": [],
+      "sources": [
+        "https://google.github.io/eng-practices/review/"
+      ]
+    },
+    "documentation": {
+      "domain": "documentation",
+      "references_checked": [
+        {
+          "url": "https://www.writethedocs.org/guide/",
+          "label": "Write the Docs",
+          "status": "unreachable"
+        },
+        {
+          "url": "https://documentation.divio.com/",
+          "label": "Divio Documentation System",
+          "title": "Untitled",
+          "status": "ok"
+        }
+      ],
+      "key_practices": [],
+      "common_tools": [],
+      "common_patterns": [],
+      "sources": [
+        "https://documentation.divio.com/"
+      ]
+    },
+    "communication": {
+      "domain": "communication",
+      "references_checked": [
+        {
+          "url": "https://slack.com/help/articles/360059655654-Slack-best-practices",
+          "label": "Slack Best Practices",
+          "status": "unreachable"
+        }
+      ],
+      "key_practices": [],
+      "common_tools": [],
+      "common_patterns": [],
+      "sources": []
+    }
+  }
+}

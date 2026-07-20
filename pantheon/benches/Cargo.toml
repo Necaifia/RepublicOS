@@ -1,0 +1,12 @@
+[package]
+name = "pantheon-benches"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[dependencies]
+pantheon-kernel = { path = "../kernel" }
+pantheon-capabilities = { path = "../capabilities" }
+pantheon-event-bus = { path = "../event-bus" }
+pantheon-scheduler = { path = "../scheduler" }

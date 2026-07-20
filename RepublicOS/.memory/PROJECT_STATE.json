@@ -1,0 +1,10 @@
+{
+  "phase": "init",
+  "version": "0.0.1-dev",
+  "total_tests": 0,
+  "test_failures": 0,
+  "compiler_warnings": 0,
+  "last_cycle": null,
+  "done": false,
+  "summary": "Awaiting first cycle."
+}

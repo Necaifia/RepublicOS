@@ -1,0 +1,129 @@
+# Autonomy Governor v1.0
+#
+# Defines what the AI may do without human approval.
+# DEFAULT: fail-closed — any action not listed here requires approval.
+#
+# Levels:
+#   0 = always allowed (no check)
+#   1 = allowed within scope (checked by runtime)
+#   2 = needs human approval (writes to pending_approval.json)
+#   3 = never allowed (hard block, even with approval)
+
+default_policy:
+  unknown_action_level: 2
+  # Any action the AI invents that isn't in this table → ask human.
+
+actions:
+  # ─── Level 0: Always allowed ──────────────────────────────────
+  read_file:
+    level: 0
+  list_directory:
+    level: 0
+  search_code:
+    level: 0
+  read_documentation:
+    level: 0
+
+  # ─── Level 1: Allowed within cycle scope ──────────────────────
+  edit_code:
+    level: 1
+    scope: cycle_directory_only
+    # Only files created or modified during the current cycle.
+    # Runtime verifies path is within the cycle's sandbox/git worktree.
+
+  create_file:
+    level: 1
+    scope: cycle_directory_only
+
+  delete_file:
+    level: 1
+    scope: cycle_directory_only
+
+  run_tests:
+    level: 1
+  run_linter:
+    level: 1
+  run_build:
+    level: 1
+
+  # ─── Level 2: Needs human approval ────────────────────────────
+  add_dependency:
+    level: 2
+    scope: project
+    # Adding any external crate, package, or library.
+
+  modify_ci:
+    level: 2
+  modify_memory_files:
+    level: 2
+    # Updating .memory/ after a cycle is supervised by the review phase.
+
+  merge_to_main:
+    level: 2
+    requires: quality_gate_pass
+
+  delete_directory:
+    level: 2
+
+  write_env_file:
+    level: 2
+  modify_gitignore:
+    level: 2
+
+  # ─── Level 3: Never allowed ───────────────────────────────────
+  edit_governor_config:
+    level: 3
+    rationale: "The governor protects itself. Only the human may change this file."
+    # Enforced by: chmod 444 on GOVERNOR.yaml, file outside agent worktree.
+
+  write_secret:
+    level: 3
+  deploy_production:
+    level: 3
+  delete_git_history:
+    level: 3
+  modify_ai_entrypoint:
+    level: 3
+    # AI_ENTRYPOINT.md is the constitution's front door. Immutable.
+
+  modify_constitution:
+    level: 3
+    # .constitution/ files may only be changed by human.
+    # Changing the rules while the game is running invalidates all prior cycles.
+
+budget:
+  max_cycles_per_session: 10
+  max_editorial_hours: 2
+  # Estimated wall-clock time the AI may spend on a single cycle.
+  # Approximate. Human overridable.
+  max_files_created_per_cycle: 10
+  max_lines_deleted_per_cycle: 1000
+
+anomaly:
+  max_diff_lines: 500
+  max_new_files_per_cycle: 15
+  max_dependency_additions_per_cycle: 3
+  consecutive_test_failures_allowed: 2
+  max_failure_rate: 0.2
+  # If >20% of tests fail, the cycle is anomalous.
+
+escalation:
+  method: pending_approval_file
+  # The governor writes requests to .governor/pending_approval.json.
+  # The human reviews and responds by editing the same file.
+  # The AI polls this file before proceeding past level 2 actions.
+
+  pending_approval_path: ".governor/pending_approval.json"
+
+  on_no_response_timeout_minutes: 0
+  # 0 = do not proceed without human response.
+  # The cycle remains blocked until the human responds.
+  # No auto-escalation. No silent approval.
+
+  notification_hook: ""
+  # Optional: webhook URL, email, or terminal bell.
+  # Empty = human checks pending_approval.json manually.
+
+  human_veto_path: ".governor/human_veto"
+  # If this file exists, all cycles stop immediately.
+  # Contents of the file should explain why.

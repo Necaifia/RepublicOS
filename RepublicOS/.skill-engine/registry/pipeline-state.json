@@ -1,0 +1,27 @@
+{
+  "started_at": "2026-07-20T13:09:10.138262+00:00",
+  "completed_at": "2026-07-20T13:09:21.762185+00:00",
+  "stages": {
+    "discovery": {
+      "last_run": "2026-07-20T13:09:13.396291+00:00",
+      "status": "passed"
+    },
+    "analyzer": {
+      "last_run": "2026-07-20T13:09:13.759407+00:00",
+      "status": "passed"
+    },
+    "research": {
+      "last_run": "2026-07-20T13:09:20.505008+00:00",
+      "status": "passed"
+    },
+    "evolution": {
+      "last_run": "2026-07-20T13:09:20.894315+00:00",
+      "status": "passed"
+    },
+    "store": {
+      "last_run": "2026-07-20T13:09:21.762171+00:00",
+      "status": "passed"
+    }
+  },
+  "total_runs": 11
+}

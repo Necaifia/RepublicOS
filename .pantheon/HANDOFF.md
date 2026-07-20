@@ -1,8 +1,8 @@
 # Handoff — CLI Calculator
 
-**Previous session:** basic-ops (completed)
-**Current task:** REPL mode — interactive read-eval-print loop
+**Previous session:** repl (completed)
+**Current task:** expression-parser — parse full expressions with operator precedence (PEMDAS)
 **Blocked:** No
-**Next step:** Enhance `src/main.rs` with command history, better error messages, and input validation. Ensure REPL handles edge cases gracefully.
+**Next step:** Update `lib.rs` with a recursive descent or shunting-yard parser supporting `+`, `-`, `*`, `/`, parentheses, and operator precedence.
 
 **Test count:** 17, all passing

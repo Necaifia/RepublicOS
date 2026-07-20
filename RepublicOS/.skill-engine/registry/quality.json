@@ -1,0 +1,803 @@
+{
+  "analysis_date": "2026-07-20T13:09:13.747305+00:00",
+  "average_score": 58.7,
+  "grade_distribution": {
+    "A": 9,
+    "C": 44,
+    "B": 35
+  },
+  "all_scores": [
+    {
+      "id": "anthropics/skills:skills/algorithmic-art/SKILL.md",
+      "name": "algorithmic-art",
+      "source": "anthropics/skills",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 399
+    },
+    {
+      "id": "anthropics/skills:skills/brand-guidelines/SKILL.md",
+      "name": "brand-guidelines",
+      "source": "anthropics/skills",
+      "score": 40,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 67
+    },
+    {
+      "id": "anthropics/skills:skills/canvas-design/SKILL.md",
+      "name": "canvas-design",
+      "source": "anthropics/skills",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 124
+    },
+    {
+      "id": "anthropics/skills:skills/claude-api/SKILL.md",
+      "name": "claude-api",
+      "source": "anthropics/skills",
+      "score": 70,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 569
+    },
+    {
+      "id": "anthropics/skills:skills/doc-coauthoring/SKILL.md",
+      "name": "doc-coauthoring",
+      "source": "anthropics/skills",
+      "score": 70,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 370
+    },
+    {
+      "id": "anthropics/skills:skills/docx/SKILL.md",
+      "name": "docx",
+      "source": "anthropics/skills",
+      "score": 75,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 85
+    },
+    {
+      "id": "anthropics/skills:skills/frontend-design/SKILL.md",
+      "name": "frontend-design",
+      "source": "anthropics/skills",
+      "score": 40,
+      "grade": "C",
+      "complexity": "low",
+      "body_lines": 49
+    },
+    {
+      "id": "anthropics/skills:skills/internal-comms/SKILL.md",
+      "name": "internal-comms",
+      "source": "anthropics/skills",
+      "score": 40,
+      "grade": "C",
+      "complexity": "low",
+      "body_lines": 26
+    },
+    {
+      "id": "anthropics/skills:skills/mcp-builder/SKILL.md",
+      "name": "mcp-builder",
+      "source": "anthropics/skills",
+      "score": 60,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 230
+    },
+    {
+      "id": "anthropics/skills:skills/pdf/SKILL.md",
+      "name": "pdf",
+      "source": "anthropics/skills",
+      "score": 75,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 308
+    },
+    {
+      "id": "anthropics/skills:skills/pptx/SKILL.md",
+      "name": "pptx",
+      "source": "anthropics/skills",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 232
+    },
+    {
+      "id": "anthropics/skills:skills/skill-creator/SKILL.md",
+      "name": "skill-creator",
+      "source": "anthropics/skills",
+      "score": 75,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 480
+    },
+    {
+      "id": "anthropics/skills:skills/slack-gif-creator/SKILL.md",
+      "name": "slack-gif-creator",
+      "source": "anthropics/skills",
+      "score": 60,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 248
+    },
+    {
+      "id": "anthropics/skills:skills/theme-factory/SKILL.md",
+      "name": "theme-factory",
+      "source": "anthropics/skills",
+      "score": 40,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 52
+    },
+    {
+      "id": "anthropics/skills:skills/web-artifacts-builder/SKILL.md",
+      "name": "web-artifacts-builder",
+      "source": "anthropics/skills",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 68
+    },
+    {
+      "id": "anthropics/skills:skills/webapp-testing/SKILL.md",
+      "name": "webapp-testing",
+      "source": "anthropics/skills",
+      "score": 55,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 90
+    },
+    {
+      "id": "anthropics/skills:skills/xlsx/SKILL.md",
+      "name": "xlsx",
+      "source": "anthropics/skills",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 93
+    },
+    {
+      "id": "cline/cline:.agents/skills/cline-sdk/SKILL.md",
+      "name": "cline-sdk",
+      "source": "cline/cline",
+      "score": 65,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 201
+    },
+    {
+      "id": "cline/cline:.agents/skills/create-pull-request/SKILL.md",
+      "name": "create-pull-request",
+      "source": "cline/cline",
+      "score": 60,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 206
+    },
+    {
+      "id": "cline/cline:.agents/skills/opentui/SKILL.md",
+      "name": "opentui",
+      "source": "cline/cline",
+      "score": 55,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 193
+    },
+    {
+      "id": "cline/skills:skills/amazon-location-service/SKILL.md",
+      "name": "amazon-location-service",
+      "source": "cline/skills",
+      "score": 65,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 215
+    },
+    {
+      "id": "cline/skills:skills/amplify-workflow/SKILL.md",
+      "name": "amplify-workflow",
+      "source": "cline/skills",
+      "score": 60,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 211
+    },
+    {
+      "id": "cline/skills:skills/attorney-assist/SKILL.md",
+      "name": "attorney-assist",
+      "source": "cline/skills",
+      "score": 70,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 345
+    },
+    {
+      "id": "cline/skills:skills/building-pydantic-ai-agents/SKILL.md",
+      "name": "building-pydantic-ai-agents",
+      "source": "cline/skills",
+      "score": 65,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 268
+    },
+    {
+      "id": "cline/skills:skills/cline-session-search/SKILL.md",
+      "name": "cline-session-history",
+      "source": "cline/skills",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 111
+    },
+    {
+      "id": "cline/skills:skills/convex-design/SKILL.md",
+      "name": "convex-design",
+      "source": "cline/skills",
+      "score": 70,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 613
+    },
+    {
+      "id": "cline/skills:skills/cosmosdb-best-practices/SKILL.md",
+      "name": "cosmosdb-best-practices",
+      "source": "cline/skills",
+      "score": 55,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 148
+    },
+    {
+      "id": "cline/skills:skills/data-analyst/SKILL.md",
+      "name": "data-analyst",
+      "source": "cline/skills",
+      "score": 40,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 91
+    },
+    {
+      "id": "cline/skills:skills/data-analyst/skills/analyzer/SKILL.md",
+      "name": "analyzer",
+      "source": "cline/skills",
+      "score": 40,
+      "grade": "C",
+      "complexity": "low",
+      "body_lines": 33
+    },
+    {
+      "id": "cline/skills:skills/data-analyst/skills/artifact-management/SKILL.md",
+      "name": "artifact-management",
+      "source": "cline/skills",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 145
+    },
+    {
+      "id": "cline/skills:skills/data-analyst/skills/clickhouse/SKILL.md",
+      "name": "clickhouse",
+      "source": "cline/skills",
+      "score": 55,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 151
+    },
+    {
+      "id": "cline/skills:skills/data-analyst/skills/plotting/SKILL.md",
+      "name": "plotting",
+      "source": "cline/skills",
+      "score": 70,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 318
+    },
+    {
+      "id": "cline/skills:skills/data-analyst/skills/reading-data-dict/SKILL.md",
+      "name": "reading-data-dict",
+      "source": "cline/skills",
+      "score": 40,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 71
+    },
+    {
+      "id": "cline/skills:skills/data-analyst/skills/steering-user-elicitation/SKILL.md",
+      "name": "steering-user-elicitation",
+      "source": "cline/skills",
+      "score": 40,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 64
+    },
+    {
+      "id": "cline/skills:skills/dataproc-skills/SKILL.md",
+      "name": "dataproc-skills",
+      "source": "cline/skills",
+      "score": 40,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 66
+    },
+    {
+      "id": "cline/skills:skills/desktop-commander-overview/SKILL.md",
+      "name": "desktop-commander-overview",
+      "source": "cline/skills",
+      "score": 55,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 101
+    },
+    {
+      "id": "cline/skills:skills/dr-bedrock/SKILL.md",
+      "name": "dr-bedrock",
+      "source": "cline/skills",
+      "score": 60,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 284
+    },
+    {
+      "id": "cline/skills:skills/dsql/SKILL.md",
+      "name": "dsql",
+      "source": "cline/skills",
+      "score": 65,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 237
+    },
+    {
+      "id": "cline/skills:skills/endor-setup/SKILL.md",
+      "name": "endor-setup",
+      "source": "cline/skills",
+      "score": 70,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 447
+    },
+    {
+      "id": "cline/skills:skills/exa-search/SKILL.md",
+      "name": "exa-search",
+      "source": "cline/skills",
+      "score": 60,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 202
+    },
+    {
+      "id": "cline/skills:skills/firestore-data/SKILL.md",
+      "name": "firestore-data",
+      "source": "cline/skills",
+      "score": 55,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 146
+    },
+    {
+      "id": "cline/skills:skills/frontend-design/SKILL.md",
+      "name": "frontend-design",
+      "source": "cline/skills",
+      "score": 40,
+      "grade": "C",
+      "complexity": "low",
+      "body_lines": 36
+    },
+    {
+      "id": "cline/skills:skills/gcp-to-aws/SKILL.md",
+      "name": "gcp-to-aws",
+      "source": "cline/skills",
+      "score": 75,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 359
+    },
+    {
+      "id": "cline/skills:skills/knowledge-catalog-discovery/SKILL.md",
+      "name": "knowledge-catalog-discovery",
+      "source": "cline/skills",
+      "score": 45,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 87
+    },
+    {
+      "id": "cline/skills:skills/linear-sdk-scripting/SKILL.md",
+      "name": "linear-sdk-scripting",
+      "source": "cline/skills",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 190
+    },
+    {
+      "id": "cline/skills:skills/math-olympiad/SKILL.md",
+      "name": "math-olympiad",
+      "source": "cline/skills",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 395
+    },
+    {
+      "id": "cline/skills:skills/mintlify/SKILL.md",
+      "name": "mintlify",
+      "source": "cline/skills",
+      "score": 60,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 235
+    },
+    {
+      "id": "cline/skills:skills/oracledb/SKILL.md",
+      "name": "oracledb",
+      "source": "cline/skills",
+      "score": 45,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 81
+    },
+    {
+      "id": "cline/skills:skills/playground/SKILL.md",
+      "name": "playground",
+      "source": "cline/skills",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 71
+    },
+    {
+      "id": "cline/skills:skills/review-team/SKILL.md",
+      "name": "review-team",
+      "source": "cline/skills",
+      "score": 40,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 86
+    },
+    {
+      "id": "cline/skills:skills/sap-fiori-add-visual-filter/SKILL.md",
+      "name": "sap-fiori-add-visual-filter",
+      "source": "cline/skills",
+      "score": 60,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 231
+    },
+    {
+      "id": "cline/skills:skills/save-to-spotify/SKILL.md",
+      "name": "save-to-spotify",
+      "source": "cline/skills",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 123
+    },
+    {
+      "id": "cline/skills:skills/searching-sourcegraph/SKILL.md",
+      "name": "searching-sourcegraph",
+      "source": "cline/skills",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 150
+    },
+    {
+      "id": "cline/skills:skills/sentry-cli/SKILL.md",
+      "name": "sentry-cli",
+      "source": "cline/skills",
+      "score": 75,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 581
+    },
+    {
+      "id": "cline/skills:skills/session-report/SKILL.md",
+      "name": "session-report",
+      "source": "cline/skills",
+      "score": 40,
+      "grade": "C",
+      "complexity": "low",
+      "body_lines": 37
+    },
+    {
+      "id": "cline/skills:skills/site-specification/SKILL.md",
+      "name": "site-specification",
+      "source": "cline/skills",
+      "score": 70,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 322
+    },
+    {
+      "id": "cline/skills:skills/skill-creator/SKILL.md",
+      "name": "skill-creator",
+      "source": "cline/skills",
+      "score": 75,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 480
+    },
+    {
+      "id": "cline/skills:skills/spanner-data/SKILL.md",
+      "name": "spanner-data",
+      "source": "cline/skills",
+      "score": 45,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 69
+    },
+    {
+      "id": "cline/skills:skills/teamcity-cli/SKILL.md",
+      "name": "teamcity-cli",
+      "source": "cline/skills",
+      "score": 45,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 57
+    },
+    {
+      "id": "cline/skills:skills/ui5-typescript-conversion/SKILL.md",
+      "name": "ui5-typescript-conversion",
+      "source": "cline/skills",
+      "score": 65,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 787
+    },
+    {
+      "id": "cline/skills:skills/use-railway/SKILL.md",
+      "name": "use-railway",
+      "source": "cline/skills",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 330
+    },
+    {
+      "id": "cline/skills:skills/vibe-prospecting/SKILL.md",
+      "name": "vibe-prospecting",
+      "source": "cline/skills",
+      "score": 55,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 185
+    },
+    {
+      "id": "cline/skills:skills/windsor-ai-business-data/SKILL.md",
+      "name": "windsor-ai-business-data",
+      "source": "cline/skills",
+      "score": 40,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 72
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/chdb-datastore/SKILL.md",
+      "name": "chdb-datastore",
+      "source": "ClickHouse/agent-skills",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 124
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/chdb-sql/SKILL.md",
+      "name": "chdb-sql",
+      "source": "ClickHouse/agent-skills",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 91
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhouse-architecture-advisor/SKILL.md",
+      "name": "clickhouse-architecture-advisor",
+      "source": "ClickHouse/agent-skills",
+      "score": 55,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 114
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhouse-best-practices/SKILL.md",
+      "name": "clickhouse-best-practices",
+      "source": "ClickHouse/agent-skills",
+      "score": 75,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 265
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhouse-js-node-coding/SKILL.md",
+      "name": "clickhouse-js-node-coding",
+      "source": "ClickHouse/agent-skills",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 130
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhouse-js-node-rowbinary/SKILL.md",
+      "name": "clickhouse-js-node-rowbinary",
+      "source": "ClickHouse/agent-skills",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 101
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhouse-js-node-troubleshooting/SKILL.md",
+      "name": "clickhouse-js-node-troubleshooting",
+      "source": "ClickHouse/agent-skills",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 40
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhouse-managed-postgres-rca/SKILL.md",
+      "name": "clickhouse-managed-postgres-rca",
+      "source": "ClickHouse/agent-skills",
+      "score": 55,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 121
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhousectl-cloud-deploy/SKILL.md",
+      "name": "clickhousectl-cloud-deploy",
+      "source": "ClickHouse/agent-skills",
+      "score": 55,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 182
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickhousectl-local-dev/SKILL.md",
+      "name": "clickhousectl-local-dev",
+      "source": "ClickHouse/agent-skills",
+      "score": 55,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 163
+    },
+    {
+      "id": "ClickHouse/agent-skills:skills/clickstack-otel-collector/SKILL.md",
+      "name": "clickstack-otel-collector",
+      "source": "ClickHouse/agent-skills",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 845
+    },
+    {
+      "id": "supabase/agent-skills:skills/supabase/SKILL.md",
+      "name": "supabase",
+      "source": "supabase/agent-skills",
+      "score": 65,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 137
+    },
+    {
+      "id": "supabase/agent-skills:skills/supabase-postgres-best-practices/SKILL.md",
+      "name": "supabase-postgres-best-practices",
+      "source": "supabase/agent-skills",
+      "score": 55,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 52
+    },
+    {
+      "id": "ichuan/skills:skills/crawl4ai-fetch/SKILL.md",
+      "name": "crawl4ai-fetch",
+      "source": "ichuan/skills",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 66
+    },
+    {
+      "id": "ichuan/skills:skills/deploy-caddy-reverse-proxy/SKILL.md",
+      "name": "deploy-caddy-reverse-proxy",
+      "source": "ichuan/skills",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 599
+    },
+    {
+      "id": "ichuan/skills:skills/iterative-code-review/SKILL.md",
+      "name": "iterative-code-review",
+      "source": "ichuan/skills",
+      "score": 65,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 231
+    },
+    {
+      "id": "ichuan/skills:skills/multi-agent-review/SKILL.md",
+      "name": "multi-agent-review",
+      "source": "ichuan/skills",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 138
+    },
+    {
+      "id": "ichuan/skills:skills/prod-readiness-audit/SKILL.md",
+      "name": "prod-readiness-audit",
+      "source": "ichuan/skills",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 135
+    },
+    {
+      "id": "ichuan/skills:skills/repo-deploy-capture/SKILL.md",
+      "name": "repo-deploy-capture",
+      "source": "ichuan/skills",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 139
+    },
+    {
+      "id": "ichuan/skills:skills/roadmap-management/SKILL.md",
+      "name": "roadmap-management",
+      "source": "ichuan/skills",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 184
+    },
+    {
+      "id": "ichuan/skills:skills/searxng-search/SKILL.md",
+      "name": "searxng-search",
+      "source": "ichuan/skills",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 57
+    },
+    {
+      "id": "bakaschwarz/agent-skills:skills/handoff/SKILL.md",
+      "name": "handoff",
+      "source": "bakaschwarz/agent-skills",
+      "score": 40,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 92
+    },
+    {
+      "id": "bakaschwarz/agent-skills:skills/harness-audit/SKILL.md",
+      "name": "harness-audit",
+      "source": "bakaschwarz/agent-skills",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 188
+    },
+    {
+      "id": "bakaschwarz/agent-skills:skills/readme-update/SKILL.md",
+      "name": "readme-update",
+      "source": "bakaschwarz/agent-skills",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 137
+    },
+    {
+      "id": "bakaschwarz/agent-skills:skills/simple-issues/SKILL.md",
+      "name": "simple-issues",
+      "source": "bakaschwarz/agent-skills",
+      "score": 60,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 241
+    }
+  ]
+}

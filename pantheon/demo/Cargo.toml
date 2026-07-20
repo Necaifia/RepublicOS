@@ -1,0 +1,19 @@
+[package]
+name = "pantheon-demo"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+pantheon-kernel = { path = "../kernel" }
+pantheon-capabilities = { path = "../capabilities" }
+pantheon-event-bus = { path = "../event-bus" }
+pantheon-scheduler = { path = "../scheduler" }
+pantheon-metrics = { path = "../metrics" }
+pantheon-memory = { path = "../memory" }
+pantheon-plugin = { path = "../plugins" }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+rand = "0.8"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

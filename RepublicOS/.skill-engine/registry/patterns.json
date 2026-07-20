@@ -1,0 +1,453 @@
+{
+  "analysis_date": "2026-07-20T13:09:13.745456+00:00",
+  "top_sections": [
+    {
+      "section": "Workflow",
+      "count": 8
+    },
+    {
+      "section": "Usage",
+      "count": 7
+    },
+    {
+      "section": "Overview",
+      "count": 6
+    },
+    {
+      "section": "Scripts",
+      "count": 6
+    },
+    {
+      "section": "Prerequisites",
+      "count": 5
+    },
+    {
+      "section": "When to Apply",
+      "count": 5
+    },
+    {
+      "section": "Defaults",
+      "count": 4
+    },
+    {
+      "section": "Dependencies",
+      "count": 4
+    },
+    {
+      "section": "Quick Start",
+      "count": 4
+    },
+    {
+      "section": "Recommendations",
+      "count": 4
+    },
+    {
+      "section": "Best Practices",
+      "count": 4
+    },
+    {
+      "section": "How to Use This Skill",
+      "count": 4
+    },
+    {
+      "section": "Resources",
+      "count": 4
+    },
+    {
+      "section": "Core Principles",
+      "count": 4
+    },
+    {
+      "section": "Notes",
+      "count": 4
+    },
+    {
+      "section": "References",
+      "count": 4
+    },
+    {
+      "section": "Troubleshooting",
+      "count": 4
+    },
+    {
+      "section": "Quick Reference",
+      "count": 3
+    },
+    {
+      "section": "Reference Files",
+      "count": 3
+    },
+    {
+      "section": "When to Use This Skill",
+      "count": 3
+    }
+  ],
+  "top_tools": [
+    {
+      "tool": "gh",
+      "count": 75
+    },
+    {
+      "tool": "bash",
+      "count": 49
+    },
+    {
+      "tool": "git",
+      "count": 38
+    },
+    {
+      "tool": "shell",
+      "count": 23
+    },
+    {
+      "tool": "npm",
+      "count": 21
+    },
+    {
+      "tool": "pip",
+      "count": 18
+    },
+    {
+      "tool": "aws",
+      "count": 13
+    },
+    {
+      "tool": "az",
+      "count": 12
+    },
+    {
+      "tool": "editor",
+      "count": 7
+    },
+    {
+      "tool": "powershell",
+      "count": 5
+    },
+    {
+      "tool": "read_file",
+      "count": 3
+    },
+    {
+      "tool": "yarn",
+      "count": 3
+    },
+    {
+      "tool": "docker",
+      "count": 3
+    },
+    {
+      "tool": "gcloud",
+      "count": 1
+    },
+    {
+      "tool": "kubectl",
+      "count": 1
+    },
+    {
+      "tool": "cargo",
+      "count": 1
+    }
+  ],
+  "domain_patterns": {
+    "api": {
+      "common_sections": [
+        "Defaults",
+        "Prerequisites",
+        "Overview",
+        "How to Use This Skill",
+        "Before You Start",
+        "Output Requirement",
+        "⚠️ API Drift — Your Training Prior May Be Stale",
+        "Subcommands",
+        "Language Detection",
+        "Which Surface Should I Use?"
+      ],
+      "common_tools": [
+        "gh",
+        "git",
+        "bash",
+        "npm",
+        "pip",
+        "shell",
+        "aws",
+        "az",
+        "editor",
+        "yarn"
+      ]
+    },
+    "code_review": {
+      "common_sections": [
+        "Workflow",
+        "Overview",
+        "When to Apply",
+        "Dependencies",
+        "When to use this skill",
+        "How to use this skill",
+        "Common Mistakes",
+        "Output Format",
+        "How to Use",
+        "Troubleshooting"
+      ],
+      "common_tools": [
+        "gh",
+        "bash",
+        "git",
+        "pip",
+        "npm",
+        "shell",
+        "aws",
+        "az",
+        "read_file"
+      ]
+    },
+    "communication": {
+      "common_sections": [
+        "Dependencies",
+        "Scripts",
+        "Creating with pptxgenjs — gotchas",
+        "Editing existing decks and templates",
+        "Design Ideas",
+        "QA (Required)",
+        "Converting to Images",
+        "Slack Requirements",
+        "Core Workflow",
+        "Drawing Graphics"
+      ],
+      "common_tools": [
+        "bash",
+        "pip",
+        "gh",
+        "shell",
+        "npm",
+        "git"
+      ]
+    },
+    "database": {
+      "common_sections": [
+        "When to Apply",
+        "Usage",
+        "Scripts",
+        "References",
+        "Before You Start",
+        "Defaults",
+        "Prerequisites",
+        "Quick Reference",
+        "Core Principles",
+        "How to Use"
+      ],
+      "common_tools": [
+        "gh",
+        "bash",
+        "git",
+        "shell",
+        "pip",
+        "npm",
+        "aws",
+        "az",
+        "powershell",
+        "editor"
+      ]
+    },
+    "deploy": {
+      "common_sections": [
+        "Prerequisites",
+        "Resources",
+        "Workflow",
+        "Principles",
+        "Critical Rules",
+        "How to Use This Skill",
+        "Quick Decision Trees",
+        "Product Index",
+        "Defaults & Assumptions",
+        "Quick Start — Route to the Right Reference"
+      ],
+      "common_tools": [
+        "gh",
+        "bash",
+        "git",
+        "shell",
+        "npm",
+        "aws",
+        "pip",
+        "docker",
+        "az",
+        "read_file"
+      ]
+    },
+    "documentation": {
+      "common_sections": [
+        "Dependencies",
+        "Principles",
+        "DESIGN PHILOSOPHY CREATION",
+        "DEDUCING THE SUBTLE REFERENCE",
+        "CANVAS CREATION",
+        "FINAL STEP",
+        "MULTI-PAGE OPTION",
+        "When to Offer This Workflow",
+        "Stage 1: Context Gathering",
+        "Stage 2: Refinement & Structure"
+      ],
+      "common_tools": [
+        "gh",
+        "bash",
+        "git",
+        "npm",
+        "shell",
+        "pip",
+        "docker",
+        "az",
+        "read_file",
+        "kubectl"
+      ]
+    },
+    "infrastructure": {
+      "common_sections": [
+        "Prerequisites",
+        "Troubleshooting",
+        "References",
+        "Sub-skills",
+        "Intent block (first output for any data request)",
+        "Default workflow",
+        "Core rules",
+        "Standard answer shape",
+        "Scope",
+        "Step 1: Ensure clickhousectl is installed"
+      ],
+      "common_tools": [
+        "gh",
+        "bash",
+        "git",
+        "aws",
+        "shell",
+        "pip",
+        "az",
+        "docker",
+        "npm"
+      ]
+    },
+    "monitoring": {
+      "common_sections": [
+        "Defaults",
+        "Overview",
+        "When to Use This Skill",
+        "Amazon Location Service API Overview",
+        "Common Mistakes",
+        "API Selection Guidance",
+        "LLM Context Files",
+        "Key Guidance for Better Recommendations",
+        "MCP Server Integration",
+        "Additional Resources"
+      ],
+      "common_tools": [
+        "gh",
+        "git",
+        "aws",
+        "bash",
+        "npm",
+        "az",
+        "shell",
+        "powershell",
+        "docker"
+      ]
+    },
+    "security": {
+      "common_sections": [
+        "Prerequisites",
+        "Overview",
+        "Quick Start",
+        "Quick Reference",
+        "Defaults",
+        "Additional Resources",
+        "Reference Files",
+        "Core Principles",
+        "When to Offer This Workflow",
+        "Stage 1: Context Gathering"
+      ],
+      "common_tools": [
+        "gh",
+        "git",
+        "bash",
+        "npm",
+        "aws",
+        "shell",
+        "pip",
+        "az",
+        "editor",
+        "yarn"
+      ]
+    },
+    "test": {
+      "common_sections": [
+        "Communicating with the user",
+        "Creating a skill",
+        "Report structure",
+        "Executive summary",
+        "Key findings",
+        "Recommendations",
+        "Commit message format",
+        "Running and evaluating test cases",
+        "Improving the skill",
+        "Advanced: Blind comparison"
+      ],
+      "common_tools": [
+        "gh",
+        "git",
+        "az",
+        "npm",
+        "bash",
+        "aws",
+        "editor"
+      ]
+    },
+    "uncategorized": {
+      "common_sections": [
+        "Usage",
+        "Scripts",
+        "ALGORITHMIC PHILOSOPHY CREATION",
+        "DEDUCING THE CONCEPTUAL SEED",
+        "P5.JS IMPLEMENTATION",
+        "INTERACTIVE ARTIFACT CREATION",
+        "VARIATIONS & EXPLORATION",
+        "THE CREATIVE PROCESS",
+        "RESOURCES",
+        "Analysis patterns"
+      ],
+      "common_tools": [
+        "gh",
+        "bash",
+        "shell",
+        "powershell",
+        "az",
+        "npm",
+        "editor",
+        "pip"
+      ]
+    },
+    "utility": {
+      "common_sections": [
+        "Defaults",
+        "Communicating with the user",
+        "Creating a skill",
+        "Report structure",
+        "Executive summary",
+        "Key findings",
+        "Recommendations",
+        "Commit message format",
+        "Running and evaluating test cases",
+        "Improving the skill"
+      ],
+      "common_tools": [
+        "gh",
+        "bash",
+        "git",
+        "npm",
+        "shell",
+        "pip",
+        "aws",
+        "az",
+        "editor",
+        "read_file"
+      ]
+    }
+  }
+}

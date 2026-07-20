@@ -1,0 +1,39 @@
+services:
+  skill-engine:
+    build: .
+    container_name: republicos-skill-engine
+    command: ["--timeout", "600"]
+    volumes:
+      - ./registry:/app/registry
+      - ./.cache:/app/.cache
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: "no"
+
+  skill-engine-mcp:
+    build: .
+    container_name: republicos-skill-engine-mcp
+    entrypoint: ["python", "mcp-server.py"]
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./registry:/app/registry
+      - ./.cache:/app/.cache
+
+  skill-engine-dashboard:
+    build: .
+    container_name: republicos-skill-engine-dashboard
+    entrypoint: ["python", "dashboard.py"]
+    volumes:
+      - ./registry:/app/registry
+      - ./.cache:/app/.cache
+
+  skill-engine-scheduler:
+    build: .
+    container_name: republicos-skill-engine-scheduler
+    command: ["run"]
+    entrypoint: ["python", "scheduler.py"]
+    volumes:
+      - ./registry:/app/registry
+      - ./.cache:/app/.cache
+    restart: unless-stopped

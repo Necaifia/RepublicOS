@@ -1,0 +1,152 @@
+[
+  {
+    "run_number": 1,
+    "started_at": "2026-07-20T12:37:39.329736+00:00",
+    "completed_at": "2026-07-20T12:37:54.404276+00:00",
+    "stages": {
+      "discovery": "passed",
+      "analyzer": "passed",
+      "research": "passed",
+      "evolution": "passed",
+      "store": "passed"
+    },
+    "skills_count": 88,
+    "evolved_count": 88,
+    "all_passed": true
+  },
+  {
+    "run_number": 2,
+    "started_at": "2026-07-20T12:46:50.015070+00:00",
+    "completed_at": "2026-07-20T12:46:50.831438+00:00",
+    "stages": {
+      "store": "passed"
+    },
+    "skills_count": 88,
+    "evolved_count": 88,
+    "all_passed": true
+  },
+  {
+    "run_number": 3,
+    "started_at": "2026-07-20T12:49:47.035968+00:00",
+    "completed_at": "2026-07-20T12:50:11.200388+00:00",
+    "stages": {
+      "discovery": "passed",
+      "analyzer": "passed",
+      "research": "passed",
+      "evolution": "passed",
+      "store": "passed"
+    },
+    "skills_count": 88,
+    "evolved_count": 88,
+    "all_passed": true
+  },
+  {
+    "run_number": 4,
+    "started_at": "2026-07-20T12:56:16.380129+00:00",
+    "completed_at": "2026-07-20T12:56:17.214802+00:00",
+    "stages": {
+      "store": "passed"
+    },
+    "skills_count": 88,
+    "evolved_count": 88,
+    "all_passed": true
+  },
+  {
+    "run_number": 5,
+    "started_at": "2026-07-20T12:57:06.582843+00:00",
+    "completed_at": "2026-07-20T12:57:07.350125+00:00",
+    "stages": {
+      "store": "passed"
+    },
+    "skills_count": 88,
+    "evolved_count": 88,
+    "all_passed": true
+  },
+  {
+    "run_number": 6,
+    "started_at": "2026-07-20T13:03:04.488449+00:00",
+    "completed_at": "2026-07-20T13:03:05.670262+00:00",
+    "stages": {
+      "evolution": "passed",
+      "store": "passed"
+    },
+    "skills_count": 88,
+    "evolved_count": 88,
+    "all_passed": true
+  },
+  {
+    "run_number": 7,
+    "started_at": "2026-07-20T13:06:04.974669+00:00",
+    "completed_at": "2026-07-20T13:06:55.671952+00:00",
+    "stages": {
+      "discovery": "failed",
+      "analyzer": "passed",
+      "research": "passed",
+      "evolution": "passed",
+      "store": "passed"
+    },
+    "skills_count": 88,
+    "evolved_count": 88,
+    "all_passed": false
+  },
+  {
+    "run_number": 8,
+    "started_at": "2026-07-20T13:07:07.418894+00:00",
+    "completed_at": "2026-07-20T13:07:16.985175+00:00",
+    "stages": {
+      "discovery": "failed",
+      "analyzer": "passed",
+      "research": "passed",
+      "evolution": "passed",
+      "store": "passed"
+    },
+    "skills_count": 88,
+    "evolved_count": 88,
+    "all_passed": false
+  },
+  {
+    "run_number": 9,
+    "started_at": "2026-07-20T13:07:25.640141+00:00",
+    "completed_at": "2026-07-20T13:07:35.642624+00:00",
+    "stages": {
+      "discovery": "failed",
+      "analyzer": "passed",
+      "research": "passed",
+      "evolution": "passed",
+      "store": "passed"
+    },
+    "skills_count": 88,
+    "evolved_count": 88,
+    "all_passed": false
+  },
+  {
+    "run_number": 10,
+    "started_at": "2026-07-20T13:08:18.363651+00:00",
+    "completed_at": "2026-07-20T13:08:59.476723+00:00",
+    "stages": {
+      "discovery": "passed",
+      "analyzer": "passed",
+      "research": "passed",
+      "evolution": "passed",
+      "store": "passed"
+    },
+    "skills_count": 88,
+    "evolved_count": 88,
+    "all_passed": true
+  },
+  {
+    "run_number": 11,
+    "started_at": "2026-07-20T13:09:10.138262+00:00",
+    "completed_at": "2026-07-20T13:09:21.762185+00:00",
+    "stages": {
+      "discovery": "passed",
+      "analyzer": "passed",
+      "research": "passed",
+      "evolution": "passed",
+      "store": "passed"
+    },
+    "skills_count": 88,
+    "evolved_count": 88,
+    "all_passed": true
+  }
+]

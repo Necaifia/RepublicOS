@@ -1,0 +1,51 @@
+{
+  "analysis_date": "2026-07-20T13:09:13.746573+00:00",
+  "total_skills": 88,
+  "gaps": {
+    "underdeveloped": [
+      {
+        "domain": "communication",
+        "current": 2,
+        "expected": 5,
+        "deficit": 3
+      },
+      {
+        "domain": "deploy",
+        "current": 12,
+        "expected": 15,
+        "deficit": 3
+      },
+      {
+        "domain": "monitoring",
+        "current": 7,
+        "expected": 10,
+        "deficit": 3
+      },
+      {
+        "domain": "test",
+        "current": 12,
+        "expected": 15,
+        "deficit": 3
+      }
+    ],
+    "overcrowded": [
+      {
+        "domain": "code_review",
+        "current": 25,
+        "suggested_threshold": 10
+      },
+      {
+        "domain": "utility",
+        "current": 28,
+        "suggested_threshold": 5
+      }
+    ],
+    "missing_combinations": [],
+    "recommendations": [
+      "Create more communication skills (2/5)",
+      "Create more deploy skills (12/15)",
+      "Create more monitoring skills (7/10)",
+      "Create more test skills (12/15)"
+    ]
+  }
+}

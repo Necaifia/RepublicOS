@@ -1,0 +1,17 @@
+# cargo-mutants configuration
+# Run with: cargo mutants --all-features
+
+exclude = [
+  # Skip test files — we want to mutate source code only
+  "**/*test*",
+  "**/tests/",
+  # Skip CLI stub (no real logic)
+  "cli/src/main.rs",
+  # Skip benches (not production code)
+  "benches/",
+  # Skip demo entry
+  "demo/src/main.rs",
+]
+
+[test]
+timeout = 120

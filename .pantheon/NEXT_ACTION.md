@@ -1,19 +1,15 @@
 # Next Action
 
-## Task: REPL mode (from queue: "repl")
+## Task: Expression parser (from queue: "expression-parser")
 
-Enhance the CLI with:
-- Command history (up/down arrow support via rustyline or manual stdin)
-- Better error messages with context
-- Graceful handling of EOF (Ctrl+D)
-- Persistent history across sessions (optional)
+Parse full arithmetic expressions with operator precedence (PEMDAS).
 
 ## Success criteria
-- REPL starts with `cargo run`
-- `2 + 3` prints `= 5`
-- Division by zero prints clear error
-- `quit` / `exit` / Ctrl+D exits cleanly
+- Support `+`, `-`, `*`, `/` with correct precedence
+- Support parentheses `(2 + 3) * 4`
+- Support whitespace tolerance (`2+3` same as `2 + 3`)
 - All 17 existing tests still pass
+- New tests cover precedence, parentheses, chained operations
 
 ## Quality Gate
 Pass all 11 checks before committing.

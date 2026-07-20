@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = [
+    "kernel",
+    "capabilities",
+    "event-bus",
+    "scheduler",
+    "runtime",
+    "memory",
+    "metrics",
+    "cli",
+    "demo",
+    "benches",
+    "plugins",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "Pantheon Community License v1.0"

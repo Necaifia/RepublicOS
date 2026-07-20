@@ -1,0 +1,35 @@
+{
+  "total_discovered": 88,
+  "total_analyzed": 88,
+  "per_domain": {
+    "uncategorized": 8,
+    "code_review": 25,
+    "documentation": 15,
+    "database": 28,
+    "api": 16,
+    "utility": 28,
+    "security": 16,
+    "test": 12,
+    "communication": 2,
+    "deploy": 12,
+    "monitoring": 7,
+    "infrastructure": 10
+  },
+  "per_source": {
+    "anthropics/skills": 17,
+    "cline/cline": 3,
+    "cline/skills": 43,
+    "ClickHouse/agent-skills": 11,
+    "supabase/agent-skills": 2,
+    "ichuan/skills": 8,
+    "bakaschwarz/agent-skills": 4
+  },
+  "per_complexity": {
+    "low": 5,
+    "medium": 45,
+    "high": 38
+  },
+  "started_at": "2026-07-20T13:09:10.231929+00:00",
+  "completed_at": "2026-07-20T13:09:13.367915+00:00",
+  "errors": []
+}

@@ -1,0 +1,16 @@
+[package]
+name = "pantheon-plugin"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+pantheon-kernel = { path = "../kernel" }
+pantheon-capabilities = { path = "../capabilities" }
+pantheon-event-bus = { path = "../event-bus" }
+pantheon-scheduler = { path = "../scheduler" }
+pantheon-metrics = { path = "../metrics" }
+pantheon-memory = { path = "../memory" }
+
+[dev-dependencies]
+anyhow = "1"

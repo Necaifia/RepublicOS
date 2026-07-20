@@ -1,0 +1,37 @@
+{
+  "github_token": "",
+  "rate_limit_delay": 2.0,
+  "max_skills_per_source": 50,
+  "checkpoint_interval": 20,
+  "github_search_per_page": 30,
+  "known_repos": [
+    {"name": "anthropics/skills", "path": "skills", "label": "Anthropic"},
+    {"name": "cline/cline", "path": ".agents/skills", "label": "Cline"},
+    {"name": "cline/skills", "path": "skills", "label": "Cline Skills"},
+    {"name": "ClickHouse/agent-skills", "path": "skills", "label": "ClickHouse"},
+    {"name": "supabase/agent-skills", "path": "skills", "label": "Supabase"},
+    {"name": "ichuan/skills", "path": "skills", "label": "ichuan"},
+    {"name": "bakaschwarz/agent-skills", "path": "skills", "label": "bakaschwarz"},
+    {"name": "marcfargas/skills", "path": "skills", "label": "marcfargas"},
+    {"name": "achu-s/skills", "path": "skills", "label": "achu-s"},
+    {"name": "manifold-dev/skills", "path": "skills", "label": "Manifold"},
+    {"name": "openai/openai-agents-python", "path": "examples/agent-skills", "label": "OpenAI Agents"},
+    {"name": "crewAI/crewAI", "path": "src/crewai/utilities/skills", "label": "CrewAI"},
+    {"name": "langchain-ai/langchain-skills", "path": "skills", "label": "LangChain"}
+  ],
+  "domains": {
+    "deploy": ["deploy", "release", "rollout", "publish", "cd", "continuous delivery"],
+    "test": ["test", "testing", "qa", "quality", "coverage", "assert"],
+    "security": ["security", "audit", "vulnerability", "scan", "auth", "oauth", "secret"],
+    "database": ["database", "db", "sql", "query", "migration", "schema"],
+    "api": ["api", "rest", "graphql", "endpoint", "webhook"],
+    "infrastructure": ["infra", "terraform", "docker", "kubernetes", "k8s", "cloud"],
+    "monitoring": ["monitor", "observability", "logging", "metric", "alert", "trace"],
+    "code_review": ["review", "lint", "format", "style", "static analysis"],
+    "documentation": ["doc", "documentation", "readme", "wiki"],
+    "communication": ["email", "slack", "notification", "message", "webhook"],
+    "utility": ["utility", "helper", "tool", "script", "automation"],
+    "agent": ["agent", "autonomous", "multi-agent", "crew", "swarm"],
+    "ai": ["ai", "llm", "model", "gpt", "claude", "openai", "langchain"]
+  }
+}

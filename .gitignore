@@ -1,3 +1,4 @@
-/target/
+RepublicOS/.skill-engine/.cache/
+pantheon/target/
+pantheon/.cargo/
 **/target/
-Cargo.lock
