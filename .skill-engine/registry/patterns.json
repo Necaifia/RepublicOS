@@ -1,166 +1,218 @@
 {
-  "analysis_date": "2026-07-20T13:09:13.745456+00:00",
+  "analysis_date": "2026-07-20T14:06:49.514247+00:00",
   "top_sections": [
     {
+      "section": "Prerequisites",
+      "count": 353
+    },
+    {
+      "section": "Configuration",
+      "count": 294
+    },
+    {
+      "section": "Error Handling",
+      "count": 285
+    },
+    {
+      "section": "Verification",
+      "count": 280
+    },
+    {
+      "section": "Security",
+      "count": 148
+    },
+    {
+      "section": "Rollback",
+      "count": 112
+    },
+    {
       "section": "Workflow",
-      "count": 8
+      "count": 40
     },
     {
       "section": "Usage",
-      "count": 7
+      "count": 35
     },
     {
       "section": "Overview",
-      "count": 6
+      "count": 30
     },
     {
       "section": "Scripts",
-      "count": 6
-    },
-    {
-      "section": "Prerequisites",
-      "count": 5
+      "count": 30
     },
     {
       "section": "When to Apply",
-      "count": 5
+      "count": 25
     },
     {
       "section": "Defaults",
-      "count": 4
+      "count": 20
     },
     {
       "section": "Dependencies",
-      "count": 4
+      "count": 20
     },
     {
       "section": "Quick Start",
-      "count": 4
-    },
-    {
-      "section": "Recommendations",
-      "count": 4
+      "count": 20
     },
     {
       "section": "Best Practices",
-      "count": 4
+      "count": 20
     },
     {
       "section": "How to Use This Skill",
-      "count": 4
+      "count": 20
     },
     {
       "section": "Resources",
-      "count": 4
+      "count": 20
     },
     {
       "section": "Core Principles",
-      "count": 4
+      "count": 20
     },
     {
       "section": "Notes",
-      "count": 4
+      "count": 20
     },
     {
       "section": "References",
-      "count": 4
-    },
-    {
-      "section": "Troubleshooting",
-      "count": 4
-    },
-    {
-      "section": "Quick Reference",
-      "count": 3
-    },
-    {
-      "section": "Reference Files",
-      "count": 3
-    },
-    {
-      "section": "When to Use This Skill",
-      "count": 3
+      "count": 20
     }
   ],
   "top_tools": [
     {
       "tool": "gh",
-      "count": 75
+      "count": 375
     },
     {
       "tool": "bash",
-      "count": 49
+      "count": 241
     },
     {
       "tool": "git",
-      "count": 38
+      "count": 190
     },
     {
       "tool": "shell",
-      "count": 23
+      "count": 115
     },
     {
       "tool": "npm",
-      "count": 21
+      "count": 101
     },
     {
       "tool": "pip",
-      "count": 18
+      "count": 90
     },
     {
       "tool": "aws",
-      "count": 13
+      "count": 61
     },
     {
       "tool": "az",
-      "count": 12
+      "count": 56
     },
     {
       "tool": "editor",
-      "count": 7
+      "count": 35
     },
     {
       "tool": "powershell",
-      "count": 5
+      "count": 25
     },
     {
       "tool": "read_file",
-      "count": 3
+      "count": 15
     },
     {
       "tool": "yarn",
-      "count": 3
+      "count": 15
     },
     {
       "tool": "docker",
-      "count": 3
+      "count": 15
     },
     {
       "tool": "gcloud",
-      "count": 1
+      "count": 5
     },
     {
       "tool": "kubectl",
-      "count": 1
+      "count": 5
     },
     {
       "tool": "cargo",
-      "count": 1
+      "count": 5
     }
   ],
   "domain_patterns": {
+    "agent": {
+      "common_sections": [
+        "Prerequisites",
+        "Error Handling",
+        "Verification",
+        "Security",
+        "Configuration",
+        "Rollback",
+        "Workflow",
+        "Scope",
+        "Troubleshooting",
+        "Before You Start"
+      ],
+      "common_tools": [
+        "gh",
+        "bash",
+        "git",
+        "shell",
+        "npm",
+        "pip",
+        "aws",
+        "editor",
+        "docker",
+        "az"
+      ]
+    },
+    "ai": {
+      "common_sections": [
+        "Prerequisites",
+        "Error Handling",
+        "Verification",
+        "Configuration",
+        "Security",
+        "Rollback",
+        "Usage",
+        "Scripts",
+        "Defaults",
+        "How to Use This Skill"
+      ],
+      "common_tools": [
+        "gh",
+        "bash",
+        "git",
+        "npm",
+        "shell",
+        "pip",
+        "aws",
+        "az",
+        "editor",
+        "yarn"
+      ]
+    },
     "api": {
       "common_sections": [
-        "Defaults",
         "Prerequisites",
+        "Error Handling",
+        "Verification",
+        "Configuration",
+        "Rollback",
+        "Security",
+        "Defaults",
         "Overview",
         "How to Use This Skill",
-        "Before You Start",
-        "Output Requirement",
-        "⚠️ API Drift — Your Training Prior May Be Stale",
-        "Subcommands",
-        "Language Detection",
-        "Which Surface Should I Use?"
+        "Before You Start"
       ],
       "common_tools": [
         "gh",
@@ -177,16 +229,16 @@
     },
     "code_review": {
       "common_sections": [
+        "Prerequisites",
+        "Configuration",
+        "Security",
+        "Error Handling",
+        "Verification",
+        "Rollback",
         "Workflow",
         "Overview",
         "When to Apply",
-        "Dependencies",
-        "When to use this skill",
-        "How to use this skill",
-        "Common Mistakes",
-        "Output Format",
-        "How to Use",
-        "Troubleshooting"
+        "Dependencies"
       ],
       "common_tools": [
         "gh",
@@ -203,15 +255,15 @@
     "communication": {
       "common_sections": [
         "Dependencies",
+        "Prerequisites",
+        "Error Handling",
+        "Verification",
+        "Security",
+        "Rollback",
         "Scripts",
         "Creating with pptxgenjs — gotchas",
         "Editing existing decks and templates",
-        "Design Ideas",
-        "QA (Required)",
-        "Converting to Images",
-        "Slack Requirements",
-        "Core Workflow",
-        "Drawing Graphics"
+        "Design Ideas"
       ],
       "common_tools": [
         "bash",
@@ -224,16 +276,16 @@
     },
     "database": {
       "common_sections": [
+        "Prerequisites",
+        "Error Handling",
+        "Verification",
+        "Configuration",
+        "Rollback",
+        "Security",
         "When to Apply",
         "Usage",
         "Scripts",
-        "References",
-        "Before You Start",
-        "Defaults",
-        "Prerequisites",
-        "Quick Reference",
-        "Core Principles",
-        "How to Use"
+        "References"
       ],
       "common_tools": [
         "gh",
@@ -251,24 +303,24 @@
     "deploy": {
       "common_sections": [
         "Prerequisites",
+        "Error Handling",
+        "Verification",
+        "Security",
+        "Rollback",
+        "References",
+        "Troubleshooting",
         "Resources",
         "Workflow",
-        "Principles",
-        "Critical Rules",
-        "How to Use This Skill",
-        "Quick Decision Trees",
-        "Product Index",
-        "Defaults & Assumptions",
-        "Quick Start — Route to the Right Reference"
+        "Principles"
       ],
       "common_tools": [
         "gh",
         "bash",
         "git",
         "shell",
+        "pip",
         "npm",
         "aws",
-        "pip",
         "docker",
         "az",
         "read_file"
@@ -276,16 +328,16 @@
     },
     "documentation": {
       "common_sections": [
+        "Prerequisites",
+        "Configuration",
+        "Error Handling",
+        "Verification",
+        "Security",
+        "Rollback",
         "Dependencies",
         "Principles",
         "DESIGN PHILOSOPHY CREATION",
-        "DEDUCING THE SUBTLE REFERENCE",
-        "CANVAS CREATION",
-        "FINAL STEP",
-        "MULTI-PAGE OPTION",
-        "When to Offer This Workflow",
-        "Stage 1: Context Gathering",
-        "Stage 2: Refinement & Structure"
+        "DEDUCING THE SUBTLE REFERENCE"
       ],
       "common_tools": [
         "gh",
@@ -303,15 +355,15 @@
     "infrastructure": {
       "common_sections": [
         "Prerequisites",
+        "Error Handling",
+        "Verification",
+        "Security",
+        "Rollback",
+        "Configuration",
         "Troubleshooting",
         "References",
         "Sub-skills",
-        "Intent block (first output for any data request)",
-        "Default workflow",
-        "Core rules",
-        "Standard answer shape",
-        "Scope",
-        "Step 1: Ensure clickhousectl is installed"
+        "Intent block (first output for any data request)"
       ],
       "common_tools": [
         "gh",
@@ -327,49 +379,50 @@
     },
     "monitoring": {
       "common_sections": [
+        "Prerequisites",
+        "Error Handling",
+        "Verification",
+        "Configuration",
+        "Security",
         "Defaults",
         "Overview",
-        "When to Use This Skill",
-        "Amazon Location Service API Overview",
-        "Common Mistakes",
-        "API Selection Guidance",
-        "LLM Context Files",
-        "Key Guidance for Better Recommendations",
-        "MCP Server Integration",
-        "Additional Resources"
+        "Additional Resources",
+        "Reference Files",
+        "Quick Reference"
       ],
       "common_tools": [
         "gh",
         "git",
-        "aws",
         "bash",
         "npm",
-        "az",
         "shell",
-        "powershell",
-        "docker"
+        "aws",
+        "pip",
+        "az",
+        "editor",
+        "powershell"
       ]
     },
     "security": {
       "common_sections": [
         "Prerequisites",
+        "Configuration",
+        "Error Handling",
+        "Verification",
+        "Security",
+        "Workflow",
         "Overview",
-        "Quick Start",
-        "Quick Reference",
-        "Defaults",
-        "Additional Resources",
-        "Reference Files",
         "Core Principles",
-        "When to Offer This Workflow",
-        "Stage 1: Context Gathering"
+        "Usage",
+        "Quick Start"
       ],
       "common_tools": [
         "gh",
-        "git",
         "bash",
+        "git",
         "npm",
-        "aws",
         "shell",
+        "aws",
         "pip",
         "az",
         "editor",
@@ -378,25 +431,28 @@
     },
     "test": {
       "common_sections": [
-        "Communicating with the user",
-        "Creating a skill",
-        "Report structure",
-        "Executive summary",
-        "Key findings",
-        "Recommendations",
-        "Commit message format",
-        "Running and evaluating test cases",
-        "Improving the skill",
-        "Advanced: Blind comparison"
+        "Prerequisites",
+        "Configuration",
+        "Security",
+        "Error Handling",
+        "Verification",
+        "Workflow",
+        "Overview",
+        "Best Practices",
+        "Resources",
+        "Usage"
       ],
       "common_tools": [
         "gh",
         "git",
-        "az",
-        "npm",
         "bash",
+        "npm",
+        "az",
         "aws",
-        "editor"
+        "shell",
+        "editor",
+        "pip",
+        "read_file"
       ]
     },
     "uncategorized": {
@@ -425,16 +481,16 @@
     },
     "utility": {
       "common_sections": [
+        "Prerequisites",
+        "Configuration",
+        "Error Handling",
+        "Verification",
+        "Security",
+        "Rollback",
+        "Dependencies",
+        "When to Use This Skill",
         "Defaults",
-        "Communicating with the user",
-        "Creating a skill",
-        "Report structure",
-        "Executive summary",
-        "Key findings",
-        "Recommendations",
-        "Commit message format",
-        "Running and evaluating test cases",
-        "Improving the skill"
+        "Communicating with the user"
       ],
       "common_tools": [
         "gh",

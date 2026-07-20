@@ -1,25 +1,25 @@
 # Quality Benchmark Report
 
-*Generated: 2026-07-20T13:09:09.926855+00:00*
+*Generated: 2026-07-20T14:07:22.427452+00:00*
 
 ## Summary
 
 | Metric | Before | After | Change |
 |--------|--------|-------|--------|
-| Avg Quality Score | 33.9 | 65.8 | **+31.9** |
-| Tags in frontmatter | 0.0% | 90.9% | +90.9% |
-| Version in frontmatter | 4.5% | 100.0% | +95.5% |
-| Sections Added (total) | - | 362 | - |
-| Avg Description | - | - | +89.6 chars |
-| Avg Tokens | - | - | +203.0 tokens |
+| Avg Quality Score | 59.3 | 67.0 | **+7.7** |
+| Tags in frontmatter | 72.5% | 90.8% | +18.3% |
+| Version in frontmatter | 80.7% | 100.0% | +19.3% |
+| Sections Added (total) | - | 514 | - |
+| Avg Description | - | - | +57.6 chars |
+| Avg Tokens | - | - | +63.0 tokens |
 
 ## Grade Distribution
 
 | Grade | Before | After |
 |-------|--------|-------|
 | A | 0 | 0 |
-| B | 0 | 73 |
-| C | 15 | 15 |
+| B | 288 | 377 |
+| C | 75 | 59 |
 | D | 73 | 0 |
 
 ## Top 5 Improvements

@@ -7,11 +7,11 @@ description: Toolkit for styling artifacts with a theme. These artifacts can be 
 license: Complete terms in LICENSE.txt
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.741413+00:00'
+  evolved_at: '2026-07-20T14:07:04.492969+00:00'
 name: theme-factory
 tags:
-- documentation
 - utility
+- documentation
 version: 2
 ---
 

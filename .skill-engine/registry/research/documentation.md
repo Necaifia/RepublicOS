@@ -1,6 +1,6 @@
 # Research: documentation
 
-*Generated: 2026-07-20T13:09:19.977186+00:00*
+*Generated: 2026-07-20T14:07:03.355725+00:00*
 
 ## References Checked
 

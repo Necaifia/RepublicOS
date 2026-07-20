@@ -7,7 +7,7 @@ description: Applies Anthropic's official brand colors and typography to any sor
 license: Complete terms in LICENSE.txt
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.719033+00:00'
+  evolved_at: '2026-07-20T14:07:04.460041+00:00'
 name: brand-guidelines
 tags:
 - code_review

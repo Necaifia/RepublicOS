@@ -6,7 +6,7 @@ description: Run a configurable multi-model code review workflow from local CLI 
   linting, security scanning, and quality gates.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.862732+00:00'
+  evolved_at: '2026-07-20T14:07:04.708628+00:00'
 name: multi-agent-review
 tags:
 - code_review

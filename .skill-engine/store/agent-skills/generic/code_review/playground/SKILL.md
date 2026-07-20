@@ -6,7 +6,7 @@ description: Creates interactive HTML playgrounds — self-contained single-file
   security scanning, and quality gates.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.800703+00:00'
+  evolved_at: '2026-07-20T14:07:04.621894+00:00'
 name: playground
 tags:
 - code_review

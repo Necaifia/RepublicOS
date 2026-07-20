@@ -7,13 +7,13 @@ description: Act as an interactive data analyst for ClickHouse-backed analytics.
   conventions, eval-driven monitoring, and cost attribution.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.646360+00:00'
+  evolved_at: '2026-07-20T14:07:04.564502+00:00'
 name: data-analyst
 tags:
-- monitoring
-- infrastructure
 - code_review
+- monitoring
 - database
+- infrastructure
 version: 2
 ---
 

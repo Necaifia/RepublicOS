@@ -6,7 +6,7 @@ description: Troubleshoot local AWS Bedrock authentication and region configurat
   secret management, input validation, and audit logging throughout.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.779298+00:00'
+  evolved_at: '2026-07-20T14:07:04.584741+00:00'
 name: dr-bedrock
 tags:
 - security

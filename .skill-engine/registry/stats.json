@@ -1,19 +1,21 @@
 {
-  "total_discovered": 88,
-  "total_analyzed": 88,
+  "total_discovered": 436,
+  "total_analyzed": 436,
   "per_domain": {
     "uncategorized": 8,
-    "code_review": 25,
-    "documentation": 15,
-    "database": 28,
-    "api": 16,
-    "utility": 28,
-    "security": 16,
-    "test": 12,
-    "communication": 2,
-    "deploy": 12,
-    "monitoring": 7,
-    "infrastructure": 10
+    "code_review": 125,
+    "documentation": 75,
+    "database": 148,
+    "api": 80,
+    "utility": 132,
+    "security": 224,
+    "test": 112,
+    "communication": 10,
+    "deploy": 68,
+    "monitoring": 67,
+    "infrastructure": 50,
+    "ai": 236,
+    "agent": 84
   },
   "per_source": {
     "anthropics/skills": 17,
@@ -22,14 +24,15 @@
     "ClickHouse/agent-skills": 11,
     "supabase/agent-skills": 2,
     "ichuan/skills": 8,
-    "bakaschwarz/agent-skills": 4
+    "bakaschwarz/agent-skills": 4,
+    "Necaifia/RepublicOS": 348
   },
   "per_complexity": {
-    "low": 5,
-    "medium": 45,
-    "high": 38
+    "low": 9,
+    "medium": 201,
+    "high": 226
   },
-  "started_at": "2026-07-20T13:09:10.231929+00:00",
-  "completed_at": "2026-07-20T13:09:13.367915+00:00",
+  "started_at": "2026-07-20T14:06:39.419799+00:00",
+  "completed_at": "2026-07-20T14:06:47.891088+00:00",
   "errors": []
 }

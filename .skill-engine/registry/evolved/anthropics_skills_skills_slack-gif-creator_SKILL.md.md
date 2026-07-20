@@ -7,7 +7,7 @@ description: Knowledge and utilities for creating animated GIFs optimized for Sl
 license: Complete terms in LICENSE.txt
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.625439+00:00'
+  evolved_at: '2026-07-20T14:07:04.490409+00:00'
 name: slack-gif-creator
 tags:
 - communication

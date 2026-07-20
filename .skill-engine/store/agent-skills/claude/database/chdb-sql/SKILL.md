@@ -16,14 +16,14 @@ license: Apache-2.0
 metadata:
   author: chdb-io
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.830067+00:00'
+  evolved_at: '2026-07-20T14:07:04.663473+00:00'
   homepage: https://clickhouse.com/docs/chdb
   version: '4.1'
 name: chdb-sql
 tags:
-- infrastructure
 - code_review
 - database
+- infrastructure
 version: 2
 ---
 

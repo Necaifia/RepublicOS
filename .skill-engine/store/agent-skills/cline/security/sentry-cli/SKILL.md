@@ -2,10 +2,12 @@
 description: Guide for using the Sentry CLI to interact with Sentry from the command
   line. Use when the user asks about viewing issues, events, projects, organizations,
   making API calls, or authenticating with Sentry via CLI. Enforces least-privilege,
-  secret management, input validation, and audit logging throughout.
+  secret management, input validation, and audit logging throughout. Implements trace-level
+  observability with OpenTelemetry GenAI conventions, eval-driven monitoring, and
+  cost attribution.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.811477+00:00'
+  evolved_at: '2026-07-20T14:07:06.379598+00:00'
 name: sentry-cli
 requires:
   auth: true
@@ -621,3 +623,11 @@ sentry issue view PROJ-123 -w
 - Validate configuration at the start of execution
 - Document all configuration options and their effects
 - Support loading config from files when appropriate
+
+## Security
+
+- Never hardcode secrets, tokens, or credentials in skill files or scripts
+- Use environment variables or secret management tools for sensitive values
+- Validate all user inputs before processing
+- Follow least-privilege principle: request only the permissions you need
+- Log all security-relevant actions for audit

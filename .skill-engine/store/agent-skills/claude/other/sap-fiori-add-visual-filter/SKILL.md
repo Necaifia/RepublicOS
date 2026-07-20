@@ -6,7 +6,7 @@ description: Add visual filters (chart-based) to SAP Fiori Elements filter bar/v
 metadata:
   author: sap-fiori-tools
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.803968+00:00'
+  evolved_at: '2026-07-20T14:07:04.626370+00:00'
   version: 0.0.4
 name: sap-fiori-add-visual-filter
 tags: []

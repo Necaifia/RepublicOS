@@ -13,7 +13,7 @@ description: 'Use this skill any time a .pptx or .potx file is involved in any w
 license: Proprietary. LICENSE.txt has complete terms
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.617415+00:00'
+  evolved_at: '2026-07-20T14:07:06.118488+00:00'
 name: pptx
 tags:
 - communication

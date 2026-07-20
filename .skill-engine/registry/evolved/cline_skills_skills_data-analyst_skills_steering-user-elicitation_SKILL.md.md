@@ -6,7 +6,7 @@ description: Elicit and challenge data-analysis requirements before querying. Us
   monitoring, and cost attribution.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.653552+00:00'
+  evolved_at: '2026-07-20T14:07:04.577807+00:00'
 name: steering-user-elicitation
 tags:
 - monitoring

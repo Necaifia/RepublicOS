@@ -6,12 +6,12 @@ description: Comprehensive OpenTUI skill for building terminal user interfaces. 
   and PR-time verification gates.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.632292+00:00'
+  evolved_at: '2026-07-20T14:07:04.507845+00:00'
   references: core, react, solid
 name: opentui
 tags:
-- test
 - api
+- test
 version: 2
 ---
 

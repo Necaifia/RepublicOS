@@ -8,13 +8,13 @@ license: Apache-2.0
 metadata:
   author: ClickHouse Inc
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.690388+00:00'
+  evolved_at: '2026-07-20T14:07:04.690835+00:00'
   version: 0.6.0
 name: clickstack-otel-collector
 tags:
-- documentation
 - infrastructure
 - deploy
+- documentation
 version: 2
 ---
 

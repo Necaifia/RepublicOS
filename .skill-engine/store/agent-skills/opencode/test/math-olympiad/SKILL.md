@@ -11,7 +11,7 @@ description: Solve competition math problems (IMO, Putnam, USAMO, AIME) with adv
   intent-based authoring, and PR-time verification gates.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.663605+00:00'
+  evolved_at: '2026-07-20T14:07:06.420658+00:00'
 name: math-olympiad
 tags:
 - test

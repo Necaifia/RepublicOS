@@ -1,0 +1,103 @@
+---
+description: Web search via a self-hosted SearXNG aggregation server. Use when the
+  user asks to search the web, find URLs, look up information online, or research
+  a topic using a search engine. Returns URL, title, and snippet for each result.
+  Applies structured code review with automated linting, security scanning, and quality
+  gates. Uses AI-native test strategy with self-healing, intent-based authoring, and
+  PR-time verification gates.
+metadata:
+  evolved: true
+  evolved_at: '2026-07-20T14:07:05.295701+00:00'
+name: searxng-search
+tags:
+- code_review
+version: 2
+---
+
+# SearXNG Search
+
+Use `scripts/search.py` to perform web searches and return structured results.
+
+## Configuration
+
+Configuration is resolved in the following priority order:
+
+1. **Environment variables** (highest priority)
+2. **`.env` file** in the current working directory (auto-loaded if present)
+3. **Built-in defaults**
+
+| Env var         | Purpose                          | Default                        |
+|-----------------|----------------------------------|--------------------------------|
+| `SEARXNG_URL`   | Base URL of SearXNG instance     | `https://search.981234.xyz`    |
+| `SEARXNG_TOKEN` | Bearer token for auth (optional) | *(empty = no auth header sent)*|
+
+Example `.env`:
+
+```
+SEARXNG_URL=https://search.example.com
+SEARXNG_TOKEN=your-secret-token
+```
+
+## Usage
+
+```bash
+# Basic search (uses defaults)
+python3 scripts/search.py "query"
+
+# Paginate or limit
+python3 scripts/search.py "query" --page 2 --limit 5
+
+# Custom instance with auth
+SEARXNG_URL=https://my.instance.com SEARXNG_TOKEN=my-token python3 scripts/search.py "query"
+```
+
+## Output format
+
+NDJSON — one JSON object per line:
+
+```json
+{"url": "https://example.com", "title": "Page Title", "snippet": "Relevant excerpt..."}
+```
+
+## Workflow
+
+1. Run the script, capturing stdout.
+2. Parse NDJSON lines into a list of results.
+3. Present to the user as a numbered list of links with snippets.
+4. If the user wants more results, re-run with `--page N` or a higher `--limit`.
+
+## Notes
+
+- Default limit is 10; one server page typically returns ~40 results.
+- If `SEARXNG_TOKEN` is unset or empty, the `Authorization` header is omitted (public instances).
+- Script exits with code 1 and prints to stderr on HTTP or network failure.
+
+## Prerequisites
+
+- Ensure all required tools and dependencies are installed
+- Verify you have the necessary permissions and access credentials
+- Check that the target environment is in a known good state
+
+
+## Security
+
+- Never hardcode secrets, tokens, or credentials in skill files or scripts
+- Use environment variables or secret management tools for sensitive values
+- Validate all user inputs before processing
+- Follow least-privilege principle: request only the permissions you need
+- Log all security-relevant actions for audit
+
+## Error Handling
+
+- Always check the exit code or response status of commands before proceeding
+- On failure, log the error details and attempt recovery if a retry strategy exists
+- If recovery fails, report the error with context: what was attempted, what went wrong, and suggested next steps
+- Never silently ignore errors — treat unexpected output as potential failure
+
+
+## Verification
+
+- After each step, verify the expected outcome before continuing
+- Use idempotent checks: running the same action twice produces the same result
+- If verification fails, roll back the last change and report the issue
+- Log verification results for audit trail

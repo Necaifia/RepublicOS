@@ -9,11 +9,12 @@ description: 'Build with Aurora DSQL — manage schemas, execute queries, handle
   DSQL, DSQL query plan, DSQL EXPLAIN ANALYZE, DSQL ENUM, DSQL foreign key, DSQL OCC
   retry, DSQL multi-region, DSQL JSONB, DSQL GIN index, load into DSQL, load CSV into
   DSQL, bulk load DSQL, aurora-dsql-loader. Enforces least-privilege, secret management,
-  input validation, and audit logging throughout.'
+  input validation, and audit logging throughout. Implements trace-level observability
+  with OpenTelemetry GenAI conventions, eval-driven monitoring, and cost attribution.'
 license: Apache-2.0
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.782544+00:00'
+  evolved_at: '2026-07-20T14:07:06.365689+00:00'
   tags: aws, aurora, dsql, distributed-sql, distributed, distributed-database, database,
     serverless, serverless-database, postgresql, postgres, sql, schema, migration,
     multi-tenant, iam-auth, aurora-dsql, mcp, orm, enum, foreign-key, occ-retry, django,
@@ -292,3 +293,11 @@ Load [orm-guides/overview.md](references/orm-guides/overview.md) for adapter nam
 - Validate configuration at the start of execution
 - Document all configuration options and their effects
 - Support loading config from files when appropriate
+
+## Security
+
+- Never hardcode secrets, tokens, or credentials in skill files or scripts
+- Use environment variables or secret management tools for sensitive values
+- Validate all user inputs before processing
+- Follow least-privilege principle: request only the permissions you need
+- Log all security-relevant actions for audit

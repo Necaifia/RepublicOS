@@ -9,7 +9,7 @@ description: Find company & contact data. Turn your agent into a prospecting pla
   security scanning, and quality gates.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.823703+00:00'
+  evolved_at: '2026-07-20T14:07:04.655193+00:00'
   version: 0.1.62
 name: vibe-prospecting
 tags:

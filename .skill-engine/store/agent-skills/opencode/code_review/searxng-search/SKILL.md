@@ -6,7 +6,7 @@ description: Web search via a self-hosted SearXNG aggregation server. Use when t
   gates.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.867008+00:00'
+  evolved_at: '2026-07-20T14:07:04.726190+00:00'
 name: searxng-search
 tags:
 - code_review

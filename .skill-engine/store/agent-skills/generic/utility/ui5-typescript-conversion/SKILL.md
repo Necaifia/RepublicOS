@@ -3,7 +3,7 @@ description: A skill for converting UI5 (SAPUI5/OpenUI5) projects to TypeScript.
   current best practices for reliability, security, and maintainability.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.818128+00:00'
+  evolved_at: '2026-07-20T14:07:04.647879+00:00'
 name: ui5-typescript-conversion
 tags:
 - utility

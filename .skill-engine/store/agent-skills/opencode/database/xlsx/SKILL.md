@@ -15,7 +15,7 @@ description: 'Use this skill any time a spreadsheet file is the primary input or
 license: Proprietary. LICENSE.txt has complete terms
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.746423+00:00'
+  evolved_at: '2026-07-20T14:07:06.177258+00:00'
 name: xlsx
 tags:
 - code_review

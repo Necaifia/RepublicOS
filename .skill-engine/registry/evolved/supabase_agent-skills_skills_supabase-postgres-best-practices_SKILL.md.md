@@ -14,7 +14,7 @@ metadata:
   author: supabase
   date: January 2026
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.856118+00:00'
+  evolved_at: '2026-07-20T14:07:04.698347+00:00'
   organization: Supabase
   version: 1.1.1
 name: supabase-postgres-best-practices

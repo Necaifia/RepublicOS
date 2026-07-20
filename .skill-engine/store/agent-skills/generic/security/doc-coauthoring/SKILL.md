@@ -5,10 +5,11 @@ description: Guide users through a structured workflow for co-authoring document
   context, refine content through iteration, and verify the doc works for readers.
   Trigger when user mentions writing docs, creating proposals, drafting specs, or
   similar documentation tasks. Enforces least-privilege, secret management, input
-  validation, and audit logging throughout.
+  validation, and audit logging throughout. Implements trace-level observability with
+  OpenTelemetry GenAI conventions, eval-driven monitoring, and cost attribution.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.730873+00:00'
+  evolved_at: '2026-07-20T14:07:06.357578+00:00'
 name: doc-coauthoring
 tags:
 - documentation
@@ -416,3 +417,11 @@ Announce document completion. Provide a few final tips:
 - Validate configuration at the start of execution
 - Document all configuration options and their effects
 - Support loading config from files when appropriate
+
+## Security
+
+- Never hardcode secrets, tokens, or credentials in skill files or scripts
+- Use environment variables or secret management tools for sensitive values
+- Validate all user inputs before processing
+- Follow least-privilege principle: request only the permissions you need
+- Log all security-relevant actions for audit

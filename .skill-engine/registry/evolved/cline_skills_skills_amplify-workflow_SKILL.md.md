@@ -14,14 +14,14 @@ description: 'Build and deploy full-stack web and mobile apps with AWS Amplify G
   rollback actions.'
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.640429+00:00'
+  evolved_at: '2026-07-20T14:07:04.513972+00:00'
 name: amplify-workflow
 tags:
-- security
-- api
-- database
-- deploy
 - utility
+- deploy
+- database
+- api
+- security
 version: 2
 ---
 

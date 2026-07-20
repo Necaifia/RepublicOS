@@ -12,7 +12,7 @@ license: MIT
 metadata:
   author: cosmosdb-agent-kit
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.765596+00:00'
+  evolved_at: '2026-07-20T14:07:04.560619+00:00'
   version: 1.0.0
 name: cosmosdb-best-practices
 tags:

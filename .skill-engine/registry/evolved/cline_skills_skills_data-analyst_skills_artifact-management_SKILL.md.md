@@ -6,7 +6,7 @@ description: Save, organize, and describe reusable analysis artifacts such as SQ
   and query validation.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.768031+00:00'
+  evolved_at: '2026-07-20T14:07:04.567876+00:00'
 name: artifact-management
 tags:
 - database

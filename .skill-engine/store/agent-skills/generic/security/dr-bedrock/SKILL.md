@@ -3,10 +3,12 @@ description: Troubleshoot local AWS Bedrock authentication and region configurat
   for the Cline CLI as Dr. Bedrock. Use when users report Bedrock CLI errors, AWS
   profile/default-chain issues, credential_process/SSO/IAM credential failures, missing
   region, AccessDenied, model access, or provider config problems. Enforces least-privilege,
-  secret management, input validation, and audit logging throughout.
+  secret management, input validation, and audit logging throughout. Implements trace-level
+  observability with OpenTelemetry GenAI conventions, eval-driven monitoring, and
+  cost attribution.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.779298+00:00'
+  evolved_at: '2026-07-20T14:07:06.361369+00:00'
 name: dr-bedrock
 tags:
 - security
@@ -327,3 +329,11 @@ Do **not** invent an issue just to have one. If the config is coherent, AWS iden
 - Validate configuration at the start of execution
 - Document all configuration options and their effects
 - Support loading config from files when appropriate
+
+## Security
+
+- Never hardcode secrets, tokens, or credentials in skill files or scripts
+- Use environment variables or secret management tools for sensitive values
+- Validate all user inputs before processing
+- Follow least-privilege principle: request only the permissions you need
+- Log all security-relevant actions for audit

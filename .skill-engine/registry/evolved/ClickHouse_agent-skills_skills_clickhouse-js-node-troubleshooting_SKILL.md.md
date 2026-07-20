@@ -11,11 +11,11 @@ description: Troubleshoot and resolve common issues with the ClickHouse Node.js 
   and query validation.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.843540+00:00'
+  evolved_at: '2026-07-20T14:07:04.676212+00:00'
 name: clickhouse-js-node-troubleshooting
 tags:
-- database
 - api
+- database
 version: 2
 ---
 

@@ -3,7 +3,7 @@ description: Skills to interact with your Dataproc clusters and jobs. Follows cu
   best practices for reliability, security, and maintainability.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.774761+00:00'
+  evolved_at: '2026-07-20T14:07:04.579867+00:00'
 name: dataproc-skills
 tags: []
 version: 2

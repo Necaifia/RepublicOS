@@ -9,7 +9,7 @@ description: Search and browse Cline session history. Use when the user asks to 
   and maintainability.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.755883+00:00'
+  evolved_at: '2026-07-20T14:07:04.541920+00:00'
 name: cline-session-history
 tags:
 - utility

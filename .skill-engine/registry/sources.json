@@ -1,49 +1,49 @@
 {
   "anthropics/skills": {
     "label": "Anthropic",
-    "last_fetched": "2026-07-20T13:09:10.244632+00:00",
+    "last_fetched": "2026-07-20T14:06:39.465068+00:00",
     "status": "completed",
     "skills_found": 17
   },
   "cline/cline": {
     "label": "Cline",
-    "last_fetched": "2026-07-20T13:09:10.246512+00:00",
+    "last_fetched": "2026-07-20T14:06:39.469390+00:00",
     "status": "completed",
     "skills_found": 3
   },
   "cline/skills": {
     "label": "Cline Skills",
-    "last_fetched": "2026-07-20T13:09:10.257211+00:00",
+    "last_fetched": "2026-07-20T14:06:39.496306+00:00",
     "status": "completed",
     "skills_found": 43
   },
   "ClickHouse/agent-skills": {
     "label": "ClickHouse",
-    "last_fetched": "2026-07-20T13:09:10.261387+00:00",
+    "last_fetched": "2026-07-20T14:06:39.501619+00:00",
     "status": "completed",
     "skills_found": 11
   },
   "supabase/agent-skills": {
     "label": "Supabase",
-    "last_fetched": "2026-07-20T13:09:10.262123+00:00",
+    "last_fetched": "2026-07-20T14:06:39.502843+00:00",
     "status": "completed",
     "skills_found": 2
   },
   "ichuan/skills": {
     "label": "ichuan",
-    "last_fetched": "2026-07-20T13:09:10.263810+00:00",
+    "last_fetched": "2026-07-20T14:06:39.508528+00:00",
     "status": "completed",
     "skills_found": 8
   },
   "bakaschwarz/agent-skills": {
     "label": "bakaschwarz",
-    "last_fetched": "2026-07-20T13:09:10.264640+00:00",
+    "last_fetched": "2026-07-20T14:06:39.510214+00:00",
     "status": "completed",
     "skills_found": 4
   },
   "marcfargas/skills": {
     "label": "marcfargas",
-    "last_fetched": "2026-07-20T13:09:10.264750+00:00",
+    "last_fetched": "2026-07-20T14:06:39.510503+00:00",
     "status": "completed",
     "skills_found": 0
   },
@@ -61,7 +61,7 @@
   },
   "openai/openai-agents-python": {
     "label": "OpenAI Agents",
-    "last_fetched": "2026-07-20T13:09:12.369026+00:00",
+    "last_fetched": "2026-07-20T14:06:41.731459+00:00",
     "status": "completed",
     "skills_found": 0
   },
@@ -73,8 +73,14 @@
   },
   "langchain-ai/langchain-skills": {
     "label": "LangChain",
-    "last_fetched": "2026-07-20T13:09:13.367640+00:00",
+    "last_fetched": "2026-07-20T14:06:43.018212+00:00",
     "status": "completed",
     "skills_found": 0
+  },
+  "Necaifia/RepublicOS": {
+    "label": "RepublicOS Engine",
+    "last_fetched": "2026-07-20T14:06:45.628655+00:00",
+    "status": "completed",
+    "skills_found": 348
   }
 }

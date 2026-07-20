@@ -7,7 +7,7 @@ description: Use for Desktop Commander MCP capabilities — persistent shells an
   audience adaptation, and automated freshness checks.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.776832+00:00'
+  evolved_at: '2026-07-20T14:07:06.295512+00:00'
 name: desktop-commander-overview
 tags:
 - documentation

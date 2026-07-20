@@ -1,10 +1,10 @@
 {
-  "analysis_date": "2026-07-20T13:09:13.747305+00:00",
-  "average_score": 58.7,
+  "analysis_date": "2026-07-20T14:06:49.516374+00:00",
+  "average_score": 75.1,
   "grade_distribution": {
-    "A": 9,
-    "C": 44,
-    "B": 35
+    "A": 217,
+    "C": 52,
+    "B": 167
   },
   "all_scores": [
     {
@@ -798,6 +798,3138 @@
       "grade": "B",
       "complexity": "high",
       "body_lines": 241
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/api/frontend-design/SKILL.md",
+      "name": "frontend-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 88
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/api/mintlify/SKILL.md",
+      "name": "mintlify",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 274
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/code_review/attorney-assist/SKILL.md",
+      "name": "attorney-assist",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 368
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/code_review/brand-guidelines/SKILL.md",
+      "name": "brand-guidelines",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 90
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/code_review/crawl4ai-fetch/SKILL.md",
+      "name": "crawl4ai-fetch",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 81
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/code_review/create-pull-request/SKILL.md",
+      "name": "create-pull-request",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 229
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/code_review/docx/SKILL.md",
+      "name": "docx",
+      "source": "Necaifia/RepublicOS",
+      "score": 105,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 108
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/code_review/handoff/SKILL.md",
+      "name": "handoff",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 115
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/code_review/internal-comms/SKILL.md",
+      "name": "internal-comms",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "low",
+      "body_lines": 49
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/code_review/iterative-code-review/SKILL.md",
+      "name": "iterative-code-review",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 254
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/code_review/multi-agent-review/SKILL.md",
+      "name": "multi-agent-review",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 161
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/code_review/playground/SKILL.md",
+      "name": "playground",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 94
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/code_review/roadmap-management/SKILL.md",
+      "name": "roadmap-management",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 208
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/code_review/searching-sourcegraph/SKILL.md",
+      "name": "searching-sourcegraph",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 173
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/code_review/searxng-search/SKILL.md",
+      "name": "searxng-search",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 72
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/code_review/vibe-prospecting/SKILL.md",
+      "name": "vibe-prospecting",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 208
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/communication/pptx/SKILL.md",
+      "name": "pptx",
+      "source": "Necaifia/RepublicOS",
+      "score": 110,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 271
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/communication/slack-gif-creator/SKILL.md",
+      "name": "slack-gif-creator",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 287
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/artifact-management/SKILL.md",
+      "name": "artifact-management",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 183
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/chdb-datastore/SKILL.md",
+      "name": "chdb-datastore",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 164
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/chdb-sql/SKILL.md",
+      "name": "chdb-sql",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 131
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/claude-api/SKILL.md",
+      "name": "claude-api",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 607
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/clickhouse-best-practices/SKILL.md",
+      "name": "clickhouse-best-practices",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 303
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/clickhouse-js-node-coding/SKILL.md",
+      "name": "clickhouse-js-node-coding",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 168
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/clickhouse-js-node-troubleshooting/SKILL.md",
+      "name": "clickhouse-js-node-troubleshooting",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 78
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/clickhouse-managed-postgres-rca/SKILL.md",
+      "name": "clickhouse-managed-postgres-rca",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 159
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/cosmosdb-best-practices/SKILL.md",
+      "name": "cosmosdb-best-practices",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 186
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/exa-search/SKILL.md",
+      "name": "exa-search",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 240
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/firestore-data/SKILL.md",
+      "name": "firestore-data",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 184
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/linear-sdk-scripting/SKILL.md",
+      "name": "linear-sdk-scripting",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 228
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/plotting/SKILL.md",
+      "name": "plotting",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 356
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/spanner-data/SKILL.md",
+      "name": "spanner-data",
+      "source": "Necaifia/RepublicOS",
+      "score": 75,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 107
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/supabase-postgres-best-practices/SKILL.md",
+      "name": "supabase-postgres-best-practices",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 91
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/database/xlsx/SKILL.md",
+      "name": "xlsx",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 131
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/deploy/amplify-workflow/SKILL.md",
+      "name": "amplify-workflow",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 243
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/deploy/clickhouse/SKILL.md",
+      "name": "clickhouse",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 190
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/deploy/clickhousectl-cloud-deploy/SKILL.md",
+      "name": "clickhousectl-cloud-deploy",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 221
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/deploy/clickstack-otel-collector/SKILL.md",
+      "name": "clickstack-otel-collector",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 884
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/deploy/cline-sdk/SKILL.md",
+      "name": "cline-sdk",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 241
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/deploy/deploy-caddy-reverse-proxy/SKILL.md",
+      "name": "deploy-caddy-reverse-proxy",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 632
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/deploy/gcp-to-aws/SKILL.md",
+      "name": "gcp-to-aws",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 391
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/deploy/prod-readiness-audit/SKILL.md",
+      "name": "prod-readiness-audit",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 165
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/deploy/readme-update/SKILL.md",
+      "name": "readme-update",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 176
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/deploy/repo-deploy-capture/SKILL.md",
+      "name": "repo-deploy-capture",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 171
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/deploy/teamcity-cli/SKILL.md",
+      "name": "teamcity-cli",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 97
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/deploy/use-railway/SKILL.md",
+      "name": "use-railway",
+      "source": "Necaifia/RepublicOS",
+      "score": 110,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 369
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/documentation/canvas-design/SKILL.md",
+      "name": "canvas-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 138
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/documentation/desktop-commander-overview/SKILL.md",
+      "name": "desktop-commander-overview",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 115
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/documentation/theme-factory/SKILL.md",
+      "name": "theme-factory",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 66
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/infrastructure/simple-issues/SKILL.md",
+      "name": "simple-issues",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 280
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/monitoring/data-analyst/SKILL.md",
+      "name": "data-analyst",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 130
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/monitoring/oracledb/SKILL.md",
+      "name": "oracledb",
+      "source": "Necaifia/RepublicOS",
+      "score": 75,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 120
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/monitoring/reading-data-dict/SKILL.md",
+      "name": "reading-data-dict",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 110
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/monitoring/steering-user-elicitation/SKILL.md",
+      "name": "steering-user-elicitation",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 103
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/other/algorithmic-art/SKILL.md",
+      "name": "algorithmic-art",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 429
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/other/analyzer/SKILL.md",
+      "name": "analyzer",
+      "source": "Necaifia/RepublicOS",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 63
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/other/clickhouse-architecture-advisor/SKILL.md",
+      "name": "clickhouse-architecture-advisor",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 144
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/other/clickhousectl-local-dev/SKILL.md",
+      "name": "clickhousectl-local-dev",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 193
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/other/dataproc-skills/SKILL.md",
+      "name": "dataproc-skills",
+      "source": "Necaifia/RepublicOS",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 96
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/other/knowledge-catalog-discovery/SKILL.md",
+      "name": "knowledge-catalog-discovery",
+      "source": "Necaifia/RepublicOS",
+      "score": 65,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 117
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/other/sap-fiori-add-visual-filter/SKILL.md",
+      "name": "sap-fiori-add-visual-filter",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 261
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/other/save-to-spotify/SKILL.md",
+      "name": "save-to-spotify",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 153
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/security/amazon-location-service/SKILL.md",
+      "name": "amazon-location-service",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 254
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/security/convex-design/SKILL.md",
+      "name": "convex-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 643
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/security/doc-coauthoring/SKILL.md",
+      "name": "doc-coauthoring",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 400
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/security/dr-bedrock/SKILL.md",
+      "name": "dr-bedrock",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 314
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/security/dsql/SKILL.md",
+      "name": "dsql",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 267
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/security/endor-setup/SKILL.md",
+      "name": "endor-setup",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 477
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/security/harness-audit/SKILL.md",
+      "name": "harness-audit",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 218
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/security/pdf/SKILL.md",
+      "name": "pdf",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 338
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/security/sentry-cli/SKILL.md",
+      "name": "sentry-cli",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 604
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/security/supabase/SKILL.md",
+      "name": "supabase",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 167
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/test/building-pydantic-ai-agents/SKILL.md",
+      "name": "building-pydantic-ai-agents",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 298
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/test/frontend-design/SKILL.md",
+      "name": "frontend-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 66
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/test/math-olympiad/SKILL.md",
+      "name": "math-olympiad",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 425
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/test/mcp-builder/SKILL.md",
+      "name": "mcp-builder",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 260
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/test/opentui/SKILL.md",
+      "name": "opentui",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 224
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/test/review-team/SKILL.md",
+      "name": "review-team",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 116
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/test/skill-creator/SKILL.md",
+      "name": "skill-creator",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 510
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/test/webapp-testing/SKILL.md",
+      "name": "webapp-testing",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 120
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/test/windsor-ai-business-data/SKILL.md",
+      "name": "windsor-ai-business-data",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 102
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/utility/clickhouse-js-node-rowbinary/SKILL.md",
+      "name": "clickhouse-js-node-rowbinary",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 131
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/utility/cline-session-search/SKILL.md",
+      "name": "cline-session-history",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 141
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/utility/session-report/SKILL.md",
+      "name": "session-report",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 67
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/utility/site-specification/SKILL.md",
+      "name": "site-specification",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 352
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/utility/ui5-typescript-conversion/SKILL.md",
+      "name": "ui5-typescript-conversion",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 817
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/claude/utility/web-artifacts-builder/SKILL.md",
+      "name": "web-artifacts-builder",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 98
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/api/frontend-design/SKILL.md",
+      "name": "frontend-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 88
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/api/mintlify/SKILL.md",
+      "name": "mintlify",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 274
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/code_review/attorney-assist/SKILL.md",
+      "name": "attorney-assist",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 368
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/code_review/brand-guidelines/SKILL.md",
+      "name": "brand-guidelines",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 90
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/code_review/crawl4ai-fetch/SKILL.md",
+      "name": "crawl4ai-fetch",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 81
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/code_review/create-pull-request/SKILL.md",
+      "name": "create-pull-request",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 229
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/code_review/docx/SKILL.md",
+      "name": "docx",
+      "source": "Necaifia/RepublicOS",
+      "score": 105,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 108
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/code_review/handoff/SKILL.md",
+      "name": "handoff",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 115
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/code_review/internal-comms/SKILL.md",
+      "name": "internal-comms",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "low",
+      "body_lines": 49
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/code_review/iterative-code-review/SKILL.md",
+      "name": "iterative-code-review",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 254
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/code_review/multi-agent-review/SKILL.md",
+      "name": "multi-agent-review",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 161
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/code_review/playground/SKILL.md",
+      "name": "playground",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 94
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/code_review/roadmap-management/SKILL.md",
+      "name": "roadmap-management",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 208
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/code_review/searching-sourcegraph/SKILL.md",
+      "name": "searching-sourcegraph",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 173
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/code_review/searxng-search/SKILL.md",
+      "name": "searxng-search",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 72
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/code_review/vibe-prospecting/SKILL.md",
+      "name": "vibe-prospecting",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 208
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/communication/pptx/SKILL.md",
+      "name": "pptx",
+      "source": "Necaifia/RepublicOS",
+      "score": 110,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 271
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/communication/slack-gif-creator/SKILL.md",
+      "name": "slack-gif-creator",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 287
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/artifact-management/SKILL.md",
+      "name": "artifact-management",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 183
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/chdb-datastore/SKILL.md",
+      "name": "chdb-datastore",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 164
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/chdb-sql/SKILL.md",
+      "name": "chdb-sql",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 131
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/claude-api/SKILL.md",
+      "name": "claude-api",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 607
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/clickhouse-best-practices/SKILL.md",
+      "name": "clickhouse-best-practices",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 303
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/clickhouse-js-node-coding/SKILL.md",
+      "name": "clickhouse-js-node-coding",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 168
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/clickhouse-js-node-troubleshooting/SKILL.md",
+      "name": "clickhouse-js-node-troubleshooting",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 78
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/clickhouse-managed-postgres-rca/SKILL.md",
+      "name": "clickhouse-managed-postgres-rca",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 159
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/cosmosdb-best-practices/SKILL.md",
+      "name": "cosmosdb-best-practices",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 186
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/exa-search/SKILL.md",
+      "name": "exa-search",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 240
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/firestore-data/SKILL.md",
+      "name": "firestore-data",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 184
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/linear-sdk-scripting/SKILL.md",
+      "name": "linear-sdk-scripting",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 228
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/plotting/SKILL.md",
+      "name": "plotting",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 356
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/spanner-data/SKILL.md",
+      "name": "spanner-data",
+      "source": "Necaifia/RepublicOS",
+      "score": 75,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 107
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/supabase-postgres-best-practices/SKILL.md",
+      "name": "supabase-postgres-best-practices",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 91
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/database/xlsx/SKILL.md",
+      "name": "xlsx",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 131
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/deploy/amplify-workflow/SKILL.md",
+      "name": "amplify-workflow",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 243
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/deploy/clickhouse/SKILL.md",
+      "name": "clickhouse",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 190
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/deploy/clickhousectl-cloud-deploy/SKILL.md",
+      "name": "clickhousectl-cloud-deploy",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 221
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/deploy/clickstack-otel-collector/SKILL.md",
+      "name": "clickstack-otel-collector",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 884
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/deploy/cline-sdk/SKILL.md",
+      "name": "cline-sdk",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 241
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/deploy/deploy-caddy-reverse-proxy/SKILL.md",
+      "name": "deploy-caddy-reverse-proxy",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 632
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/deploy/gcp-to-aws/SKILL.md",
+      "name": "gcp-to-aws",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 391
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/deploy/prod-readiness-audit/SKILL.md",
+      "name": "prod-readiness-audit",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 165
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/deploy/readme-update/SKILL.md",
+      "name": "readme-update",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 176
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/deploy/repo-deploy-capture/SKILL.md",
+      "name": "repo-deploy-capture",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 171
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/deploy/teamcity-cli/SKILL.md",
+      "name": "teamcity-cli",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 97
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/deploy/use-railway/SKILL.md",
+      "name": "use-railway",
+      "source": "Necaifia/RepublicOS",
+      "score": 110,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 369
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/documentation/canvas-design/SKILL.md",
+      "name": "canvas-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 138
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/documentation/desktop-commander-overview/SKILL.md",
+      "name": "desktop-commander-overview",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 115
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/documentation/theme-factory/SKILL.md",
+      "name": "theme-factory",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 66
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/infrastructure/simple-issues/SKILL.md",
+      "name": "simple-issues",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 280
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/monitoring/data-analyst/SKILL.md",
+      "name": "data-analyst",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 130
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/monitoring/oracledb/SKILL.md",
+      "name": "oracledb",
+      "source": "Necaifia/RepublicOS",
+      "score": 75,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 120
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/monitoring/reading-data-dict/SKILL.md",
+      "name": "reading-data-dict",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 110
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/monitoring/steering-user-elicitation/SKILL.md",
+      "name": "steering-user-elicitation",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 103
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/other/algorithmic-art/SKILL.md",
+      "name": "algorithmic-art",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 429
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/other/analyzer/SKILL.md",
+      "name": "analyzer",
+      "source": "Necaifia/RepublicOS",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 63
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/other/clickhouse-architecture-advisor/SKILL.md",
+      "name": "clickhouse-architecture-advisor",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 144
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/other/clickhousectl-local-dev/SKILL.md",
+      "name": "clickhousectl-local-dev",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 193
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/other/dataproc-skills/SKILL.md",
+      "name": "dataproc-skills",
+      "source": "Necaifia/RepublicOS",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 96
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/other/knowledge-catalog-discovery/SKILL.md",
+      "name": "knowledge-catalog-discovery",
+      "source": "Necaifia/RepublicOS",
+      "score": 65,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 117
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/other/sap-fiori-add-visual-filter/SKILL.md",
+      "name": "sap-fiori-add-visual-filter",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 261
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/other/save-to-spotify/SKILL.md",
+      "name": "save-to-spotify",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 153
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/security/amazon-location-service/SKILL.md",
+      "name": "amazon-location-service",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 254
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/security/convex-design/SKILL.md",
+      "name": "convex-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 643
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/security/doc-coauthoring/SKILL.md",
+      "name": "doc-coauthoring",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 400
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/security/dr-bedrock/SKILL.md",
+      "name": "dr-bedrock",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 314
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/security/dsql/SKILL.md",
+      "name": "dsql",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 267
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/security/endor-setup/SKILL.md",
+      "name": "endor-setup",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 477
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/security/harness-audit/SKILL.md",
+      "name": "harness-audit",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 218
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/security/pdf/SKILL.md",
+      "name": "pdf",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 338
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/security/sentry-cli/SKILL.md",
+      "name": "sentry-cli",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 604
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/security/supabase/SKILL.md",
+      "name": "supabase",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 167
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/test/building-pydantic-ai-agents/SKILL.md",
+      "name": "building-pydantic-ai-agents",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 298
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/test/frontend-design/SKILL.md",
+      "name": "frontend-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 66
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/test/math-olympiad/SKILL.md",
+      "name": "math-olympiad",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 425
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/test/mcp-builder/SKILL.md",
+      "name": "mcp-builder",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 260
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/test/opentui/SKILL.md",
+      "name": "opentui",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 224
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/test/review-team/SKILL.md",
+      "name": "review-team",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 116
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/test/skill-creator/SKILL.md",
+      "name": "skill-creator",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 510
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/test/webapp-testing/SKILL.md",
+      "name": "webapp-testing",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 120
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/test/windsor-ai-business-data/SKILL.md",
+      "name": "windsor-ai-business-data",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 102
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/utility/clickhouse-js-node-rowbinary/SKILL.md",
+      "name": "clickhouse-js-node-rowbinary",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 131
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/utility/cline-session-search/SKILL.md",
+      "name": "cline-session-history",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 141
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/utility/session-report/SKILL.md",
+      "name": "session-report",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 67
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/utility/site-specification/SKILL.md",
+      "name": "site-specification",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 352
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/utility/ui5-typescript-conversion/SKILL.md",
+      "name": "ui5-typescript-conversion",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 817
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/cline/utility/web-artifacts-builder/SKILL.md",
+      "name": "web-artifacts-builder",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 98
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/api/frontend-design/SKILL.md",
+      "name": "frontend-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 88
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/api/mintlify/SKILL.md",
+      "name": "mintlify",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 274
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/code_review/attorney-assist/SKILL.md",
+      "name": "attorney-assist",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 368
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/code_review/brand-guidelines/SKILL.md",
+      "name": "brand-guidelines",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 90
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/code_review/crawl4ai-fetch/SKILL.md",
+      "name": "crawl4ai-fetch",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 81
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/code_review/create-pull-request/SKILL.md",
+      "name": "create-pull-request",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 229
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/code_review/docx/SKILL.md",
+      "name": "docx",
+      "source": "Necaifia/RepublicOS",
+      "score": 105,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 108
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/code_review/handoff/SKILL.md",
+      "name": "handoff",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 115
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/code_review/internal-comms/SKILL.md",
+      "name": "internal-comms",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "low",
+      "body_lines": 49
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/code_review/iterative-code-review/SKILL.md",
+      "name": "iterative-code-review",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 254
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/code_review/multi-agent-review/SKILL.md",
+      "name": "multi-agent-review",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 161
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/code_review/playground/SKILL.md",
+      "name": "playground",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 94
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/code_review/roadmap-management/SKILL.md",
+      "name": "roadmap-management",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 208
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/code_review/searching-sourcegraph/SKILL.md",
+      "name": "searching-sourcegraph",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 173
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/code_review/searxng-search/SKILL.md",
+      "name": "searxng-search",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 72
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/code_review/vibe-prospecting/SKILL.md",
+      "name": "vibe-prospecting",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 208
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/communication/pptx/SKILL.md",
+      "name": "pptx",
+      "source": "Necaifia/RepublicOS",
+      "score": 110,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 271
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/communication/slack-gif-creator/SKILL.md",
+      "name": "slack-gif-creator",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 287
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/artifact-management/SKILL.md",
+      "name": "artifact-management",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 183
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/chdb-datastore/SKILL.md",
+      "name": "chdb-datastore",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 164
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/chdb-sql/SKILL.md",
+      "name": "chdb-sql",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 131
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/claude-api/SKILL.md",
+      "name": "claude-api",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 607
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/clickhouse-best-practices/SKILL.md",
+      "name": "clickhouse-best-practices",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 303
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/clickhouse-js-node-coding/SKILL.md",
+      "name": "clickhouse-js-node-coding",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 168
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/clickhouse-js-node-troubleshooting/SKILL.md",
+      "name": "clickhouse-js-node-troubleshooting",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 78
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/clickhouse-managed-postgres-rca/SKILL.md",
+      "name": "clickhouse-managed-postgres-rca",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 159
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/cosmosdb-best-practices/SKILL.md",
+      "name": "cosmosdb-best-practices",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 186
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/exa-search/SKILL.md",
+      "name": "exa-search",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 240
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/firestore-data/SKILL.md",
+      "name": "firestore-data",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 184
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/linear-sdk-scripting/SKILL.md",
+      "name": "linear-sdk-scripting",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 228
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/plotting/SKILL.md",
+      "name": "plotting",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 356
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/spanner-data/SKILL.md",
+      "name": "spanner-data",
+      "source": "Necaifia/RepublicOS",
+      "score": 75,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 107
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/supabase-postgres-best-practices/SKILL.md",
+      "name": "supabase-postgres-best-practices",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 91
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/database/xlsx/SKILL.md",
+      "name": "xlsx",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 131
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/deploy/amplify-workflow/SKILL.md",
+      "name": "amplify-workflow",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 243
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/deploy/clickhouse/SKILL.md",
+      "name": "clickhouse",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 190
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/deploy/clickhousectl-cloud-deploy/SKILL.md",
+      "name": "clickhousectl-cloud-deploy",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 221
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/deploy/clickstack-otel-collector/SKILL.md",
+      "name": "clickstack-otel-collector",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 884
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/deploy/cline-sdk/SKILL.md",
+      "name": "cline-sdk",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 241
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/deploy/deploy-caddy-reverse-proxy/SKILL.md",
+      "name": "deploy-caddy-reverse-proxy",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 632
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/deploy/gcp-to-aws/SKILL.md",
+      "name": "gcp-to-aws",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 391
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/deploy/prod-readiness-audit/SKILL.md",
+      "name": "prod-readiness-audit",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 165
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/deploy/readme-update/SKILL.md",
+      "name": "readme-update",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 176
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/deploy/repo-deploy-capture/SKILL.md",
+      "name": "repo-deploy-capture",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 171
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/deploy/teamcity-cli/SKILL.md",
+      "name": "teamcity-cli",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 97
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/deploy/use-railway/SKILL.md",
+      "name": "use-railway",
+      "source": "Necaifia/RepublicOS",
+      "score": 110,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 369
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/documentation/canvas-design/SKILL.md",
+      "name": "canvas-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 138
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/documentation/desktop-commander-overview/SKILL.md",
+      "name": "desktop-commander-overview",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 115
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/documentation/theme-factory/SKILL.md",
+      "name": "theme-factory",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 66
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/infrastructure/simple-issues/SKILL.md",
+      "name": "simple-issues",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 280
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/monitoring/data-analyst/SKILL.md",
+      "name": "data-analyst",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 130
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/monitoring/oracledb/SKILL.md",
+      "name": "oracledb",
+      "source": "Necaifia/RepublicOS",
+      "score": 75,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 120
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/monitoring/reading-data-dict/SKILL.md",
+      "name": "reading-data-dict",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 110
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/monitoring/steering-user-elicitation/SKILL.md",
+      "name": "steering-user-elicitation",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 103
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/other/algorithmic-art/SKILL.md",
+      "name": "algorithmic-art",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 429
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/other/analyzer/SKILL.md",
+      "name": "analyzer",
+      "source": "Necaifia/RepublicOS",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 63
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/other/clickhouse-architecture-advisor/SKILL.md",
+      "name": "clickhouse-architecture-advisor",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 144
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/other/clickhousectl-local-dev/SKILL.md",
+      "name": "clickhousectl-local-dev",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 193
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/other/dataproc-skills/SKILL.md",
+      "name": "dataproc-skills",
+      "source": "Necaifia/RepublicOS",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 96
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/other/knowledge-catalog-discovery/SKILL.md",
+      "name": "knowledge-catalog-discovery",
+      "source": "Necaifia/RepublicOS",
+      "score": 65,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 117
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/other/sap-fiori-add-visual-filter/SKILL.md",
+      "name": "sap-fiori-add-visual-filter",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 261
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/other/save-to-spotify/SKILL.md",
+      "name": "save-to-spotify",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 153
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/security/amazon-location-service/SKILL.md",
+      "name": "amazon-location-service",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 254
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/security/convex-design/SKILL.md",
+      "name": "convex-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 643
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/security/doc-coauthoring/SKILL.md",
+      "name": "doc-coauthoring",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 400
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/security/dr-bedrock/SKILL.md",
+      "name": "dr-bedrock",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 314
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/security/dsql/SKILL.md",
+      "name": "dsql",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 267
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/security/endor-setup/SKILL.md",
+      "name": "endor-setup",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 477
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/security/harness-audit/SKILL.md",
+      "name": "harness-audit",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 218
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/security/pdf/SKILL.md",
+      "name": "pdf",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 338
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/security/sentry-cli/SKILL.md",
+      "name": "sentry-cli",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 604
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/security/supabase/SKILL.md",
+      "name": "supabase",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 167
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/test/building-pydantic-ai-agents/SKILL.md",
+      "name": "building-pydantic-ai-agents",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 298
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/test/frontend-design/SKILL.md",
+      "name": "frontend-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 66
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/test/math-olympiad/SKILL.md",
+      "name": "math-olympiad",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 425
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/test/mcp-builder/SKILL.md",
+      "name": "mcp-builder",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 260
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/test/opentui/SKILL.md",
+      "name": "opentui",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 224
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/test/review-team/SKILL.md",
+      "name": "review-team",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 116
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/test/skill-creator/SKILL.md",
+      "name": "skill-creator",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 510
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/test/webapp-testing/SKILL.md",
+      "name": "webapp-testing",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 120
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/test/windsor-ai-business-data/SKILL.md",
+      "name": "windsor-ai-business-data",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 102
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/utility/clickhouse-js-node-rowbinary/SKILL.md",
+      "name": "clickhouse-js-node-rowbinary",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 131
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/utility/cline-session-search/SKILL.md",
+      "name": "cline-session-history",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 141
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/utility/session-report/SKILL.md",
+      "name": "session-report",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 67
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/utility/site-specification/SKILL.md",
+      "name": "site-specification",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 352
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/utility/ui5-typescript-conversion/SKILL.md",
+      "name": "ui5-typescript-conversion",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 817
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/generic/utility/web-artifacts-builder/SKILL.md",
+      "name": "web-artifacts-builder",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 98
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/api/frontend-design/SKILL.md",
+      "name": "frontend-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 88
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/api/mintlify/SKILL.md",
+      "name": "mintlify",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 274
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/code_review/attorney-assist/SKILL.md",
+      "name": "attorney-assist",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 368
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/code_review/brand-guidelines/SKILL.md",
+      "name": "brand-guidelines",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 90
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/code_review/crawl4ai-fetch/SKILL.md",
+      "name": "crawl4ai-fetch",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 81
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/code_review/create-pull-request/SKILL.md",
+      "name": "create-pull-request",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 229
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/code_review/docx/SKILL.md",
+      "name": "docx",
+      "source": "Necaifia/RepublicOS",
+      "score": 105,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 108
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/code_review/handoff/SKILL.md",
+      "name": "handoff",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 115
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/code_review/internal-comms/SKILL.md",
+      "name": "internal-comms",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "low",
+      "body_lines": 49
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/code_review/iterative-code-review/SKILL.md",
+      "name": "iterative-code-review",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 254
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/code_review/multi-agent-review/SKILL.md",
+      "name": "multi-agent-review",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 161
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/code_review/playground/SKILL.md",
+      "name": "playground",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 94
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/code_review/roadmap-management/SKILL.md",
+      "name": "roadmap-management",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 208
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/code_review/searching-sourcegraph/SKILL.md",
+      "name": "searching-sourcegraph",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 173
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/code_review/searxng-search/SKILL.md",
+      "name": "searxng-search",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 72
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/code_review/vibe-prospecting/SKILL.md",
+      "name": "vibe-prospecting",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 208
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/communication/pptx/SKILL.md",
+      "name": "pptx",
+      "source": "Necaifia/RepublicOS",
+      "score": 110,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 271
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/communication/slack-gif-creator/SKILL.md",
+      "name": "slack-gif-creator",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 287
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/artifact-management/SKILL.md",
+      "name": "artifact-management",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 183
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/chdb-datastore/SKILL.md",
+      "name": "chdb-datastore",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 164
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/chdb-sql/SKILL.md",
+      "name": "chdb-sql",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 131
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/claude-api/SKILL.md",
+      "name": "claude-api",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 607
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/clickhouse-best-practices/SKILL.md",
+      "name": "clickhouse-best-practices",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 303
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/clickhouse-js-node-coding/SKILL.md",
+      "name": "clickhouse-js-node-coding",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 168
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/clickhouse-js-node-troubleshooting/SKILL.md",
+      "name": "clickhouse-js-node-troubleshooting",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 78
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/clickhouse-managed-postgres-rca/SKILL.md",
+      "name": "clickhouse-managed-postgres-rca",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 159
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/cosmosdb-best-practices/SKILL.md",
+      "name": "cosmosdb-best-practices",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 186
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/exa-search/SKILL.md",
+      "name": "exa-search",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 240
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/firestore-data/SKILL.md",
+      "name": "firestore-data",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 184
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/linear-sdk-scripting/SKILL.md",
+      "name": "linear-sdk-scripting",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 228
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/plotting/SKILL.md",
+      "name": "plotting",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 356
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/spanner-data/SKILL.md",
+      "name": "spanner-data",
+      "source": "Necaifia/RepublicOS",
+      "score": 75,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 107
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/supabase-postgres-best-practices/SKILL.md",
+      "name": "supabase-postgres-best-practices",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 91
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/database/xlsx/SKILL.md",
+      "name": "xlsx",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 131
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/deploy/amplify-workflow/SKILL.md",
+      "name": "amplify-workflow",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 243
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/deploy/clickhouse/SKILL.md",
+      "name": "clickhouse",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 190
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/deploy/clickhousectl-cloud-deploy/SKILL.md",
+      "name": "clickhousectl-cloud-deploy",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 221
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/deploy/clickstack-otel-collector/SKILL.md",
+      "name": "clickstack-otel-collector",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 884
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/deploy/cline-sdk/SKILL.md",
+      "name": "cline-sdk",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 241
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/deploy/deploy-caddy-reverse-proxy/SKILL.md",
+      "name": "deploy-caddy-reverse-proxy",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 632
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/deploy/gcp-to-aws/SKILL.md",
+      "name": "gcp-to-aws",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 391
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/deploy/prod-readiness-audit/SKILL.md",
+      "name": "prod-readiness-audit",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 165
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/deploy/readme-update/SKILL.md",
+      "name": "readme-update",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 176
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/deploy/repo-deploy-capture/SKILL.md",
+      "name": "repo-deploy-capture",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 171
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/deploy/teamcity-cli/SKILL.md",
+      "name": "teamcity-cli",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 97
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/deploy/use-railway/SKILL.md",
+      "name": "use-railway",
+      "source": "Necaifia/RepublicOS",
+      "score": 110,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 369
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/documentation/canvas-design/SKILL.md",
+      "name": "canvas-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 138
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/documentation/desktop-commander-overview/SKILL.md",
+      "name": "desktop-commander-overview",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 115
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/documentation/theme-factory/SKILL.md",
+      "name": "theme-factory",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 66
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/infrastructure/simple-issues/SKILL.md",
+      "name": "simple-issues",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 280
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/monitoring/data-analyst/SKILL.md",
+      "name": "data-analyst",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 130
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/monitoring/oracledb/SKILL.md",
+      "name": "oracledb",
+      "source": "Necaifia/RepublicOS",
+      "score": 75,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 120
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/monitoring/reading-data-dict/SKILL.md",
+      "name": "reading-data-dict",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 110
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/monitoring/steering-user-elicitation/SKILL.md",
+      "name": "steering-user-elicitation",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 103
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/other/algorithmic-art/SKILL.md",
+      "name": "algorithmic-art",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 429
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/other/analyzer/SKILL.md",
+      "name": "analyzer",
+      "source": "Necaifia/RepublicOS",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 63
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/other/clickhouse-architecture-advisor/SKILL.md",
+      "name": "clickhouse-architecture-advisor",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 144
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/other/clickhousectl-local-dev/SKILL.md",
+      "name": "clickhousectl-local-dev",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 193
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/other/dataproc-skills/SKILL.md",
+      "name": "dataproc-skills",
+      "source": "Necaifia/RepublicOS",
+      "score": 50,
+      "grade": "C",
+      "complexity": "medium",
+      "body_lines": 96
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/other/knowledge-catalog-discovery/SKILL.md",
+      "name": "knowledge-catalog-discovery",
+      "source": "Necaifia/RepublicOS",
+      "score": 65,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 117
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/other/sap-fiori-add-visual-filter/SKILL.md",
+      "name": "sap-fiori-add-visual-filter",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "high",
+      "body_lines": 261
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/other/save-to-spotify/SKILL.md",
+      "name": "save-to-spotify",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 153
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/security/amazon-location-service/SKILL.md",
+      "name": "amazon-location-service",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 254
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/security/convex-design/SKILL.md",
+      "name": "convex-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 643
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/security/doc-coauthoring/SKILL.md",
+      "name": "doc-coauthoring",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 400
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/security/dr-bedrock/SKILL.md",
+      "name": "dr-bedrock",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 314
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/security/dsql/SKILL.md",
+      "name": "dsql",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 267
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/security/endor-setup/SKILL.md",
+      "name": "endor-setup",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 477
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/security/harness-audit/SKILL.md",
+      "name": "harness-audit",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 218
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/security/pdf/SKILL.md",
+      "name": "pdf",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 338
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/security/sentry-cli/SKILL.md",
+      "name": "sentry-cli",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 604
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/security/supabase/SKILL.md",
+      "name": "supabase",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 167
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/test/building-pydantic-ai-agents/SKILL.md",
+      "name": "building-pydantic-ai-agents",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 298
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/test/frontend-design/SKILL.md",
+      "name": "frontend-design",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 66
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/test/math-olympiad/SKILL.md",
+      "name": "math-olympiad",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 425
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/test/mcp-builder/SKILL.md",
+      "name": "mcp-builder",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 260
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/test/opentui/SKILL.md",
+      "name": "opentui",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 224
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/test/review-team/SKILL.md",
+      "name": "review-team",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 116
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/test/skill-creator/SKILL.md",
+      "name": "skill-creator",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 510
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/test/webapp-testing/SKILL.md",
+      "name": "webapp-testing",
+      "source": "Necaifia/RepublicOS",
+      "score": 95,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 120
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/test/windsor-ai-business-data/SKILL.md",
+      "name": "windsor-ai-business-data",
+      "source": "Necaifia/RepublicOS",
+      "score": 70,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 102
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/utility/clickhouse-js-node-rowbinary/SKILL.md",
+      "name": "clickhouse-js-node-rowbinary",
+      "source": "Necaifia/RepublicOS",
+      "score": 80,
+      "grade": "A",
+      "complexity": "medium",
+      "body_lines": 131
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/utility/cline-session-search/SKILL.md",
+      "name": "cline-session-history",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 141
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/utility/session-report/SKILL.md",
+      "name": "session-report",
+      "source": "Necaifia/RepublicOS",
+      "score": 60,
+      "grade": "B",
+      "complexity": "medium",
+      "body_lines": 67
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/utility/site-specification/SKILL.md",
+      "name": "site-specification",
+      "source": "Necaifia/RepublicOS",
+      "score": 90,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 352
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/utility/ui5-typescript-conversion/SKILL.md",
+      "name": "ui5-typescript-conversion",
+      "source": "Necaifia/RepublicOS",
+      "score": 85,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 817
+    },
+    {
+      "id": "Necaifia/RepublicOS:.skill-engine/store/agent-skills/opencode/utility/web-artifacts-builder/SKILL.md",
+      "name": "web-artifacts-builder",
+      "source": "Necaifia/RepublicOS",
+      "score": 100,
+      "grade": "A",
+      "complexity": "high",
+      "body_lines": 98
     }
   ]
 }

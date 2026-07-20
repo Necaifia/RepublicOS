@@ -5,7 +5,7 @@ description: Guide for using the Sentry CLI to interact with Sentry from the com
   secret management, input validation, and audit logging throughout.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.811477+00:00'
+  evolved_at: '2026-07-20T14:07:04.635290+00:00'
 name: sentry-cli
 requires:
   auth: true

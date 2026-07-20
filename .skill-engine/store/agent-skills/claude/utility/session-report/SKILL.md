@@ -4,7 +4,7 @@ description: Generate an explorable HTML report of Claude Code session usage (to
   Follows current best practices for reliability, security, and maintainability.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.713786+00:00'
+  evolved_at: '2026-07-20T14:07:04.442512+00:00'
 name: session-report
 tags:
 - utility

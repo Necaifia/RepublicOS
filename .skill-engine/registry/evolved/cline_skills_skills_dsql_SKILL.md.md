@@ -13,7 +13,7 @@ description: 'Build with Aurora DSQL — manage schemas, execute queries, handle
 license: Apache-2.0
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.782544+00:00'
+  evolved_at: '2026-07-20T14:07:04.587988+00:00'
   tags: aws, aurora, dsql, distributed-sql, distributed, distributed-database, database,
     serverless, serverless-database, postgresql, postgres, sql, schema, migration,
     multi-tenant, iam-auth, aurora-dsql, mcp, orm, enum, foreign-key, occ-retry, django,

@@ -9,7 +9,7 @@ description: 'Minimalist project roadmap management using a position-based prior
   with automated linting, security scanning, and quality gates.'
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.864855+00:00'
+  evolved_at: '2026-07-20T14:07:04.721508+00:00'
 name: roadmap-management
 tags:
 - code_review

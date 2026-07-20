@@ -8,11 +8,11 @@ description: Guide users through a structured workflow for co-authoring document
   validation, and audit logging throughout.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.730873+00:00'
+  evolved_at: '2026-07-20T14:07:04.472016+00:00'
 name: doc-coauthoring
 tags:
-- documentation
 - security
+- documentation
 version: 2
 ---
 

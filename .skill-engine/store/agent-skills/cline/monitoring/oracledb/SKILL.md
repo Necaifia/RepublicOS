@@ -6,7 +6,7 @@ description: Use these skills to manage and monitor Oracle databases by executin
   monitoring, and cost attribution.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.666594+00:00'
+  evolved_at: '2026-07-20T14:07:06.311198+00:00'
 name: oracledb
 tags:
 - monitoring

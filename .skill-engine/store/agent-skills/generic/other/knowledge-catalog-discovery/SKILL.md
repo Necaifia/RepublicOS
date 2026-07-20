@@ -5,7 +5,7 @@ description: Use these skills when you need to discover and explore data assets 
   best practices for reliability, security, and maintainability.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.793976+00:00'
+  evolved_at: '2026-07-20T14:07:04.608336+00:00'
 name: knowledge-catalog-discovery
 tags: []
 version: 2

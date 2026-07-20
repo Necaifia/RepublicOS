@@ -12,7 +12,7 @@ license: MIT-0
 metadata:
   author: aws-geospatial
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.635123+00:00'
+  evolved_at: '2026-07-20T14:07:06.344398+00:00'
   version: '1.0'
 name: amazon-location-service
 tags:

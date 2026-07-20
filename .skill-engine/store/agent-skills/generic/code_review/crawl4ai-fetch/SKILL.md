@@ -5,7 +5,7 @@ description: Fetch any URL and convert it to clean Markdown via a self-hosted cr
   code review with automated linting, security scanning, and quality gates.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.858779+00:00'
+  evolved_at: '2026-07-20T14:07:04.701218+00:00'
 name: crawl4ai-fetch
 tags:
 - code_review

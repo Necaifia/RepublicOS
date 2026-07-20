@@ -11,11 +11,11 @@ description: 'Reference for the Claude API / Anthropic SDK — model ids, pricin
 
   SKIP only when another provider is being worked on (overrides all triggers): OpenAI/GPT/Gemini/Llama/Mistral/Cohere/Ollama
   named in the query; OR `grep -rE ''openai|langchain_openai|google.generativeai|genai|mistralai|cohere|ollama''`
-  over the project hits (run this grep FIRST '
+  over the project hits (run this grep FIRST.'
 license: Complete terms in LICENSE.txt
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.726705+00:00'
+  evolved_at: '2026-07-20T14:07:06.138241+00:00'
 name: claude-api
 tags:
 - database

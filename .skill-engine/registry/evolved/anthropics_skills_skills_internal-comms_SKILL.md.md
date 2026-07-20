@@ -8,7 +8,7 @@ description: A set of resources to help me write all kinds of internal communica
 license: Complete terms in LICENSE.txt
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.709448+00:00'
+  evolved_at: '2026-07-20T14:07:04.436327+00:00'
 name: internal-comms
 tags:
 - code_review

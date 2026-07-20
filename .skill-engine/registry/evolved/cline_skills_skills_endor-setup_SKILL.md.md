@@ -7,7 +7,7 @@ description: Use when user asks to setup endorctl, install endorctl, run endorct
   logging throughout.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.786085+00:00'
+  evolved_at: '2026-07-20T14:07:04.591166+00:00'
 name: endor-setup
 tags:
 - security

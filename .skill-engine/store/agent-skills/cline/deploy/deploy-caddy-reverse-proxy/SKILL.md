@@ -8,7 +8,7 @@ description: 'Deploy Caddy reverse proxy on remote servers with automatic SSL an
   compensating rollback actions.'
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.694026+00:00'
+  evolved_at: '2026-07-20T14:07:06.254135+00:00'
 name: deploy-caddy-reverse-proxy
 tags:
 - deploy

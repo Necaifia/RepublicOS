@@ -10,13 +10,13 @@ description: 'Use when doing ANY task involving Supabase. Triggers: Supabase pro
 metadata:
   author: supabase
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.850791+00:00'
+  evolved_at: '2026-07-20T14:07:04.694859+00:00'
   version: 0.1.2
 name: supabase
 tags:
 - security
-- database
 - api
+- database
 version: 2
 ---
 

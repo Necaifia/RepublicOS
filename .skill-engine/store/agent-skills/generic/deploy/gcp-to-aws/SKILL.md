@@ -14,16 +14,16 @@ description: 'Migrate workloads from Google Cloud Platform to AWS — including 
   for required modality, latency/quality '
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.659557+00:00'
+  evolved_at: '2026-07-20T14:07:04.605099+00:00'
 name: gcp-to-aws
 tags:
-- monitoring
-- test
-- api
-- database
-- deploy
-- infrastructure
 - utility
+- deploy
+- database
+- infrastructure
+- monitoring
+- api
+- test
 version: 2
 ---
 

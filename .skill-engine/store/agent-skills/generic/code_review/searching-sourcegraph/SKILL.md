@@ -5,7 +5,7 @@ description: Use when the user needs to search or navigate code with Sourcegraph
   review with automated linting, security scanning, and quality gates.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.808950+00:00'
+  evolved_at: '2026-07-20T14:07:04.632413+00:00'
 name: searching-sourcegraph
 tags:
 - code_review

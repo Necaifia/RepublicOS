@@ -8,7 +8,7 @@ description: Perform actions in Linear (read, create, update, search issues, pro
   actions, connection pooling, and query validation.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.796154+00:00'
+  evolved_at: '2026-07-20T14:07:06.164729+00:00'
 name: linear-sdk-scripting
 tags:
 - database

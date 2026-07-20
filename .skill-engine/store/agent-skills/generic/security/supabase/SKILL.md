@@ -6,11 +6,12 @@ description: 'Use when doing ANY task involving Supabase. Triggers: Supabase pro
   getClaims, RLS); Supabase CLI or MCP server; schema changes, migrations, declarative
   schemas, security audits, Postgres extensions (pg_graphql, pg_cron, pg_vector).
   Enforces least-privilege, secret management, input validation, and audit logging
-  throughout.'
+  throughout. Implements trace-level observability with OpenTelemetry GenAI conventions,
+  eval-driven monitoring, and cost attribution.'
 metadata:
   author: supabase
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.850791+00:00'
+  evolved_at: '2026-07-20T14:07:06.404744+00:00'
   version: 0.1.2
 name: supabase
 tags:
@@ -187,3 +188,11 @@ Do NOT use `apply_migration` to change a local database schema — it writes a m
 - Validate configuration at the start of execution
 - Document all configuration options and their effects
 - Support loading config from files when appropriate
+
+## Security
+
+- Never hardcode secrets, tokens, or credentials in skill files or scripts
+- Use environment variables or secret management tools for sensitive values
+- Validate all user inputs before processing
+- Follow least-privilege principle: request only the permissions you need
+- Log all security-relevant actions for audit

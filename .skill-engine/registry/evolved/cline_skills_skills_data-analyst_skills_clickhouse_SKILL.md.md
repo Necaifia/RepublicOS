@@ -8,13 +8,13 @@ description: Connect to and query ClickHouse (a local server or a ClickHouse Clo
   rollouts, and compensating rollback actions.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.648567+00:00'
+  evolved_at: '2026-07-20T14:07:04.570518+00:00'
 name: clickhouse
 tags:
 - infrastructure
 - security
-- database
 - deploy
+- database
 version: 2
 ---
 

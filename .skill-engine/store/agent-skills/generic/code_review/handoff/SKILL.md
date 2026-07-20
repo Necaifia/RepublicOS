@@ -8,12 +8,12 @@ description: Create a structured handoff document at context/handoff.md at the e
   with automated linting, security scanning, and quality gates.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.869708+00:00'
+  evolved_at: '2026-07-20T14:07:04.728897+00:00'
 name: handoff
 tags:
-- documentation
 - code_review
 - utility
+- documentation
 version: 2
 ---
 

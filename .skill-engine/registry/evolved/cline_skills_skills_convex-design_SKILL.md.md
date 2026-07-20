@@ -7,7 +7,7 @@ description: Design and build reactive, type-safe, production-grade backends on 
 license: Complete terms in LICENSE.txt
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.761090+00:00'
+  evolved_at: '2026-07-20T14:07:04.554577+00:00'
 name: convex-design
 paths:
 - convex/**

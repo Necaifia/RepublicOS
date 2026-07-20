@@ -5,7 +5,7 @@ description: Connects the user with a LegalZoom attorney for legal consultation.
   automated linting, security scanning, and quality gates.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.751276+00:00'
+  evolved_at: '2026-07-20T14:07:04.521800+00:00'
 name: attorney-assist
 tags:
 - code_review

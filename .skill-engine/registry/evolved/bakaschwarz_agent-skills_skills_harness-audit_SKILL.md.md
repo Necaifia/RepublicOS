@@ -7,12 +7,12 @@ description: Use this skill when the user asks to evaluate, review, audit, sanit
   input validation, and audit logging throughout.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.873325+00:00'
+  evolved_at: '2026-07-20T14:07:04.732041+00:00'
 name: harness-audit
 tags:
-- security
 - code_review
 - utility
+- security
 version: 2
 ---
 

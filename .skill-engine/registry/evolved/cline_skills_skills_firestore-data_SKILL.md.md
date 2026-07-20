@@ -5,12 +5,12 @@ description: Handles NoSQL document operations and collection hierarchy explorat
   pooling, and query validation.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.791900+00:00'
+  evolved_at: '2026-07-20T14:07:04.596296+00:00'
 name: firestore-data
 tags:
 - documentation
-- database
 - api
+- database
 version: 2
 ---
 

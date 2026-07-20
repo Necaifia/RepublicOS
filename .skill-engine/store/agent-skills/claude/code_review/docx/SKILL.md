@@ -14,11 +14,11 @@ description: 'Use this skill whenever the user wants to create, read, edit, or m
 license: Proprietary. LICENSE.txt has complete terms
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.734082+00:00'
+  evolved_at: '2026-07-20T14:07:04.475215+00:00'
 name: docx
 tags:
-- documentation
 - code_review
+- documentation
 version: 2
 ---
 

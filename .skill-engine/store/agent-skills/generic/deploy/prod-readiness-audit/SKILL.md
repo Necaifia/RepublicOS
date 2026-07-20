@@ -7,7 +7,7 @@ description: Audit and harden a project before production release, then fix issu
   intent-based authoring, and PR-time verification gates.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.696853+00:00'
+  evolved_at: '2026-07-20T14:07:06.272553+00:00'
 name: prod-readiness-audit
 tags:
 - security

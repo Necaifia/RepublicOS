@@ -8,7 +8,7 @@ description: Write idiomatic application code with the ClickHouse Node.js client
   validation.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.839016+00:00'
+  evolved_at: '2026-07-20T14:07:06.145584+00:00'
 name: clickhouse-js-node-coding
 tags:
 - code_review

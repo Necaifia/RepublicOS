@@ -7,7 +7,7 @@ description: Use this skill whenever the user mentions issues, tasks, tickets, w
   deployments, health checks, and circuit breakers.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.875931+00:00'
+  evolved_at: '2026-07-20T14:07:04.738039+00:00'
 name: simple-issues
 tags:
 - infrastructure

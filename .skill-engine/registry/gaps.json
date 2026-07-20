@@ -1,51 +1,61 @@
 {
-  "analysis_date": "2026-07-20T13:09:13.746573+00:00",
-  "total_skills": 88,
+  "analysis_date": "2026-07-20T14:06:49.515590+00:00",
+  "total_skills": 436,
   "gaps": {
-    "underdeveloped": [
-      {
-        "domain": "communication",
-        "current": 2,
-        "expected": 5,
-        "deficit": 3
-      },
-      {
-        "domain": "deploy",
-        "current": 12,
-        "expected": 15,
-        "deficit": 3
-      },
-      {
-        "domain": "monitoring",
-        "current": 7,
-        "expected": 10,
-        "deficit": 3
-      },
-      {
-        "domain": "test",
-        "current": 12,
-        "expected": 15,
-        "deficit": 3
-      }
-    ],
+    "underdeveloped": [],
     "overcrowded": [
       {
+        "domain": "api",
+        "current": 80,
+        "suggested_threshold": 15
+      },
+      {
         "domain": "code_review",
-        "current": 25,
+        "current": 125,
         "suggested_threshold": 10
       },
       {
+        "domain": "database",
+        "current": 148,
+        "suggested_threshold": 15
+      },
+      {
+        "domain": "deploy",
+        "current": 68,
+        "suggested_threshold": 15
+      },
+      {
+        "domain": "documentation",
+        "current": 75,
+        "suggested_threshold": 10
+      },
+      {
+        "domain": "infrastructure",
+        "current": 50,
+        "suggested_threshold": 10
+      },
+      {
+        "domain": "monitoring",
+        "current": 67,
+        "suggested_threshold": 10
+      },
+      {
+        "domain": "security",
+        "current": 224,
+        "suggested_threshold": 15
+      },
+      {
+        "domain": "test",
+        "current": 112,
+        "suggested_threshold": 15
+      },
+      {
         "domain": "utility",
-        "current": 28,
+        "current": 132,
         "suggested_threshold": 5
       }
     ],
     "missing_combinations": [],
-    "recommendations": [
-      "Create more communication skills (2/5)",
-      "Create more deploy skills (12/15)",
-      "Create more monitoring skills (7/10)",
-      "Create more test skills (12/15)"
-    ]
+    "recommendations": []
   }
 }

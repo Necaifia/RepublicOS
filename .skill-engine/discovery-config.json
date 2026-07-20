@@ -17,7 +17,9 @@
     {"name": "manifold-dev/skills", "path": "skills", "label": "Manifold"},
     {"name": "openai/openai-agents-python", "path": "examples/agent-skills", "label": "OpenAI Agents"},
     {"name": "crewAI/crewAI", "path": "src/crewai/utilities/skills", "label": "CrewAI"},
-    {"name": "langchain-ai/langchain-skills", "path": "skills", "label": "LangChain"}
+    {"name": "langchain-ai/langchain-skills", "path": "skills", "label": "LangChain"},
+    {"name": "Necaifia/RepublicOS", "path": ".skill-engine", "label": "RepublicOS Engine"},
+    {"name": "Necaifia/RepublicOS", "path": ".skill-engine/store/agent-skills", "label": "RepublicOS Store"}
   ],
   "domains": {
     "deploy": ["deploy", "release", "rollout", "publish", "cd", "continuous delivery"],

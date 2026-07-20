@@ -5,11 +5,12 @@ description: Use this skill whenever the user wants to do anything with PDF file
   creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images,
   and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file
   or asks to produce one, use this skill. Enforces least-privilege, secret management,
-  input validation, and audit logging throughout.
+  input validation, and audit logging throughout. Implements trace-level observability
+  with OpenTelemetry GenAI conventions, eval-driven monitoring, and cost attribution.
 license: Proprietary. LICENSE.txt has complete terms
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.738477+00:00'
+  evolved_at: '2026-07-20T14:07:06.376238+00:00'
 name: pdf
 tags:
 - security
@@ -354,3 +355,11 @@ with open("encrypted.pdf", "wb") as output:
 - Validate configuration at the start of execution
 - Document all configuration options and their effects
 - Support loading config from files when appropriate
+
+## Security
+
+- Never hardcode secrets, tokens, or credentials in skill files or scripts
+- Use environment variables or secret management tools for sensitive values
+- Validate all user inputs before processing
+- Follow least-privilege principle: request only the permissions you need
+- Log all security-relevant actions for audit

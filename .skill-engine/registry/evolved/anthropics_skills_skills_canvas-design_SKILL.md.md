@@ -7,7 +7,7 @@ description: Create beautiful visual art in .png and .pdf documents using design
 license: Complete terms in LICENSE.txt
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.722429+00:00'
+  evolved_at: '2026-07-20T14:07:04.462338+00:00'
 name: canvas-design
 tags:
 - documentation

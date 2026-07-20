@@ -7,7 +7,7 @@ description: Query Windsor.ai business data across marketing, sales, CRM, ecomme
 disable-model-invocation: false
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.683710+00:00'
+  evolved_at: '2026-07-20T14:07:06.449919+00:00'
 name: windsor-ai-business-data
 tags:
 - test

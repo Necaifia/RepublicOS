@@ -8,7 +8,7 @@ description: Create standardized charts and visual assets from analytics query r
   and query validation.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.772054+00:00'
+  evolved_at: '2026-07-20T14:07:06.167781+00:00'
 name: plotting
 tags:
 - database

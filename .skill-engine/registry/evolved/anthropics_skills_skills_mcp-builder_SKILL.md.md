@@ -7,12 +7,12 @@ description: Guide for creating high-quality MCP (Model Context Protocol) server
 license: Complete terms in LICENSE.txt
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.614423+00:00'
+  evolved_at: '2026-07-20T14:07:04.478080+00:00'
 name: mcp-builder
 tags:
-- test
 - utility
 - api
+- test
 version: 2
 ---
 

@@ -5,7 +5,7 @@ description: Extract comprehensive site specifications from simple descriptions.
   and maintainability.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.814024+00:00'
+  evolved_at: '2026-07-20T14:07:04.638170+00:00'
 name: site-specification
 tags:
 - utility

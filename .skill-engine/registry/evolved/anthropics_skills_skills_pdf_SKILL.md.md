@@ -9,7 +9,7 @@ description: Use this skill whenever the user wants to do anything with PDF file
 license: Proprietary. LICENSE.txt has complete terms
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.738477+00:00'
+  evolved_at: '2026-07-20T14:07:04.480943+00:00'
 name: pdf
 tags:
 - security

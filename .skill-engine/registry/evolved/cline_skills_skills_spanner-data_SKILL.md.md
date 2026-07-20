@@ -5,7 +5,7 @@ description: Use these skills when you need to explore the database structure, d
   pooling, and query validation.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.816090+00:00'
+  evolved_at: '2026-07-20T14:07:04.643579+00:00'
 name: spanner-data
 tags:
 - database

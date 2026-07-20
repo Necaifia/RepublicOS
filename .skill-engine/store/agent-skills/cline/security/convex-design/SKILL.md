@@ -3,11 +3,12 @@ description: Design and build reactive, type-safe, production-grade backends on 
   Covers schema, queries/mutations/actions, indexes, auth, file storage, scheduling,
   real-time multiplayer, mobile backends, and LLM/agent workflows on Convex's one-platform
   stack. Enforces least-privilege, secret management, input validation, and audit
-  logging throughout.
+  logging throughout. Implements trace-level observability with OpenTelemetry GenAI
+  conventions, eval-driven monitoring, and cost attribution.
 license: Complete terms in LICENSE.txt
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.761090+00:00'
+  evolved_at: '2026-07-20T14:07:06.352297+00:00'
 name: convex-design
 paths:
 - convex/**
@@ -681,3 +682,11 @@ Remember: capable agents can build sophisticated backend systems on Convex. Don'
 - Validate configuration at the start of execution
 - Document all configuration options and their effects
 - Support loading config from files when appropriate
+
+## Security
+
+- Never hardcode secrets, tokens, or credentials in skill files or scripts
+- Use environment variables or secret management tools for sensitive values
+- Validate all user inputs before processing
+- Follow least-privilege principle: request only the permissions you need
+- Log all security-relevant actions for audit

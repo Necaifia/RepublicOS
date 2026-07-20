@@ -5,7 +5,7 @@ description: Use when working with TeamCity CI/CD or when a user provides a Team
   rollouts, and compensating rollback actions.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.677406+00:00'
+  evolved_at: '2026-07-20T14:07:04.645658+00:00'
 name: teamcity-cli
 tags:
 - deploy

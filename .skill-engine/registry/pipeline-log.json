@@ -148,5 +148,32 @@
     "skills_count": 88,
     "evolved_count": 88,
     "all_passed": true
+  },
+  {
+    "run_number": 12,
+    "started_at": "2026-07-20T14:00:45.280419+00:00",
+    "completed_at": "2026-07-20T14:00:48.955446+00:00",
+    "stages": {
+      "discovery": "passed",
+      "analyzer": "passed"
+    },
+    "skills_count": 88,
+    "evolved_count": 88,
+    "all_passed": true
+  },
+  {
+    "run_number": 13,
+    "started_at": "2026-07-20T14:06:39.216572+00:00",
+    "completed_at": "2026-07-20T14:07:08.745123+00:00",
+    "stages": {
+      "discovery": "passed",
+      "analyzer": "passed",
+      "research": "passed",
+      "evolution": "passed",
+      "store": "passed"
+    },
+    "skills_count": 436,
+    "evolved_count": 436,
+    "all_passed": true
   }
 ]

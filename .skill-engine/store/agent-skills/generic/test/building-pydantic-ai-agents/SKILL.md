@@ -10,7 +10,7 @@ license: MIT
 metadata:
   author: pydantic
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.643775+00:00'
+  evolved_at: '2026-07-20T14:07:06.409735+00:00'
   version: 1.1.0
 name: building-pydantic-ai-agents
 tags:

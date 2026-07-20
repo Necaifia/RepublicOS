@@ -6,7 +6,7 @@ description: Read project data documentation (data dictionaries, dbt manifests, 
   monitoring, and cost attribution.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.650694+00:00'
+  evolved_at: '2026-07-20T14:07:06.314301+00:00'
 name: reading-data-dict
 tags:
 - monitoring

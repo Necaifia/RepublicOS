@@ -6,7 +6,7 @@ description: Generate TypeScript/JavaScript code that reads/decodes AND writes/e
   security, and maintainability.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.841443+00:00'
+  evolved_at: '2026-07-20T14:07:04.674035+00:00'
 name: clickhouse-js-node-rowbinary
 tags:
 - utility

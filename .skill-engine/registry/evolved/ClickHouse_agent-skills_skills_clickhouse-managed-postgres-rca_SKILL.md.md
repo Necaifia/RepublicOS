@@ -8,12 +8,12 @@ license: Apache-2.0
 metadata:
   author: ClickHouse Inc
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.846090+00:00'
+  evolved_at: '2026-07-20T14:07:04.678714+00:00'
   version: 0.1.0
 name: clickhouse-managed-postgres-rca
 tags:
-- database
 - api
+- database
 version: 2
 ---
 

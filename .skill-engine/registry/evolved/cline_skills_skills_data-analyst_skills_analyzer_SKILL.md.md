@@ -5,7 +5,7 @@ description: Analyze queried data for trends, week-over-week comparisons, distri
   raw rows. Follows current best practices for reliability, security, and maintainability.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.711490+00:00'
+  evolved_at: '2026-07-20T14:07:04.438486+00:00'
 name: analyzer
 tags: []
 version: 2

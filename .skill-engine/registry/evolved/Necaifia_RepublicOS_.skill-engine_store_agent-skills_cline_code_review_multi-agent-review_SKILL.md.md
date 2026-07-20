@@ -1,0 +1,192 @@
+---
+description: Run a configurable multi-model code review workflow from local CLI agents.
+  Use when a developer wants AI review for uncommitted diffs or a branch diff before
+  commit/merge, with separate review, synthesis, human selection, fix, and verify
+  phases using Claude Code or Codex CLI. Applies structured code review with automated
+  linting, security scanning, and quality gates. Uses AI-native test strategy with
+  self-healing, intent-based authoring, and PR-time verification gates.
+metadata:
+  evolved: true
+  evolved_at: '2026-07-20T14:07:05.271565+00:00'
+name: multi-agent-review
+tags:
+- code_review
+version: 2
+---
+
+# Multi Agent Review
+
+Use `scripts/review_forge_runner.py` to run a local Review Forge style workflow:
+
+1. Multiple configured models independently review the selected diff.
+2. One configured model synthesizes the review reports into `summary.md`.
+3. The user edits `summary.md` and checks the issues worth fixing.
+4. A configured fix model modifies the current worktree and runs tests.
+5. A configured verify model independently checks the fix.
+
+The main session should orchestrate and report results. Do not paste full diffs or large review logs into the main conversation unless the user asks.
+
+## Setup
+
+Initialize local configuration from the target repository root:
+
+```bash
+python <skill-dir>/scripts/review_forge_runner.py init
+```
+
+This creates:
+
+- `.review-forge/config.local.yaml`
+- `.review-forge/`
+- a local ignore entry in `.git/info/exclude` for `.review-forge/`
+
+The local config may contain API keys. Keep it out of git. Prefer environment placeholders such as `${DEEPSEEK_API_KEY}` when practical.
+
+After `init`, stop and ask the user to review `.review-forge/config.local.yaml`. The runner will refuse review, synthesize, fix, and verify until `config_ready: true` is set. Do not set it for the user unless they explicitly approve the model configuration.
+Offer to run `check-config` after the user edits the config. It sends a short harmless prompt to each configured role model without enabling dangerous permissions, so CLI/model/token problems surface before the review workflow starts.
+
+See `references/config.md` for the supported config shape.
+
+## Scope
+
+When the user does not specify a target diff scope, let the runner infer it.
+
+- If the user explicitly asks for uncommitted changes, use `--scope working`.
+- If the user explicitly asks for changes against a branch, use `--base origin/main`, `--base origin/master`, or the requested ref.
+- If the user does not specify and the current branch is `main` or `master`, the runner reviews the working diff.
+- If the user does not specify and the current branch is not `main` or `master`, the runner reviews the branch against the first available base from `origin/main`, `origin/master`, `main`, `master`, plus the working diff.
+- Ask only if the runner cannot infer a base or the user asks for an unusual comparison.
+
+When `--base` is used, the runner includes both `git diff <base>...HEAD` and the current working tree diff.
+For both scope modes, the runner also includes small untracked text files, while excluding `.review-forge/`.
+
+## Commands
+
+Run from the repository root.
+
+```bash
+# Create local config
+python <skill-dir>/scripts/review_forge_runner.py init
+
+# After reviewing model settings, edit .review-forge/config.local.yaml:
+# config_ready: true
+
+# Optional: smoke test configured review/synthesize/fix/verify models before enabling workflow
+python <skill-dir>/scripts/review_forge_runner.py check-config
+
+# Review uncommitted changes
+python <skill-dir>/scripts/review_forge_runner.py review --feature checkout-refactor --scope working
+
+# Let runner infer scope from current branch
+python <skill-dir>/scripts/review_forge_runner.py review --feature checkout-refactor
+
+# Review current branch against origin/main, including uncommitted changes
+python <skill-dir>/scripts/review_forge_runner.py review --feature checkout-refactor --base origin/main
+
+# Summarize independent reports
+python <skill-dir>/scripts/review_forge_runner.py synthesize --feature checkout-refactor
+
+# After the user checks items in summary.md
+python <skill-dir>/scripts/review_forge_runner.py fix --feature checkout-refactor
+
+# Verify the fix with a different model
+python <skill-dir>/scripts/review_forge_runner.py verify --feature checkout-refactor
+```
+
+Artifacts are written under:
+
+```text
+.review-forge/artifacts/<feature>/
+  reviews/
+  logs/
+  summary.md
+  fix-plan.md
+  status.md
+  verify.md
+  pre-fix.diff
+```
+
+## Partial Workflow
+
+This skill does not require the full review -> fix -> verify flow every time.
+
+Supported stopping points:
+
+- Stop after `review` + `synthesize` and use `summary.md` as a review report.
+- Stop after `summary.md`, then let the original development session, the developer, or another tool apply fixes.
+- After external/manual fixes, run `verify` as long as `summary.md` has checked items and the original review scope exists.
+- Run the full flow only when the user wants this skill to handle both fixing and verification.
+
+If the user wants another session to fix issues, do not run `fix`. Tell the user where `summary.md` is and that checked items can later be verified with this skill.
+
+## Workflow Rules
+
+- Review agents must be treated as read-only. The runner captures stdout and writes reports itself.
+- The runner writes large task prompts to `.review-forge/runs/` to avoid command-line length limits.
+- `check-config` may run before `config_ready: true`; it must not enable dangerous permissions.
+- Synthesize must read existing reports and produce only `summary.md`.
+- Stop after synthesis. The user must choose issues by editing checkboxes in `summary.md`.
+- Fix may directly modify the current worktree. Before fixing, preserve `pre-fix.diff`.
+- Verify must be independent from fix. Prefer a different configured model.
+- Keep changes surgical. Fix only checked issues.
+- Do not commit, push, or open a PR unless the user asks.
+
+## Model Roles
+
+Use config keys:
+
+- `review_models`: first three entries are used for review.
+- `synthesize_model`: used for summary; if omitted, fallback to the first review model.
+- `fix_model`: used for implementation.
+- `verify_model`: used for independent verification.
+
+First version supports `claude` and `codex` adapters only.
+
+## Reporting Back
+
+After each runner command, summarize:
+
+- command outcome
+- files written
+- failed model runs, if any
+- next required user action
+
+Do not dump raw logs unless needed for debugging.
+
+## Prerequisites
+
+- Ensure all required tools and dependencies are installed
+- Verify you have the necessary permissions and access credentials
+- Check that the target environment is in a known good state
+
+
+## Security
+
+- Never hardcode secrets, tokens, or credentials in skill files or scripts
+- Use environment variables or secret management tools for sensitive values
+- Validate all user inputs before processing
+- Follow least-privilege principle: request only the permissions you need
+- Log all security-relevant actions for audit
+
+
+## Configuration
+
+- Use environment variables with sensible defaults for configuration
+- Validate configuration at the start of execution
+- Document all configuration options and their effects
+- Support loading config from files when appropriate
+
+## Error Handling
+
+- Always check the exit code or response status of commands before proceeding
+- On failure, log the error details and attempt recovery if a retry strategy exists
+- If recovery fails, report the error with context: what was attempted, what went wrong, and suggested next steps
+- Never silently ignore errors — treat unexpected output as potential failure
+
+
+## Verification
+
+- After each step, verify the expected outcome before continuing
+- Use idempotent checks: running the same action twice produces the same result
+- If verification fails, roll back the last change and report the issue
+- Log verification results for audit trail

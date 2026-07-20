@@ -8,7 +8,7 @@ license: Apache-2.0
 metadata:
   author: ClickHouse Inc
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.832927+00:00'
+  evolved_at: '2026-07-20T14:07:04.666541+00:00'
   version: 0.1.0
 name: clickhouse-architecture-advisor
 tags: []

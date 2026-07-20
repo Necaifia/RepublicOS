@@ -6,7 +6,7 @@ description: Comprehensive Cline SDK skill for building AI agents. Covers the Ag
   rollouts, and compensating rollback actions.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.629912+00:00'
+  evolved_at: '2026-07-20T14:07:06.247966+00:00'
   references: agent, clinecore
 name: cline-sdk
 tags:

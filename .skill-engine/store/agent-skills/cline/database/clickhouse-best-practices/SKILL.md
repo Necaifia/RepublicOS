@@ -7,7 +7,7 @@ license: Apache-2.0
 metadata:
   author: ClickHouse Inc
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.835242+00:00'
+  evolved_at: '2026-07-20T14:07:06.142194+00:00'
   version: 0.4.0
 name: clickhouse-best-practices
 tags:

@@ -8,13 +8,13 @@ description: 'Capture a verified deployment workflow into project documentation 
   and compensating rollback actions.'
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.698994+00:00'
+  evolved_at: '2026-07-20T14:07:04.712814+00:00'
 name: repo-deploy-capture
 tags:
-- documentation
 - infrastructure
 - security
 - deploy
+- documentation
 version: 2
 ---
 

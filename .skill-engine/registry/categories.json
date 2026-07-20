@@ -1,5 +1,7 @@
 {
   "domains": [
+    "agent",
+    "ai",
     "api",
     "code_review",
     "communication",
@@ -15,17 +17,19 @@
   ],
   "per_domain": {
     "uncategorized": 8,
-    "code_review": 25,
-    "documentation": 15,
-    "database": 28,
-    "api": 16,
-    "utility": 28,
-    "security": 16,
-    "test": 12,
-    "communication": 2,
-    "deploy": 12,
-    "monitoring": 7,
-    "infrastructure": 10
+    "code_review": 125,
+    "documentation": 75,
+    "database": 148,
+    "api": 80,
+    "utility": 132,
+    "security": 224,
+    "test": 112,
+    "communication": 10,
+    "deploy": 68,
+    "monitoring": 67,
+    "infrastructure": 50,
+    "ai": 236,
+    "agent": 84
   },
   "per_source": {
     "anthropics/skills": 17,
@@ -34,11 +38,12 @@
     "ClickHouse/agent-skills": 11,
     "supabase/agent-skills": 2,
     "ichuan/skills": 8,
-    "bakaschwarz/agent-skills": 4
+    "bakaschwarz/agent-skills": 4,
+    "Necaifia/RepublicOS": 348
   },
   "per_complexity": {
-    "low": 5,
-    "medium": 45,
-    "high": 38
+    "low": 9,
+    "medium": 201,
+    "high": 226
   }
 }

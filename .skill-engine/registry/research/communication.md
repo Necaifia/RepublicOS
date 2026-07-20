@@ -1,8 +1,6 @@
 # Research: communication
 
-*Generated: 2026-07-20T13:09:20.452975+00:00*
-
-**Deficit:** 2/5 skills (need 3 more)
+*Generated: 2026-07-20T14:07:04.179997+00:00*
 
 ## References Checked
 

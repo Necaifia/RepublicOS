@@ -6,7 +6,7 @@ description: Deep research powered by Exa. Use for lead generation, literature r
   query validation.
 metadata:
   evolved: true
-  evolved_at: '2026-07-20T13:09:20.789593+00:00'
+  evolved_at: '2026-07-20T14:07:04.594091+00:00'
 name: exa-search
 tags:
 - code_review
