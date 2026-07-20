@@ -1,4 +1,4 @@
-RepublicOS/.skill-engine/.cache/
+.skill-engine/.cache/
 pantheon/target/
 pantheon/.cargo/
 **/target/
